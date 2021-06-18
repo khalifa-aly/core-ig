@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "87ac0372-c1b9-445e-9c5b-5d5e8cfbd375-15",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/87ac0372-c1b9-445e-9c5b-5d5e8cfbd375-15",
+  "id" : "f9af43a2-23ea-452f-93d5-c794466f2d46-15",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f9af43a2-23ea-452f-93d5-c794466f2d46-15",
   "name" : "IntersectionUSCorePediatricBMIforAgeObservationProfileAndMeasurement",
   "title" : "Intersection of US Core Pediatric BMI for Age Observation Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-18T01:43:55+00:00",
+  "date" : "2021-06-18T01:57:58+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
