@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-89",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-89",
+  "id" : "87ac0372-c1b9-445e-9c5b-5d5e8cfbd375-89",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/87ac0372-c1b9-445e-9c5b-5d5e8cfbd375-89",
   "name" : "UnionUSCoreHeartRateProfileAndPhenotypicFeature",
   "title" : "Union of US Core Heart Rate Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-18T01:43:03+00:00",
+  "date" : "2021-06-18T01:43:55+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/87ac0372-c1b9-445e-9c5b-5d5e8cfbd375-11"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1736,7 +1736,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/87ac0372-c1b9-445e-9c5b-5d5e8cfbd375-11"
       },
       "mapping" : [{
         "identity" : "w5",
