@@ -168,6 +168,13 @@
     "name": "Taxonomy"
   },
   {
+    "id": "Treatment",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Treatment",
+    "version": "0.1.0",
+    "name": "Treatment"
+  },
+  {
     "id": "TumorGrade",
     "type": "StructureDefinition",
     "url": "https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade",

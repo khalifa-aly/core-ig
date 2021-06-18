@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4.38"}
-    h3,h4,h5,h6{--heading-prefix:"4.38"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.39"}
+    h3,h4,h5,h6{--heading-prefix:"4.39"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -100,6 +100,69 @@
       </li>
       <li>
         <a href="phenotype.html">Deep phenotyping</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="StructureDefinition-Biosample.html">Biosample</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-Disease.html">Disease</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-Individual.html">Individual</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-Measurement.html">Measurement</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-PhenotypicFeature.html">PhenotypicFeature</a>
+      </li>
+      <li><a name="87185580-ab3c-49c0-bd75-3383067bd2a4">​</a>
+        <a href="StructureDefinition-Phenopacket.html">Phenopacket</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-Treatment.html">Treatment</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Extensions
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="StructureDefinition-CodedOnset.html">CodedOnset</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-DiagnosticMarker.html">DiagnosticMarker</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-KaryotypicSex.html">KaryotypicSex</a>
+      </li>
+      <li>
+        <a href="StructureDefinition-MaterialSample.html">MaterialSample</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Examples
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="Condition-id.1.html">Excluded disease</a>
+      </li>
+      <li>
+        <a href="Condition-id.2.html">Vitreoretinochoroidopathy</a>
+      </li>
+      <li>
+        <a href="Observation-id.11.html">Thrombocytopenia</a>
       </li>
     </ul>
   </li>
@@ -188,7 +251,7 @@
  <tr><td>Version:</td><td>0.1.0</td></tr>
  <tr><td>Name:</td><td>HPO</td></tr>
  <tr><td>Title:</td><td>A stub HPO CodeSystem</td></tr>
- <tr><td>Status:</td><td>Experimental as of 2021-06-18T01:58:39+00:00</td></tr>
+ <tr><td>Status:</td><td>Experimental as of 2021-06-18T22:26:30+00:00</td></tr>
  <tr><td>Definition:</td><td><p>A stub for the real HPO CodeSystem to use in other resources until we have a permanent HPO setup.</p>
 </td></tr>
  <tr><td>Publisher:</td><td>Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</td></tr>
@@ -213,8 +276,8 @@
 </ul>
 
 
-  <div><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Description</b></td><td><b>Type</b></td></tr><tr><td>synonym</td><td></td><td>Holds synonyms as strings</td><td>string</td></tr><tr><td>xref</td><td></td><td>Holds references to other codes in the form of Coding. This could be done in ConceptMap as well and that would be more useful. This is just a demo for how this works.</td><td>Coding</td></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td></td><td>code</td></tr></table><p>This code system http://github.com/phenopackets/core-ig/CodeSystem/hpo defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Parent</b></td></tr><tr><td style="white-space:nowrap">HP:0000001<a name="hpo-flat-HP.580000001"> </a></td><td>All</td><td></td><td></td></tr><tr><td style="white-space:nowrap">HP:0000118<a name="hpo-flat-HP.580000118"> </a></td><td>Phenotypic abnormality</td><td></td><td><a name="14befdd2-f67c-459b-b6d9-c496dc94b993">​</a><a href="HP:0000001">HP:0000001</a></td></tr><tr><td style="white-space:nowrap">HP:0000707<a name="hpo-flat-HP.580000707"> </a></td><td>Abnormality of the nervous system</td><td></td><td><a name="a602575e-cc15-4230-a05a-dcd375d19a97">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0003429<a name="hpo-flat-HP.580003429"> </a></td><td>CNS hypomyelination</td><td>Reduced amount of myelin in the central nervous system resulting 
-		from defective myelinogenesis.</td><td><a name="2ab59b80-521b-4943-9b01-f4279670b5ca">​</a><a href="HP:0000707">HP:0000707</a></td></tr><tr><td style="white-space:nowrap">HP:0001249<a name="hpo-flat-HP.580001249"> </a></td><td>Intellectual disability</td><td></td><td><a name="60d5e31a-b7cf-4e65-9a85-82bb74df3d09">​</a><a href="HP:0000707">HP:0000707</a></td></tr><tr><td style="white-space:nowrap">HP:0001298<a name="hpo-flat-HP.580001298"> </a></td><td>Encephalopathy</td><td></td><td><a name="0db1ca64-3b14-4cf2-84ad-5b842d85bf2f">​</a><a href="HP:0000707">HP:0000707</a></td></tr><tr><td style="white-space:nowrap">HP:0000486<a name="hpo-flat-HP.580000486"> </a></td><td>Strabismus</td><td></td><td><a name="835d7d80-3e92-4a75-afdf-5182eb1926e4">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0002650<a name="hpo-flat-HP.580002650"> </a></td><td>Scoliosis</td><td></td><td><a name="0d61a2d5-707e-4787-8b32-aa9aac99f468">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0012823<a name="hpo-flat-HP.580012823"> </a></td><td>Clinical modifier</td><td></td><td><a name="b978dde0-5784-41eb-bd0d-dfdac1ea21e5">​</a><a href="HP:0000001">HP:0000001</a></td></tr><tr><td style="white-space:nowrap">HP:0012824<a name="hpo-flat-HP.580012824"> </a></td><td>Severity</td><td></td><td><a name="cfe34252-9daa-4ef8-b2d8-86621215455a">​</a><a href="HP:0012823">HP:0012823</a></td></tr><tr><td style="white-space:nowrap">HP:0012825<a name="hpo-flat-HP.580012825"> </a></td><td>Mild</td><td></td><td><a name="7720f730-f4f6-4a9a-a8bd-26f14f4ed55d">​</a><a href="HP:0012824">HP:0012824</a></td></tr><tr><td style="white-space:nowrap">HP:0012826<a name="hpo-flat-HP.580012826"> </a></td><td>Moderate</td><td></td><td><a name="6f767c2e-d0c9-453d-8554-2c03c62a4037">​</a><a href="HP:0012824">HP:0012824</a></td></tr><tr><td style="white-space:nowrap">HP:0410401<a name="hpo-flat-HP.580410401"> </a></td><td>Worse in evening</td><td></td><td><a name="67c393bd-6dfc-4ea6-b152-9698d36c43d2">​</a><a href="HP:0012823">HP:0012823</a></td></tr><tr><td style="white-space:nowrap">HP:0031375<a name="hpo-flat-HP.580031375"> </a></td><td>Refractory</td><td></td><td><a name="ca3765f9-cf4e-469c-9230-9046f18c9de8">​</a><a href="HP:0012823">HP:0012823</a></td></tr><tr><td style="white-space:nowrap">HP:0031797<a name="hpo-flat-HP.580031797"> </a></td><td>Clinical course</td><td></td><td><a name="c62c4151-c8a0-4f6c-85ff-bd45580e0522">​</a><a href="HP:0000001">HP:0000001</a></td></tr><tr><td style="white-space:nowrap">HP:0003674<a name="hpo-flat-HP.580003674"> </a></td><td>Onset</td><td></td><td><a name="77e098f8-51a6-427e-84bf-dc3faeb3f818">​</a><a href="HP:0031797">HP:0031797</a></td></tr><tr><td style="white-space:nowrap">HP:0003577<a name="hpo-flat-HP.580003577"> </a></td><td>Congenital onset</td><td></td><td><a name="5a5ca5d6-a9e9-46c1-adba-d3fc89de247a">​</a><a href="HP:0003674">HP:0003674</a></td></tr><tr><td style="white-space:nowrap">HP:0003623<a name="hpo-flat-HP.580003623"> </a></td><td>Neonatal onset</td><td></td><td><a name="70f5f429-0862-4386-8400-a7c1624bafe3">​</a><a href="HP:0003674">HP:0003674</a></td></tr><tr><td style="white-space:nowrap">HP:0002664<a name="hpo-flat-HP.580002664"> </a></td><td>Neoplasm</td><td></td><td><a name="a726e0e8-fd0c-4d4e-8990-2d242e227d56">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0011793<a name="hpo-flat-HP.580011793"> </a></td><td>Neoplasm by anatomical site</td><td></td><td><a name="f10c2f77-54e3-4334-aca4-1106b1032351">​</a><a href="HP:0002664">HP:0002664</a></td></tr><tr><td style="white-space:nowrap">HP:0001627<a name="hpo-flat-HP.580001627"> </a></td><td>Abnormal heart morphology</td><td></td><td><a name="0491407d-6469-4b83-b6ba-f4c4b0ff9a42">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0001671<a name="hpo-flat-HP.580001671"> </a></td><td>Abnormal cardiac septum morphology</td><td></td><td><a name="31a77ed1-c676-42c4-8970-ca4441e463a8">​</a><a href="HP:0001627">HP:0001627</a></td></tr><tr><td style="white-space:nowrap">HP:0011994<a name="hpo-flat-HP.580011994"> </a></td><td>Abnormal atrial septum morphology</td><td></td><td><a name="250293f2-0748-484c-a18a-108f2e047016">​</a><a href="HP:0001671">HP:0001671</a></td></tr><tr><td style="white-space:nowrap">HP:0011545<a name="hpo-flat-HP.580011545"> </a></td><td>Abnormal connection of the cardiac segments</td><td></td><td><a name="97e94f9d-f572-4e7e-86c9-f3f5f2f23aa8">​</a><a href="HP:0001627">HP:0001627</a></td></tr><tr><td style="white-space:nowrap">HP:0011563<a name="hpo-flat-HP.580011563"> </a></td><td>Abnormal ventriculoarterial connection</td><td></td><td><a name="fd8bb34d-ae88-4160-af2f-cc363a068202">​</a><a href="HP:0011545">HP:0011545</a></td></tr><tr><td style="white-space:nowrap">HP:0001654<a name="hpo-flat-HP.580001654"> </a></td><td>Abnormal heart valve morphology</td><td></td><td><a name="da4ee381-d488-4445-ac6b-a1c4332c416a">​</a><a href="HP:0001627">HP:0001627</a></td></tr><tr><td style="white-space:nowrap">HP:0001641<a name="hpo-flat-HP.580001641"> </a></td><td>Abnormal pulmonary valve morphology</td><td></td><td><a name="d6c90093-dbf0-46b4-8bd7-210d3523c660">​</a><a href="HP:0001654">HP:0001654</a></td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td></tr><tr><td>HP:0000001</td><td></td></tr><tr><td>HP:0000118</td><td></td></tr><tr><td>HP:0000707</td><td></td></tr><tr><td>HP:0003429</td><td>hypomyelination</td></tr><tr><td>HP:0001249</td><td></td></tr><tr><td>HP:0001298</td><td></td></tr><tr><td>HP:0000486</td><td></td></tr><tr><td>HP:0002650</td><td></td></tr><tr><td>HP:0012823</td><td></td></tr><tr><td>HP:0012824</td><td></td></tr><tr><td>HP:0012825</td><td></td></tr><tr><td>HP:0012826</td><td></td></tr><tr><td>HP:0410401</td><td></td></tr><tr><td>HP:0031375</td><td></td></tr><tr><td>HP:0031797</td><td></td></tr><tr><td>HP:0003674</td><td></td></tr><tr><td>HP:0003577</td><td></td></tr><tr><td>HP:0003623</td><td></td></tr><tr><td>HP:0002664</td><td></td></tr><tr><td>HP:0011793</td><td></td></tr><tr><td>HP:0001627</td><td></td></tr><tr><td>HP:0001671</td><td></td></tr><tr><td>HP:0011994</td><td></td></tr><tr><td>HP:0011545</td><td></td></tr><tr><td>HP:0011563</td><td></td></tr><tr><td>HP:0001654</td><td></td></tr><tr><td>HP:0001641</td><td></td></tr></table></div>
+  <div><p><b>Properties</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Description</b></td><td><b>Type</b></td></tr><tr><td>synonym</td><td></td><td>Holds synonyms as strings</td><td>string</td></tr><tr><td>xref</td><td></td><td>Holds references to other codes in the form of Coding. This could be done in ConceptMap as well and that would be more useful. This is just a demo for how this works.</td><td>Coding</td></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td></td><td>code</td></tr></table><p>This code system http://github.com/phenopackets/core-ig/CodeSystem/hpo defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Parent</b></td></tr><tr><td style="white-space:nowrap">HP:0000001<a name="hpo-flat-HP.580000001"> </a></td><td>All</td><td></td><td></td></tr><tr><td style="white-space:nowrap">HP:0000118<a name="hpo-flat-HP.580000118"> </a></td><td>Phenotypic abnormality</td><td></td><td><a name="9b697890-b1b2-4b0c-a2a6-9f11c114025e">​</a><a href="HP:0000001">HP:0000001</a></td></tr><tr><td style="white-space:nowrap">HP:0000707<a name="hpo-flat-HP.580000707"> </a></td><td>Abnormality of the nervous system</td><td></td><td><a name="c33637e7-1607-4ca3-825b-fea7d208d27b">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0003429<a name="hpo-flat-HP.580003429"> </a></td><td>CNS hypomyelination</td><td>Reduced amount of myelin in the central nervous system resulting 
+		from defective myelinogenesis.</td><td><a name="385f12bd-5e19-4d0a-81b1-dc8de1cbc3c8">​</a><a href="HP:0000707">HP:0000707</a></td></tr><tr><td style="white-space:nowrap">HP:0001249<a name="hpo-flat-HP.580001249"> </a></td><td>Intellectual disability</td><td></td><td><a name="4039406c-5a67-46bb-8070-f8bad4d7d43d">​</a><a href="HP:0000707">HP:0000707</a></td></tr><tr><td style="white-space:nowrap">HP:0001298<a name="hpo-flat-HP.580001298"> </a></td><td>Encephalopathy</td><td></td><td><a name="edf38f2d-8285-43c7-9df2-866220504055">​</a><a href="HP:0000707">HP:0000707</a></td></tr><tr><td style="white-space:nowrap">HP:0000486<a name="hpo-flat-HP.580000486"> </a></td><td>Strabismus</td><td></td><td><a name="59b3fabe-dae5-4235-a337-ba451f2c291e">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0002650<a name="hpo-flat-HP.580002650"> </a></td><td>Scoliosis</td><td></td><td><a name="ed9aabe2-d4ba-48ec-80ca-551ae81937d8">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0012823<a name="hpo-flat-HP.580012823"> </a></td><td>Clinical modifier</td><td></td><td><a name="6994dd89-87f6-4635-8b28-a253af8baf98">​</a><a href="HP:0000001">HP:0000001</a></td></tr><tr><td style="white-space:nowrap">HP:0012824<a name="hpo-flat-HP.580012824"> </a></td><td>Severity</td><td></td><td><a name="238bff08-e506-4838-b162-29b6c8988e11">​</a><a href="HP:0012823">HP:0012823</a></td></tr><tr><td style="white-space:nowrap">HP:0012825<a name="hpo-flat-HP.580012825"> </a></td><td>Mild</td><td></td><td><a name="ed8fc931-03da-4e5b-8ac8-535b48666424">​</a><a href="HP:0012824">HP:0012824</a></td></tr><tr><td style="white-space:nowrap">HP:0012826<a name="hpo-flat-HP.580012826"> </a></td><td>Moderate</td><td></td><td><a name="d609fe8a-7304-4f13-b2eb-bc1f9a5c6135">​</a><a href="HP:0012824">HP:0012824</a></td></tr><tr><td style="white-space:nowrap">HP:0410401<a name="hpo-flat-HP.580410401"> </a></td><td>Worse in evening</td><td></td><td><a name="971acb50-83c9-430b-9a93-bfed43f0f2b7">​</a><a href="HP:0012823">HP:0012823</a></td></tr><tr><td style="white-space:nowrap">HP:0031375<a name="hpo-flat-HP.580031375"> </a></td><td>Refractory</td><td></td><td><a name="f3a6ba7c-72fd-4baa-a23c-9fcf22942bb8">​</a><a href="HP:0012823">HP:0012823</a></td></tr><tr><td style="white-space:nowrap">HP:0031797<a name="hpo-flat-HP.580031797"> </a></td><td>Clinical course</td><td></td><td><a name="37201091-5f08-416f-b20c-6f4d8a943608">​</a><a href="HP:0000001">HP:0000001</a></td></tr><tr><td style="white-space:nowrap">HP:0003674<a name="hpo-flat-HP.580003674"> </a></td><td>Onset</td><td></td><td><a name="7a9c6d76-c65b-4311-bdca-33a18df1e856">​</a><a href="HP:0031797">HP:0031797</a></td></tr><tr><td style="white-space:nowrap">HP:0003577<a name="hpo-flat-HP.580003577"> </a></td><td>Congenital onset</td><td></td><td><a name="87e7d3d4-de69-4fac-b81c-53f9d7d09725">​</a><a href="HP:0003674">HP:0003674</a></td></tr><tr><td style="white-space:nowrap">HP:0003623<a name="hpo-flat-HP.580003623"> </a></td><td>Neonatal onset</td><td></td><td><a name="9514a80a-35bb-47a8-b887-4eb488e23642">​</a><a href="HP:0003674">HP:0003674</a></td></tr><tr><td style="white-space:nowrap">HP:0002664<a name="hpo-flat-HP.580002664"> </a></td><td>Neoplasm</td><td></td><td><a name="80dc1892-cf75-46aa-a4c0-4157be311572">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0011793<a name="hpo-flat-HP.580011793"> </a></td><td>Neoplasm by anatomical site</td><td></td><td><a name="0eb18ba8-cb8b-433d-b933-c57b03b5e1c4">​</a><a href="HP:0002664">HP:0002664</a></td></tr><tr><td style="white-space:nowrap">HP:0001627<a name="hpo-flat-HP.580001627"> </a></td><td>Abnormal heart morphology</td><td></td><td><a name="5d8e523a-7773-4cce-acc0-c3b176f1e9d4">​</a><a href="HP:0000118">HP:0000118</a></td></tr><tr><td style="white-space:nowrap">HP:0001671<a name="hpo-flat-HP.580001671"> </a></td><td>Abnormal cardiac septum morphology</td><td></td><td><a name="3181cdd3-1bd3-4f22-ad39-675021d5089c">​</a><a href="HP:0001627">HP:0001627</a></td></tr><tr><td style="white-space:nowrap">HP:0011994<a name="hpo-flat-HP.580011994"> </a></td><td>Abnormal atrial septum morphology</td><td></td><td><a name="d0a55f2e-bf5a-40d0-92ce-1336f7d837ba">​</a><a href="HP:0001671">HP:0001671</a></td></tr><tr><td style="white-space:nowrap">HP:0011545<a name="hpo-flat-HP.580011545"> </a></td><td>Abnormal connection of the cardiac segments</td><td></td><td><a name="fbb59c13-2714-4dc7-983f-ea8a90478fa2">​</a><a href="HP:0001627">HP:0001627</a></td></tr><tr><td style="white-space:nowrap">HP:0011563<a name="hpo-flat-HP.580011563"> </a></td><td>Abnormal ventriculoarterial connection</td><td></td><td><a name="e48d32d2-40fb-4386-bd02-14f7efbcaf5d">​</a><a href="HP:0011545">HP:0011545</a></td></tr><tr><td style="white-space:nowrap">HP:0001654<a name="hpo-flat-HP.580001654"> </a></td><td>Abnormal heart valve morphology</td><td></td><td><a name="30c51fba-2db2-48f1-b8b8-76c7dd8f5673">​</a><a href="HP:0001627">HP:0001627</a></td></tr><tr><td style="white-space:nowrap">HP:0001641<a name="hpo-flat-HP.580001641"> </a></td><td>Abnormal pulmonary valve morphology</td><td></td><td><a name="8043b1c2-b49c-43a8-94f4-984c7342b38e">​</a><a href="HP:0001654">HP:0001654</a></td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td></tr><tr><td>HP:0000001</td><td></td></tr><tr><td>HP:0000118</td><td></td></tr><tr><td>HP:0000707</td><td></td></tr><tr><td>HP:0003429</td><td>hypomyelination</td></tr><tr><td>HP:0001249</td><td></td></tr><tr><td>HP:0001298</td><td></td></tr><tr><td>HP:0000486</td><td></td></tr><tr><td>HP:0002650</td><td></td></tr><tr><td>HP:0012823</td><td></td></tr><tr><td>HP:0012824</td><td></td></tr><tr><td>HP:0012825</td><td></td></tr><tr><td>HP:0012826</td><td></td></tr><tr><td>HP:0410401</td><td></td></tr><tr><td>HP:0031375</td><td></td></tr><tr><td>HP:0031797</td><td></td></tr><tr><td>HP:0003674</td><td></td></tr><tr><td>HP:0003577</td><td></td></tr><tr><td>HP:0003623</td><td></td></tr><tr><td>HP:0002664</td><td></td></tr><tr><td>HP:0011793</td><td></td></tr><tr><td>HP:0001627</td><td></td></tr><tr><td>HP:0001671</td><td></td></tr><tr><td>HP:0011994</td><td></td></tr><tr><td>HP:0011545</td><td></td></tr><tr><td>HP:0011563</td><td></td></tr><tr><td>HP:0001654</td><td></td></tr><tr><td>HP:0001641</td><td></td></tr></table></div>
 
     <!-- insert notes if present -->
   
@@ -245,7 +308,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package hl7.fhir.us.ga4gh.phenopacket#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 18, 2021 01:58+0000">2021-06-18</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</a>.  Package hl7.fhir.us.ga4gh.phenopacket#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 18, 2021 22:26+0000">2021-06-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

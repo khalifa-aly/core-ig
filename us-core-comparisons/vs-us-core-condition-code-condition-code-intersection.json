@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "f57bfad4-3192-43e7-aa77-34dd49caa89e-114",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/f57bfad4-3192-43e7-aa77-34dd49caa89e-114",
+  "id" : "8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-114",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-114",
   "name" : "IntersectionUSCoreConditionCodeAndCondition/Problem/DiagnosisCodes",
   "title" : "Intersection of US Core Condition Code And Condition/Problem/Diagnosis Codes",
   "status" : "active",
-  "date" : "2021-06-18T01:58:53+00:00",
+  "date" : "2021-06-18T22:26:42+00:00",
   "compose" : {
     "include" : [{
       "filter" : [{
@@ -24,7 +24,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "404684003",
-      "display" : "Clinical finding"
+      "display" : "Clinical finding (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -474,7 +474,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "496002",
-      "display" : "Closed traumatic dislocation of third cervical vertebra"
+      "display" : "Closed traumatic dislocation of third cervical vertebra (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -544,7 +544,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "586008",
-      "display" : "Contact dermatitis caused by poison primrose"
+      "display" : "Contact dermatitis caused by Primula obconica (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -614,7 +614,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "646009",
-      "display" : "Idiopathic cyst of anterior chamber of eye"
+      "display" : "Idiopathic cyst of anterior chamber of eye (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -674,7 +674,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "714002",
-      "display" : "Abrasion and/or friction burn of toe with infection"
+      "display" : "Abrasion and/or friction burn of toe with infection (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -699,7 +699,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "750009",
-      "display" : "Schistosoma mansoni infection"
+      "display" : "Schistosoma mansoni infection (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -849,7 +849,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "862001",
-      "display" : "Anemia due to chlorate"
+      "display" : "Anemia caused by chlorate (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1089,7 +1089,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "1107004",
-      "display" : "Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment"
+      "display" : "Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1419,7 +1419,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "1402001",
-      "display" : "Frightened"
+      "display" : "Fear (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1579,7 +1579,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "1551001",
-      "display" : "Osteomyelitis of femur"
+      "display" : "Osteomyelitis of femur (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2339,7 +2339,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "2268003",
-      "display" : "Victim of homosexual aggression"
+      "display" : "Victim of homosexual aggression (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2749,7 +2749,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "2651006",
-      "display" : "Closed traumatic dislocation of elbow joint"
+      "display" : "Closed traumatic dislocation of elbow joint (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2849,7 +2849,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "2770006",
-      "display" : "Fetal or neonatal effect of antibiotic transmitted via placenta and/or breast milk"
+      "display" : "Fetal or neonatal effect of antibiotic transmitted via placenta and/or breast milk (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -4274,7 +4274,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "4136000",
-      "display" : "Macrodactyly of toe"
+      "display" : "Macrodactyly of toe (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",

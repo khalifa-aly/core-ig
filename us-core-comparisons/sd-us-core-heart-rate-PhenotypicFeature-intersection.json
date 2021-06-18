@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f57bfad4-3192-43e7-aa77-34dd49caa89e-90",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f57bfad4-3192-43e7-aa77-34dd49caa89e-90",
+  "id" : "8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-90",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-90",
   "name" : "IntersectionUSCoreHeartRateProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Heart Rate Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-18T01:58:53+00:00",
+  "date" : "2021-06-18T22:26:42+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

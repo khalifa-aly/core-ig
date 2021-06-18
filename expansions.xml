@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="035e055c-7328-4ac4-93bd-3af1e49e2e7a"/>
+  <id value="c8a8a3ab-88cd-4b39-848d-98f0201a3dc0"/>
   <meta>
-    <lastUpdated value="2021-06-18T01:58:39.976+00:00"/>
+    <lastUpdated value="2021-06-18T22:26:30.676+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -90,7 +90,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371923003">371923003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Mild to moderate</td>
+                <td>Mild to moderate (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -99,7 +99,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371924009">371924009</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Moderate to severe</td>
+                <td>Moderate to severe (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -108,7 +108,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399166001">399166001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Fatal</td>
+                <td>Fatal (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -143,8 +143,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:8d67a74b-a3f0-4d1f-a616-7bbd75081fb7"/>
-          <timestamp value="2021-06-18T01:59:09+00:00"/>
+          <identifier value="urn:uuid:e079f151-a162-4489-aa0a-2f995b5cac18"/>
+          <timestamp value="2021-06-18T22:26:53+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -194,17 +194,17 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371923003"/>
-            <display value="Mild to moderate"/>
+            <display value="Mild to moderate (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371924009"/>
-            <display value="Moderate to severe"/>
+            <display value="Moderate to severe (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="399166001"/>
-            <display value="Fatal"/>
+            <display value="Fatal (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -352,8 +352,8 @@
         <description value="The karyotypic (chromosomal) sex of an individual"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:a8cfbe34-f7ce-49c9-8645-eb4484e6c88a"/>
-          <timestamp value="2021-06-18T01:59:10+00:00"/>
+          <identifier value="urn:uuid:734939fc-cf76-49bc-86bc-efcdcedc23f1"/>
+          <timestamp value="2021-06-18T22:26:55+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -467,7 +467,7 @@
         <name value="PhenotypicAbnormalityValueSet"/>
         <title value="Phenotypic abnormality ValueSet"/>
         <status value="active"/>
-        <date value="2021-06-18T01:58:39+00:00"/>
+        <date value="2021-06-18T22:26:30+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -479,8 +479,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:f361ab63-bb63-4746-988a-7ab04de4afb3"/>
-          <timestamp value="2021-06-18T01:59:10+00:00"/>
+          <identifier value="urn:uuid:b107ba12-7e94-43cf-bb7b-ce2af420f2e0"/>
+          <timestamp value="2021-06-18T22:26:55+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -568,7 +568,7 @@
         <name value="PhenotypicModifierValueSet"/>
         <title value="Phenotypic modifier ValueSet"/>
         <status value="active"/>
-        <date value="2021-06-18T01:58:39+00:00"/>
+        <date value="2021-06-18T22:26:30+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -580,8 +580,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:0d6daf3c-d4f8-4630-9acc-31f214de38da"/>
-          <timestamp value="2021-06-18T01:59:11+00:00"/>
+          <identifier value="urn:uuid:c034a0a7-1f82-4042-a99f-21db8a208ef6"/>
+          <timestamp value="2021-06-18T22:26:56+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -780,7 +780,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371578004">371578004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Perinatal period</td>
+                <td>Perinatal period (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -798,7 +798,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713152004">713152004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Early childhood</td>
+                <td>Early childhood (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -816,7 +816,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717830007">717830007</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Entire life</td>
+                <td>Entire life (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -825,7 +825,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=764868004">764868004</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Middle age</td>
+                <td>Middle age (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -834,7 +834,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=767023003">767023003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Period of life beginning after birth and ending before death</td>
+                <td>Period of life beginning after birth and ending before death (qualifier value)</td>
                 <td/>
               </tr>
             </table>
@@ -860,8 +860,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:8d455bf8-8d99-4329-bbc4-8d5181ea2b1d"/>
-          <timestamp value="2021-06-18T01:59:12+00:00"/>
+          <identifier value="urn:uuid:44f4a7c9-4a6b-41a4-a6cd-aeb321f3972b"/>
+          <timestamp value="2021-06-18T22:26:57+00:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -956,7 +956,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371578004"/>
-            <display value="Perinatal period"/>
+            <display value="Perinatal period (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -966,7 +966,7 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="713152004"/>
-            <display value="Early childhood"/>
+            <display value="Early childhood (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -976,17 +976,17 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="717830007"/>
-            <display value="Entire life"/>
+            <display value="Entire life (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="764868004"/>
-            <display value="Middle age"/>
+            <display value="Middle age (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="767023003"/>
-            <display value="Period of life beginning after birth and ending before death"/>
+            <display value="Period of life beginning after birth and ending before death (qualifier value)"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1128,7 +1128,7 @@
         <name value="ObservationCategories"/>
         <title value="Observation categories"/>
         <status value="draft"/>
-        <date value="2021-06-18T01:58:39+00:00"/>
+        <date value="2021-06-18T22:26:30+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -1140,8 +1140,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:9c4fcd9f-88fb-4148-aaca-37190f736144"/>
-          <timestamp value="2021-06-18T01:59:12+00:00"/>
+          <identifier value="urn:uuid:de52e2d0-8912-471d-9d4b-4dca8d25eb1c"/>
+          <timestamp value="2021-06-18T22:26:57+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1292,7 +1292,7 @@
         <name value="PhenotypicComponentValueSet"/>
         <title value="Phenotypic component ValueSet"/>
         <status value="active"/>
-        <date value="2021-06-18T01:58:39+00:00"/>
+        <date value="2021-06-18T22:26:30+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -1304,8 +1304,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:f1ef9bc9-9065-4125-8769-a2837c22654f"/>
-          <timestamp value="2021-06-18T01:59:12+00:00"/>
+          <identifier value="urn:uuid:c3a194bb-ea53-4d3c-9cf5-ca73be95404f"/>
+          <timestamp value="2021-06-18T22:26:57+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

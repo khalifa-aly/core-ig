@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "f57bfad4-3192-43e7-aa77-34dd49caa89e-113",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/f57bfad4-3192-43e7-aa77-34dd49caa89e-113",
+  "id" : "8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-113",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-113",
   "name" : "UnionUSCoreConditionCodeAndCondition/Problem/DiagnosisCodes",
   "title" : "Union of US Core Condition Code And Condition/Problem/Diagnosis Codes",
   "status" : "active",
-  "date" : "2021-06-18T01:58:53+00:00",
+  "date" : "2021-06-18T22:26:42+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -65,7 +65,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "404684003",
-      "display" : "Clinical finding"
+      "display" : "Clinical finding (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -515,7 +515,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "496002",
-      "display" : "Closed traumatic dislocation of third cervical vertebra"
+      "display" : "Closed traumatic dislocation of third cervical vertebra (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -585,7 +585,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "586008",
-      "display" : "Contact dermatitis caused by poison primrose"
+      "display" : "Contact dermatitis caused by Primula obconica (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -655,7 +655,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "646009",
-      "display" : "Idiopathic cyst of anterior chamber of eye"
+      "display" : "Idiopathic cyst of anterior chamber of eye (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -715,7 +715,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "714002",
-      "display" : "Abrasion and/or friction burn of toe with infection"
+      "display" : "Abrasion and/or friction burn of toe with infection (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -740,7 +740,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "750009",
-      "display" : "Schistosoma mansoni infection"
+      "display" : "Schistosoma mansoni infection (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -890,7 +890,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "862001",
-      "display" : "Anemia due to chlorate"
+      "display" : "Anemia caused by chlorate (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1130,7 +1130,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "1107004",
-      "display" : "Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment"
+      "display" : "Early latent syphilis, positive serology, negative cerebrospinal fluid, with relapse after treatment (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1460,7 +1460,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "1402001",
-      "display" : "Frightened"
+      "display" : "Fear (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1620,7 +1620,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "1551001",
-      "display" : "Osteomyelitis of femur"
+      "display" : "Osteomyelitis of femur (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2380,7 +2380,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "2268003",
-      "display" : "Victim of homosexual aggression"
+      "display" : "Victim of homosexual aggression (finding)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2790,7 +2790,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "2651006",
-      "display" : "Closed traumatic dislocation of elbow joint"
+      "display" : "Closed traumatic dislocation of elbow joint (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2890,7 +2890,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "2770006",
-      "display" : "Fetal or neonatal effect of antibiotic transmitted via placenta and/or breast milk"
+      "display" : "Fetal or neonatal effect of antibiotic transmitted via placenta and/or breast milk (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -4315,7 +4315,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "4136000",
-      "display" : "Macrodactyly of toe"
+      "display" : "Macrodactyly of toe (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -5550,12 +5550,12 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "160250007",
-      "display" : "No family history of malignancy"
+      "display" : "No family history of malignancy (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "160252004",
-      "display" : "No family history of cardiovascular accident or stroke"
+      "display" : "No family history of cardiovascular accident or stroke (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -5565,32 +5565,32 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "160254003",
-      "display" : "No history of cardiovascular system disease"
+      "display" : "No history of cardiovascular system disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "160255002",
-      "display" : "No history of gastrointestinal tract disease"
+      "display" : "No history of gastrointestinal tract disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "160256001",
-      "display" : "No history of genitourinary tract disease"
+      "display" : "No history of genitourinary tract disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "160257005",
-      "display" : "No history of central nervous system disease"
+      "display" : "No history of central nervous system disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "160258000",
-      "display" : "No history of respiratory system disease"
+      "display" : "No history of respiratory system disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "160259008",
-      "display" : "No history of psychiatric disorder"
+      "display" : "No history of psychiatric disorder (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -5920,7 +5920,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "160378006",
-      "display" : "Family history: Occupational lung disease"
+      "display" : "Family history: Occupational lung disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6415,7 +6415,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161416007",
-      "display" : "History of malaria"
+      "display" : "History of malaria (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6460,7 +6460,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161436008",
-      "display" : "History of leukemia"
+      "display" : "History of leukemia (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6505,7 +6505,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161457000",
-      "display" : "History of anemia vitamin B12 deficient"
+      "display" : "History of anemia vitamin B12 deficient (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6690,7 +6690,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161511000",
-      "display" : "History of transient ischemic attack"
+      "display" : "History of transient ischemic attack (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6710,7 +6710,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161515009",
-      "display" : "History of subarachnoid hemorrhage"
+      "display" : "History of subarachnoid hemorrhage (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6890,7 +6890,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161577005",
-      "display" : "History of congenital dislocation of hip"
+      "display" : "History of congenital dislocation of hip (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6910,7 +6910,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161582003",
-      "display" : "History of hemolytic disease"
+      "display" : "History of hemolytic disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6920,7 +6920,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161584002",
-      "display" : "History of perinatal cerebral irritability"
+      "display" : "History of perinatal cerebral irritability (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -7300,7 +7300,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161769009",
-      "display" : "History of being infant bottle fed"
+      "display" : "History of being infant bottle fed (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -7365,7 +7365,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161792009",
-      "display" : "History of recurrent vaginal discharge"
+      "display" : "History of recurrent vaginal discharge (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8410,7 +8410,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "167223000",
-      "display" : "Mid stream urine sent to laboratory"
+      "display" : "Mid stream urine sent to laboratory (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8510,7 +8510,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "167909009",
-      "display" : "Bone marrow sent for examination"
+      "display" : "Bone marrow sent for examination (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8610,7 +8610,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168313005",
-      "display" : "Stomach washings sent for culture and sensitivity"
+      "display" : "Stomach washings sent for culture and sensitivity (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8620,7 +8620,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168315003",
-      "display" : "Rectal wall scraping sent for culture and sensitivity"
+      "display" : "Rectal wall scraping sent for culture and sensitivity (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8740,37 +8740,37 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168430006",
-      "display" : "Cervical smear: repeat 1 month"
+      "display" : "Cervical smear: repeat 1 month (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "168431005",
-      "display" : "Cervical smear: repeat 3 months"
+      "display" : "Cervical smear: repeat 3 months (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "168432003",
-      "display" : "Cervical smear: repeat 4 months"
+      "display" : "Cervical smear: repeat 4 months (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "168433008",
-      "display" : "Cervical smear: repeat 6 months"
+      "display" : "Cervical smear: repeat 6 months (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "168434002",
-      "display" : "Cervical smear: repeat 9 months"
+      "display" : "Cervical smear: repeat 9 months (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "168435001",
-      "display" : "Cervical smear: repeat 12 months"
+      "display" : "Cervical smear: repeat 12 months (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "168436000",
-      "display" : "Cervical smear: colposcopy needed"
+      "display" : "Cervical smear: colposcopy needed (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8810,7 +8810,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168494004",
-      "display" : "Radiographic imaging procedure not requested"
+      "display" : "Radiographic imaging procedure not requested (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8820,12 +8820,12 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168496002",
-      "display" : "Radiographic imaging procedure carried out"
+      "display" : "Radiographic imaging procedure carried out (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "168497006",
-      "display" : "Radiographic imaging procedure not carried out"
+      "display" : "Radiographic imaging procedure not carried out (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8930,7 +8930,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168709001",
-      "display" : "Soft tissue X-ray result not back"
+      "display" : "Soft tissue X-ray result not back (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8945,7 +8945,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168755004",
-      "display" : "Erect abdominal X-ray requested"
+      "display" : "Erect abdominal X-ray requested (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8990,7 +8990,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "168867007",
-      "display" : "Contrast radiography of biliary tract requested"
+      "display" : "Contrast radiography of biliary tract requested (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9055,7 +9055,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "169081001",
-      "display" : "Magnetic resonance imaging requested"
+      "display" : "Magnetic resonance imaging requested (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9110,77 +9110,77 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "169578003",
-      "display" : "Antenatal care: obstetric risk"
+      "display" : "Antenatal care: obstetric risk (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169579006",
-      "display" : "Antenatal care: uncertain dates"
+      "display" : "Antenatal care: uncertain dates (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169582001",
-      "display" : "Antenatal care: history of stillbirth"
+      "display" : "Antenatal care: history of stillbirth (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169583006",
-      "display" : "Antenatal care: history of perinatal death"
+      "display" : "Antenatal care: history of perinatal death (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169584000",
-      "display" : "Antenatal care: poor obstetric history"
+      "display" : "Antenatal care: poor obstetric history (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169585004",
-      "display" : "Antenatal care: history of trophoblastic disease"
+      "display" : "Antenatal care: history of trophoblastic disease (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169587007",
-      "display" : "Antenatal care: precious pregnancy"
+      "display" : "Antenatal care: precious pregnancy (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169588002",
-      "display" : "Antenatal care: elderly primiparous"
+      "display" : "Antenatal care: elderly primiparous (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169589005",
-      "display" : "Antenatal care: history of infertility"
+      "display" : "Antenatal care: history of infertility (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169591002",
-      "display" : "Antenatal care: social risk"
+      "display" : "Antenatal care: social risk (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169595006",
-      "display" : "Antenatal care: history of child abuse"
+      "display" : "Antenatal care: history of child abuse (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169597003",
-      "display" : "Antenatal care: medical risk"
+      "display" : "Antenatal care: medical risk (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169598008",
-      "display" : "Antenatal care: gynecological risk"
+      "display" : "Antenatal care: gynecological risk (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169604006",
-      "display" : "Antenatal care: primiparous, older than 30 years"
+      "display" : "Antenatal care: primiparous, older than 30 years (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169605007",
-      "display" : "Antenatal care: multiparous, older than 35 years"
+      "display" : "Antenatal care: multiparous, older than 35 years (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9220,12 +9220,12 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "169649009",
-      "display" : "Antenatal amniocentesis - not wanted"
+      "display" : "Antenatal amniocentesis - not wanted (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "169660000",
-      "display" : "Antenatal ultrasound scan not wanted"
+      "display" : "Antenatal ultrasound scan not wanted (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9245,7 +9245,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "169700009",
-      "display" : "Antenatal syphilis screen-blood sent"
+      "display" : "Antenatal syphilis screen-blood sent (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9340,7 +9340,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "170153001",
-      "display" : "3.5 year examination not attended"
+      "display" : "3.5 year examination not attended (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9355,12 +9355,12 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "170170009",
-      "display" : "10 year examination not wanted"
+      "display" : "10 year examination not wanted (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "170171008",
-      "display" : "10 year examination not attended"
+      "display" : "10 year examination not attended (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9480,17 +9480,17 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "170586008",
-      "display" : "Treatment for hypertension started"
+      "display" : "Treatment for hypertension started (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "170587004",
-      "display" : "Hypertensive treatment changed"
+      "display" : "Hypertensive treatment changed (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "170588009",
-      "display" : "Treatment for hypertension stopped"
+      "display" : "Treatment for hypertension stopped (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9500,17 +9500,17 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "170618007",
-      "display" : "Respiratory treatment changed"
+      "display" : "Respiratory treatment changed (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "170619004",
-      "display" : "Respiratory disease treatment started"
+      "display" : "Respiratory disease treatment started (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "170620005",
-      "display" : "Respiratory disease treatment stopped"
+      "display" : "Respiratory disease treatment stopped (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9915,7 +9915,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "170997003",
-      "display" : "Counseled by counselor"
+      "display" : "Counseled by counselor (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9945,7 +9945,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "171152003",
-      "display" : "Cancer of cervix screening not wanted"
+      "display" : "Screening for malignant neoplasm of cervix not wanted (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11170,7 +11170,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "102412001",
-      "display" : "Noise pollution"
+      "display" : "Noise pollution (event)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11410,7 +11410,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "200156003",
-      "display" : "Death from sequela of direct obstetric cause"
+      "display" : "Death from sequela of direct obstetric cause (event)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -14760,7 +14760,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "216128005",
-      "display" : "Accident in alighting from aircraft, parachutist injured"
+      "display" : "Accident in alighting from aircraft, parachutist injured (event)"
     },
     {
       "system" : "http://snomed.info/sct",

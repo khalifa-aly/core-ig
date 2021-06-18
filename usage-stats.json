@@ -139,6 +139,12 @@
         "title": "Phenotypic Feature"
       }
     ],
+    "MedicationAdministration": [
+      {
+        "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Treatment",
+        "title": "Treatment"
+      }
+    ],
     "Composition": [
       {
         "url": "https://github.com/phenopackets/core-ig/StructureDefinition/composition-phenopacket",
