@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-66",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8c428f08-7ab4-4ed4-9206-5d9d1f71dae7-66",
+  "id" : "45969f15-2af1-45a8-9f0b-7505905d7b53-66",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/45969f15-2af1-45a8-9f0b-7505905d7b53-66",
   "name" : "IntersectionUSCorePediatricBMIforAgeObservationProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Pediatric BMI for Age Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-18T22:26:42+00:00",
+  "date" : "2021-06-18T22:26:55+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
