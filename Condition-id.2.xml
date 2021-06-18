@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="id.2"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/Disease"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 711162004}">Autosomal dominant vitreoretinochoroidopathy (disorder)</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="711162004"/>
+      <display value="Autosomal dominant vitreoretinochoroidopathy (disorder)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+</Condition>

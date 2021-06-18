@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="karyotypic-sex-valid-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://purl.obolibrary.org/obo/GSSO GSSO:000113}">GSSO:000113</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex XX}">XX</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/GSSO"/>
+      <code value="GSSO:000113"/>
+    </coding>
+  </code>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex"/>
+      <code value="XX"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

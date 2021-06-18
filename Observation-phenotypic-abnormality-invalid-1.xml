@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="phenotypic-abnormality-invalid-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0001249}">Intellectual disability</span></p><p><b>value</b>: true</p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012824}">Severity</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012825}">Mild</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012824}">Severity</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012825}">Mild</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012823}">Clinical modifier</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0410401}">Worse in evening</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012823}">Clinical modifier</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0031375}">Refractory</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012823}">Clinical modifier</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:999999999}">Non existant modifier</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0003674}">Onset</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0003577}">Congenital onset</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0003674}">Onset</span></p><p><b>value</b>:  Day</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/OTHER OTHER}">Severity</span></p><p><b>value</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/OTHER OTHERTHING}">Mild</span></p></blockquote></div>
+  </text>
+  <extension url="http://github.com/phenopackets/core-ig/ig-tools/validation-error-count">
+    <valueInteger value="4"/>
+  </extension>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+      <code value="HP:0001249"/>
+      <display value="Intellectual disability"/>
+    </coding>
+    <text value="Intellectual disability"/>
+  </code>
+  <valueBoolean value="true"/>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012824"/>
+        <display value="Severity"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012825"/>
+        <display value="Mild"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012824"/>
+        <display value="Severity"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012825"/>
+        <display value="Mild"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012823"/>
+        <display value="Clinical modifier"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0410401"/>
+        <display value="Worse in evening"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012823"/>
+        <display value="Clinical modifier"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0031375"/>
+        <display value="Refractory"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012823"/>
+        <display value="Clinical modifier"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:999999999"/>
+        <display value="Non existant modifier"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0003674"/>
+        <display value="Onset"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0003577"/>
+        <display value="Congenital onset"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0003674"/>
+        <display value="Onset"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <unit value="Day"/>
+      <system value="http://some/unit/system"/>
+      <code value="Day"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/OTHER"/>
+        <code value="OTHER"/>
+        <display value="Severity"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/OTHER"/>
+        <code value="OTHERTHING"/>
+        <display value="Mild"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+</Observation>

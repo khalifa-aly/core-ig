@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Severity",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"CodeSystem-hpo.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a> where concept  descends from  <a href=\"CodeSystem-hpo.html#hpo-HP.580012824\">HP:0012824</a></li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  272141005 (Severities)</li></ul></div>"
+  },
+  "url": "https://github.com/phenopackets/core-ig/ValueSet/Severity",
+  "version": "0.1.0",
+  "name": "Severity",
+  "title": "Severity",
+  "status": "active",
+  "date": "2020-02-14T16:13:10+10:00",
+  "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+  "contact": [
+    {
+      "name": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
+        }
+      ]
+    }
+  ],
+  "description": "Phenotypic feature severity codes from the Human Phenotype Ontology and SNOMED CT.",
+  "copyright": "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "HP:0012824"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "272141005"
+          }
+        ]
+      }
+    ]
+  }
+}

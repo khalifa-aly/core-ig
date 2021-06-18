@@ -1,0 +1,275 @@
+[
+  {
+    "id": "hpo-flat",
+    "type": "CodeSystem",
+    "url": "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+    "version": "0.1.0",
+    "name": "HPO"
+  },
+  {
+    "id": "hpo",
+    "type": "CodeSystem",
+    "url": "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+    "version": "0.1.0",
+    "name": "HPO"
+  },
+  {
+    "id": "service-request-supporting-info",
+    "type": "SearchParameter",
+    "url": "http://github.com/phenopackets/core-ig/SearchParameter/service-request-supporting-info",
+    "version": "0.1.0",
+    "name": "ServiceRequestSupportingInfo"
+  },
+  {
+    "id": "PhenotypicModifierValueSet",
+    "type": "ValueSet",
+    "url": "http://github.com/phenopackets/core-ig/ValueSet/phenotypic-modifier",
+    "version": "0.1.0",
+    "name": "PhenotypicModifierValueSet"
+  },
+  {
+    "id": "HtsFormat",
+    "type": "CodeSystem",
+    "url": "https://github.com/phenopackets/core-ig/CodeSystem/HtsFormat",
+    "version": "0.1.0",
+    "name": "HtsFormat"
+  },
+  {
+    "id": "KaryotypicSex",
+    "type": "CodeSystem",
+    "url": "https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex",
+    "version": "0.1.0",
+    "name": "KaryotypicSexCS"
+  },
+  {
+    "id": "categories",
+    "type": "CodeSystem",
+    "url": "https://github.com/phenopackets/core-ig/CodeSystem/categories",
+    "version": "0.1.0",
+    "name": "Categories"
+  },
+  {
+    "id": "hl7.fhir.us.ga4gh.phenopacket",
+    "type": "ImplementationGuide",
+    "url": "https://github.com/phenopackets/core-ig/ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket",
+    "version": "0.1.0",
+    "name": "GA4GHPhenopacketIG"
+  },
+  {
+    "id": "Biosample",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Biosample",
+    "version": "0.1.0",
+    "name": "Biosample"
+  },
+  {
+    "id": "CodedOnset",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/CodedOnset",
+    "version": "0.1.0",
+    "name": "CodedOnset"
+  },
+  {
+    "id": "DiagnosticMarker",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/DiagnosticMarker",
+    "version": "0.1.0",
+    "name": "DiagnosticMarker"
+  },
+  {
+    "id": "Disease",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Disease",
+    "version": "0.1.0",
+    "name": "Disease"
+  },
+  {
+    "id": "HistologicalDiagnosis",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis",
+    "version": "0.1.0",
+    "name": "HistologicalDiagnosis"
+  },
+  {
+    "id": "Individual",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Individual",
+    "version": "0.1.0",
+    "name": "Individual"
+  },
+  {
+    "id": "KaryotypicSex",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/KaryotypicSex",
+    "version": "0.1.0",
+    "name": "KaryotypicSex"
+  },
+  {
+    "id": "MaterialSample",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample",
+    "version": "0.1.0",
+    "name": "MaterialSample"
+  },
+  {
+    "id": "Measurement",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Measurement",
+    "version": "0.1.0",
+    "name": "Measurement"
+  },
+  {
+    "id": "MeasurementExt",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/MeasurementExt",
+    "version": "0.1.0",
+    "name": "MeasurementExt"
+  },
+  {
+    "id": "Onset",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Onset",
+    "version": "0.1.0",
+    "name": "Onset"
+  },
+  {
+    "id": "PathologicalStage",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage",
+    "version": "0.1.0",
+    "name": "PathologicalStage"
+  },
+  {
+    "id": "PathologicalTnmFinding",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding",
+    "version": "0.1.0",
+    "name": "PathologicalTnmFinding"
+  },
+  {
+    "id": "PhenotypicFeature",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature",
+    "version": "0.1.0",
+    "name": "PhenotypicFeature"
+  },
+  {
+    "id": "PhenotypicFeatureExt",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeatureExt",
+    "version": "0.1.0",
+    "name": "PhenotypicFeatureExt"
+  },
+  {
+    "id": "Taxonomy",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Taxonomy",
+    "version": "0.1.0",
+    "name": "Taxonomy"
+  },
+  {
+    "id": "TumorGrade",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade",
+    "version": "0.1.0",
+    "name": "TumorGrade"
+  },
+  {
+    "id": "TumorProgression",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression",
+    "version": "0.1.0",
+    "name": "TumorProgression"
+  },
+  {
+    "id": "composition-phenopacket",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/composition-phenopacket",
+    "version": "0.1.0",
+    "name": "Phenopacket"
+  },
+  {
+    "id": "DiagnosticMarker",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/DiagnosticMarker",
+    "version": "0.1.0",
+    "name": "DiagnosticMarker"
+  },
+  {
+    "id": "HistologicalDiagnosis",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/HistologicalDiagnosis",
+    "version": "0.1.0",
+    "name": "HistologicalDiagnosis"
+  },
+  {
+    "id": "KaryotypicSex",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/KaryotypicSex",
+    "version": "0.1.0",
+    "name": "KaryotypicSex"
+  },
+  {
+    "id": "Onset",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/Onset",
+    "version": "0.1.0",
+    "name": "Onset"
+  },
+  {
+    "id": "Severity",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/Severity",
+    "version": "0.1.0",
+    "name": "Severity"
+  },
+  {
+    "id": "Taxonomy",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/Taxonomy",
+    "version": "0.1.0",
+    "name": "Taxonomy"
+  },
+  {
+    "id": "TumorGrade",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/TumorGrade",
+    "version": "0.1.0",
+    "name": "TumorGrade"
+  },
+  {
+    "id": "TumorProgression",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/TumorProgression",
+    "version": "0.1.0",
+    "name": "TumorProgression"
+  },
+  {
+    "id": "TumorStage",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/TumorStage",
+    "version": "0.1.0",
+    "name": "TumorStage"
+  },
+  {
+    "id": "observation-categories",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/observation-categories",
+    "version": "0.1.0",
+    "name": "ObservationCategories"
+  },
+  {
+    "id": "phenotypic-abnormality",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-abnormality",
+    "version": "0.1.0",
+    "name": "PhenotypicAbnormalityValueSet"
+  },
+  {
+    "id": "phenotypic-component",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component",
+    "version": "0.1.0",
+    "name": "PhenotypicComponentValueSet"
+  }
+]

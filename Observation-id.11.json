@@ -1,0 +1,43 @@
+{
+  "resourceType": "Observation",
+  "id": "id.11",
+  "meta": {
+    "profile": [
+      "https://github.com/phenopackets/core-ig/StructureDefinition/Measurement"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 26515-7}\">Platelets [#/volume] in Blood</span></p><p><b>effective</b>: 2018-03-06</p><p><b>value</b>: 20 10^12/L</p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td>-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td>*</td><td>150000 10^12/L</td><td>450000 10^12/L</td></tr></table></div>"
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "26515-7",
+        "display": "Platelets [#/volume] in Blood"
+      }
+    ]
+  },
+  "effectiveDateTime": "2018-03-06",
+  "valueQuantity": {
+    "value": 20,
+    "unit": "10^12/L",
+    "system": "http://unitsofmeasure.org"
+  },
+  "referenceRange": [
+    {
+      "low": {
+        "value": 150000,
+        "unit": "10^12/L",
+        "system": "http://unitsofmeasure.org"
+      },
+      "high": {
+        "value": 450000,
+        "unit": "10^12/L",
+        "system": "http://unitsofmeasure.org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1486 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 26, errors = 32, warn = 57, info = 25 -->
+<head>
+  <title>GA4GHPhenopacketIG : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for GA4GHPhenopacketIG</h1>
+ <p>Generated Fri Jun 18 01:35:19 UTC 2021, FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = <a href="https://github.com/phenopackets/core-ig">https://github.com/phenopackets/core-ig</a> (<a href="https://github.com/phenopackets/core-ig/history.html">history</a>)). See <a href="/home/runner/work/core-ig/core-ig/output/qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.75</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.us.ga4gh.phenopacket, Canonical = https://github.com/phenopackets/core-ig</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><p>Snomed: <span style="background-color: #ffcccc">The IG does not specify the US edition of SNOMED CT version in the parameters (<code>http://snomed.info/sct/731000124108</code>)</span></p><p><a href="us-core-comparisons/index.html">4 Profiles not based on US Core</a></p></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0 = ok. Step <code>ballot</code> in sequence <code>DSTU 1</code>, to be published at http://hl7.org/fhir/yyyyMmm/myig.html (subdir = ??). This IG does not appear to have been published yet. <span stlye="color: marron; font-weight: bold">package-list.json path for this version does not start with the canonical URL (http://hl7.org/fhir/yyyyMmm/myig.html vs https://github.com/phenopackets/core-ig)</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/core-ig/core-ig/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAI0lEQVR42u3QIQEAAAACIL/6/4MvTAQOkLYBAAB4kAAAANwMad9AqkRjgNAAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.ga4gh.phenopacket</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://github.com/phenopackets/core-ig</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: hl7.fhir.template#0.3.2 -&gt; hl7.base.template#0.2.0 -&gt; fhir.base.template#0.2.1</para></div></td></tr>
+ <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+ <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
+ <tr><td>HTA Analysis:</td><td><a href="qa-hta.html"><span style="background-color: #ffcccc">2 issues</span></a></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://github.com/phenopackets/core-ig (Problem #1 with package-list.json at https://github.com/phenopackets/core-ig: https://github.com/phenopackets/core-ig/package-list.json)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 26, errors = 32, warn = 57, info = 25</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>28</b></td><td><b>5</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-HtsFormat"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-KaryotypicSex"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-KaryotypicSex</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-categories"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-categories</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-hpo"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-hpo-flat"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Condition-id.1"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.1</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Condition-id.2"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.2</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.1"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.1</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.11"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.11</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.2"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.2</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.3"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.3</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-karyotypic-sex-invalid-1"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-invalid-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-karyotypic-sex-valid-1"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-valid-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-phenotypic-abnormality-invalid-1"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-1</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>4</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-phenotypic-abnormality-invalid-meta-profile"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-meta-profile</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>4</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-phenotypic-abnormality-valid-1"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-valid-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>4</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_Patient-example-patient"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/Patient-example-patient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_SearchParameter-service-request-supporting-info"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/SearchParameter-service-request-supporting-info</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Biosample"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-CodedOnset"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-CodedOnset</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-DiagnosticMarker"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-DiagnosticMarker</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Disease"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Disease</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-HistologicalDiagnosis"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-HistologicalDiagnosis</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Individual"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Individual</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-KaryotypicSex"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-KaryotypicSex</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-MaterialSample"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MaterialSample</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Measurement"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Measurement</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-MeasurementExt"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MeasurementExt</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Onset"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Onset</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PathologicalStage"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalStage</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PathologicalTnmFinding"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding</b></a></td><td><b>1</b></td><td><b>4</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PhenotypicFeature"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeature</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PhenotypicFeatureExt"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeatureExt</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Taxonomy"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Taxonomy</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-TumorGrade"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-TumorProgression"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-composition-phenopacket"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>9</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-DiagnosticMarker"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-DiagnosticMarker</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-HistologicalDiagnosis"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-HistologicalDiagnosis</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-KaryotypicSex"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-KaryotypicSex</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-Onset"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Onset</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-PhenotypicModifierValueSet"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-PhenotypicModifierValueSet</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-Severity"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Severity</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-Taxonomy"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Taxonomy</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-TumorGrade"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorGrade</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-TumorProgression"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorProgression</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-TumorStage"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorStage</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-observation-categories"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-observation-categories</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-phenotypic-abnormality"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-abnormality</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-phenotypic-component"><b>/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-component</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.parameter[26].value</b></td><td><b>error</b></td><td title=""><b>Supressed messages file not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/karyotypic-sex-invalid-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/karyotypic-sex-valid-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/phenotypic-abnormality-invalid-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/phenotypic-abnormality-invalid-meta-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/phenotypic-abnormality-valid-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b></b></td><td><b>error</b></td><td title=""><b>There is no jira specification file defined with the expected name of FHIR-us-ga4gh.phenopacket in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#13073aa0-87e3-4700-80f7-1318b1e6d72f">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 216, column 1104</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000001' for &quot;HP:0000001&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#6c3c3477-169d-4e15-8b1f-8a218bad1fb3">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 216, column 1291</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000118' for &quot;HP:0000118&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#02fd380f-af12-4467-9b10-24a8ac1e320e">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 43</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000707' for &quot;HP:0000707&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#b70f7ffa-2d1b-4425-9ced-4b28f9395707">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 220</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000707' for &quot;HP:0000707&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#bf131594-1ab9-4917-a395-6d991f1aea95">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 388</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000707' for &quot;HP:0000707&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#903145bc-af15-4b6a-90cd-592e8337e367">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 552</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000118' for &quot;HP:0000118&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#8587c7e1-7f10-4777-9674-00b9ead850e8">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 715</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000118' for &quot;HP:0000118&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#060e15b5-52c1-4f7d-beab-49b0033c7597">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 886</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000001' for &quot;HP:0000001&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#7e75a38b-20f1-43c3-9970-5feb9cf5147f">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 1048</a></b></td><td><b>error</b></td><td><b>The link 'HP:0012823' for &quot;HP:0012823&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#58e0a1a4-091b-4ec5-866a-364d01dc9799">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 1206</a></b></td><td><b>error</b></td><td><b>The link 'HP:0012824' for &quot;HP:0012824&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#1427c7ee-b378-4522-9324-b9ad921f9908">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 1368</a></b></td><td><b>error</b></td><td><b>The link 'HP:0012824' for &quot;HP:0012824&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#655eb4e2-9d37-421d-942f-aa8210dc8264">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 1538</a></b></td><td><b>error</b></td><td><b>The link 'HP:0012823' for &quot;HP:0012823&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#19190895-b2ea-43f3-8c3e-70a8640820a5">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 1702</a></b></td><td><b>error</b></td><td><b>The link 'HP:0012823' for &quot;HP:0012823&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#9c0c2162-52a3-4073-940e-caba33c6bed0">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 1871</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000001' for &quot;HP:0000001&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#10cd5814-11e2-4188-b92d-380ccdca12e3">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 2030</a></b></td><td><b>error</b></td><td><b>The link 'HP:0031797' for &quot;HP:0031797&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#51c61925-920f-47c7-8073-b93db4a561c9">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 2200</a></b></td><td><b>error</b></td><td><b>The link 'HP:0003674' for &quot;HP:0003674&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#a88f5d71-092f-48be-b2c6-e63356d49031">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 2368</a></b></td><td><b>error</b></td><td><b>The link 'HP:0003674' for &quot;HP:0003674&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#b25df11e-9654-4323-9a23-73790cd79528">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 2530</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000118' for &quot;HP:0000118&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#66f48a33-e5c7-40f4-bc97-c3610da7f69e">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 2711</a></b></td><td><b>error</b></td><td><b>The link 'HP:0002664' for &quot;HP:0002664&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#cafa8234-1c14-4bf3-8f75-e9e6d5fe7f59">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 2890</a></b></td><td><b>error</b></td><td><b>The link 'HP:0000118' for &quot;HP:0000118&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#1ac6f2bc-8d34-483c-b3bc-c839993f96fc">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 3078</a></b></td><td><b>error</b></td><td><b>The link 'HP:0001627' for &quot;HP:0001627&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#c90d2152-bee1-46f5-bd2c-daa4da508326">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 3265</a></b></td><td><b>error</b></td><td><b>The link 'HP:0001671' for &quot;HP:0001671&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#30537ca6-c01d-43e1-8e2b-cb167e789a70">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 3462</a></b></td><td><b>error</b></td><td><b>The link 'HP:0001627' for &quot;HP:0001627&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#e0baae02-e220-4171-bb2e-6f0f98325427">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 3654</a></b></td><td><b>error</b></td><td><b>The link 'HP:0011545' for &quot;HP:0011545&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#cf0ee1aa-4453-48ec-8499-044a2195560a">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 3839</a></b></td><td><b>error</b></td><td><b>The link 'HP:0001627' for &quot;HP:0001627&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CodeSystem-hpo-flat.html#83f9437c-5da4-4d74-bfac-4aef4e9b5536">CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 217, column 4028</a></b></td><td><b>error</b></td><td><b>The link 'HP:0001654' for &quot;HP:0001654&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-HtsFormat"> </a>
+<h2><a href="CodeSystem-HtsFormat.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/HtsFormat: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-KaryotypicSex"> </a>
+<h2><a href="CodeSystem-KaryotypicSex.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-KaryotypicSex.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/KaryotypicSex: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-categories"> </a>
+<h2><a href="CodeSystem-categories.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-categories.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/categories: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-hpo"> </a>
+<h2><a href="CodeSystem-hpo.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/hpo: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem/hpo: CodeSystem.concept[0].concept[0].concept[0].concept[0].property[1].value.ofType(Coding)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem/hpo: CodeSystem.concept[0].concept[0].concept[0].concept[0].property[2].value.ofType(Coding)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_CodeSystem-hpo-flat"> </a>
+<h2><a href="CodeSystem-hpo-flat.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CodeSystem/hpo-flat: CodeSystem</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem/hpo-flat: CodeSystem.concept[3].property[2].value.ofType(Coding)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem/hpo-flat: CodeSystem.concept[3].property[3].value.ofType(Coding)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Condition-id.1"> </a>
+<h2><a href="Condition-id.1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/id.1: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://github.com/phenopackets/core-ig/StructureDefinition/Disease</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Condition/id.1: Condition.clinicalStatus (l10/c16)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_1_CC"><b>None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1 (http://hl7.org/fhir/ValueSet/condition-clinical), and a coding from this value set is required) (codes = http://snomed.info/sct#315215002)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Condition-id.2"> </a>
+<h2><a href="Condition-id.2.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/id.2: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://github.com/phenopackets/core-ig/StructureDefinition/Disease</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket"> </a>
+<h2><a href="ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket: ImplementationGuide</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket: ImplementationGuide.definition.resource[14].name</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.1"> </a>
+<h2><a href="Observation-id.1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/id.1: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/id.1: Observation.status (l9/c22)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_16"><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/id.1: Observation.code.coding[0] (l15/c8)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001166 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001166'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.11"> </a>
+<h2><a href="Observation-id.11.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.11.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/id.11: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://github.com/phenopackets/core-ig/StructureDefinition/Measurement</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/id.11: Observation.status (l9/c22)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_16"><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.2"> </a>
+<h2><a href="Observation-id.2.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/id.2: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/id.2: Observation.status (l9/c22)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_16"><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/id.2: Observation.code.coding[0] (l15/c8)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0025168 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0025168'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-id.3"> </a>
+<h2><a href="Observation-id.3.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.3.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/id.3: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/id.3: Observation.status (l9/c22)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_16"><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/id.3: Observation.code.coding[0] (l15/c8)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001634 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001634'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-karyotypic-sex-invalid-1"> </a>
+<h2><a href="Observation-karyotypic-sex-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-invalid-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/karyotypic-sex-invalid-1: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/karyotypic-sex-invalid-1: Observation.code.coding[0] (l7/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://purl.obolibrary.org/obo/GSSO' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/karyotypic-sex-invalid-1: Observation.value.ofType(CodeableConcept).coding[0] (l15/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-karyotypic-sex-valid-1"> </a>
+<h2><a href="Observation-karyotypic-sex-valid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-valid-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/karyotypic-sex-valid-1: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/karyotypic-sex-valid-1: Observation.code.coding[0] (l7/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://purl.obolibrary.org/obo/GSSO' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/karyotypic-sex-valid-1: Observation.value.ofType(CodeableConcept).coding[0] (l15/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-phenotypic-abnormality-invalid-1"> </a>
+<h2><a href="Observation-phenotypic-abnormality-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/phenotypic-abnormality-invalid-1: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/phenotypic-abnormality-invalid-1: Observation.extension[0] (l5/c6)</b></td><td><b>error</b></td><td title="Extension_EXT_Unknown_NotHere"><b>The extension http://github.com/phenopackets/core-ig/ig-tools/validation-error-count is unknown, and not allowed here</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/phenotypic-abnormality-invalid-1: Observation.component[4].value.ofType(CodeableConcept).coding[0] (l115/c12)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-invalid-1: Observation.component[6].value.ofType(Quantity) (l154/c23)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://some/unit/system' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-invalid-1: Observation.component[7].code.coding[0] (l162/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-invalid-1: Observation.component[7].value.ofType(CodeableConcept).coding[0] (l171/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-phenotypic-abnormality-invalid-meta-profile"> </a>
+<h2><a href="Observation-phenotypic-abnormality-invalid-meta-profile.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-meta-profile.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/phenotypic-abnormality-invalid-meta-profile: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/phenotypic-abnormality-invalid-meta-profile: Observation.component[4].value.ofType(CodeableConcept).coding[0] (l109/c12)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999'</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-invalid-meta-profile: Observation.component[6].value.ofType(Quantity) (l148/c23)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://some/unit/system' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-invalid-meta-profile: Observation.component[7].code.coding[0] (l156/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-invalid-meta-profile: Observation.component[7].value.ofType(CodeableConcept).coding[0] (l165/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Observation-phenotypic-abnormality-valid-1"> </a>
+<h2><a href="Observation-phenotypic-abnormality-valid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-valid-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Observation/phenotypic-abnormality-valid-1: Observation (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-valid-1: Observation.component[3].value.ofType(Quantity) (l88/c23)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://some/unit/system' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-valid-1: Observation.component[4].code.coding[0] (l96/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/phenotypic-abnormality-valid-1: Observation.component[4].value.ofType(CodeableConcept).coding[0] (l105/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_Patient-example-patient"> </a>
+<h2><a href="Patient-example-patient.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Patient-example-patient.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Patient/example-patient: Patient (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_SearchParameter-service-request-supporting-info"> </a>
+<h2><a href="SearchParameter-service-request-supporting-info.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/SearchParameter-service-request-supporting-info.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>SearchParameter/service-request-supporting-info: SearchParameter</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/SearchParameter</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>SearchParameter.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Biosample"> </a>
+<h2><a href="StructureDefinition-Biosample.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/Biosample: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/Biosample: StructureDefinition.snapshot.element[15].short</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Biosample')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-CodedOnset"> </a>
+<h2><a href="StructureDefinition-CodedOnset.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-CodedOnset.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/CodedOnset: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/CodedOnset')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-DiagnosticMarker"> </a>
+<h2><a href="StructureDefinition-DiagnosticMarker.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-DiagnosticMarker.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/DiagnosticMarker: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/DiagnosticMarker')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Disease"> </a>
+<h2><a href="StructureDefinition-Disease.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Disease.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/Disease: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Disease').baseDefinition</b></td><td><b>warning</b></td><td title="US_CORE_DERIVATION"><b>US FHIR Usage rules require that all profiles on Condition derive from the core US profile. <a href="us-core-comparisons/sd-us-core-condition-Disease.html">Comparison with US Core Condition Profile</a></b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-HistologicalDiagnosis"> </a>
+<h2><a href="StructureDefinition-HistologicalDiagnosis.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-HistologicalDiagnosis.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/HistologicalDiagnosis: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Individual"> </a>
+<h2><a href="StructureDefinition-Individual.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Individual.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/Individual: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Individual').baseDefinition</b></td><td><b>warning</b></td><td title="US_CORE_DERIVATION"><b>US FHIR Usage rules require that all profiles on Patient derive from the core US profile. <a href="us-core-comparisons/sd-us-core-patient-Individual.html">Comparison with US Core Patient Profile</a></b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Individual')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-KaryotypicSex"> </a>
+<h2><a href="StructureDefinition-KaryotypicSex.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-KaryotypicSex.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/KaryotypicSex: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/KaryotypicSex')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-MaterialSample"> </a>
+<h2><a href="StructureDefinition-MaterialSample.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MaterialSample.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/MaterialSample: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Measurement"> </a>
+<h2><a href="StructureDefinition-Measurement.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Measurement.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/Measurement: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Measurement').baseDefinition</b></td><td><b>warning</b></td><td title="US_CORE_DERIVATION"><b>US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. <a href="us-core-comparisons/sd-head-occipital-frontal-circumference-percentile-Measurement.html">Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile</a>. <a href="us-core-comparisons/sd-pediatric-bmi-for-age-Measurement.html">Comparison with US Core Pediatric BMI for Age Observation Profile</a>. <a href="us-core-comparisons/sd-pediatric-weight-for-height-Measurement.html">Comparison with US Core Pediatric Weight for Height Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-blood-pressure-Measurement.html">Comparison with US Core Blood Pressure Profile</a>. <a href="us-core-comparisons/sd-us-core-bmi-Measurement.html">Comparison with US Core BMI Profile</a>. <a href="us-core-comparisons/sd-us-core-body-height-Measurement.html">Comparison with US Core Body Height Profile</a>. <a href="us-core-comparisons/sd-us-core-body-temperature-Measurement.html">Comparison with US Core Body Temperature Profile</a>. <a href="us-core-comparisons/sd-us-core-body-weight-Measurement.html">Comparison with US Core Body Weight Profile</a>. <a href="us-core-comparisons/sd-us-core-head-circumference-Measurement.html">Comparison with US Core Head Circumference Profile</a>. <a href="us-core-comparisons/sd-us-core-heart-rate-Measurement.html">Comparison with US Core Heart Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-observation-lab-Measurement.html">Comparison with US Core Laboratory Result Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-pulse-oximetry-Measurement.html">Comparison with US Core Pulse Oximetry Profile</a>. <a href="us-core-comparisons/sd-us-core-respiratory-rate-Measurement.html">Comparison with US Core Respiratory Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-smokingstatus-Measurement.html">Comparison with US Core Smoking Status Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-vital-signs-Measurement.html">Comparison with US Core Vital Signs Profile</a></b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-MeasurementExt"> </a>
+<h2><a href="StructureDefinition-MeasurementExt.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MeasurementExt.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/MeasurementExt: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/MeasurementExt')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Onset"> </a>
+<h2><a href="StructureDefinition-Onset.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Onset.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/Onset: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Onset')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PathologicalStage"> </a>
+<h2><a href="StructureDefinition-PathologicalStage.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalStage.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/PathologicalStage: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PathologicalTnmFinding"> </a>
+<h2><a href="StructureDefinition-PathologicalTnmFinding.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/PathologicalTnmFinding: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/PathologicalTnmFinding: StructureDefinition.title</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/PathologicalTnmFinding: StructureDefinition.snapshot.element[0].short</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/PathologicalTnmFinding: StructureDefinition.differential.element[0].short</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PhenotypicFeature"> </a>
+<h2><a href="StructureDefinition-PhenotypicFeature.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeature.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/PhenotypicFeature: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature').baseDefinition</b></td><td><b>warning</b></td><td title="US_CORE_DERIVATION"><b>US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. <a href="us-core-comparisons/sd-head-occipital-frontal-circumference-percentile-PhenotypicFeature.html">Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile</a>. <a href="us-core-comparisons/sd-pediatric-bmi-for-age-PhenotypicFeature.html">Comparison with US Core Pediatric BMI for Age Observation Profile</a>. <a href="us-core-comparisons/sd-pediatric-weight-for-height-PhenotypicFeature.html">Comparison with US Core Pediatric Weight for Height Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-blood-pressure-PhenotypicFeature.html">Comparison with US Core Blood Pressure Profile</a>. <a href="us-core-comparisons/sd-us-core-bmi-PhenotypicFeature.html">Comparison with US Core BMI Profile</a>. <a href="us-core-comparisons/sd-us-core-body-height-PhenotypicFeature.html">Comparison with US Core Body Height Profile</a>. <a href="us-core-comparisons/sd-us-core-body-temperature-PhenotypicFeature.html">Comparison with US Core Body Temperature Profile</a>. <a href="us-core-comparisons/sd-us-core-body-weight-PhenotypicFeature.html">Comparison with US Core Body Weight Profile</a>. <a href="us-core-comparisons/sd-us-core-head-circumference-PhenotypicFeature.html">Comparison with US Core Head Circumference Profile</a>. <a href="us-core-comparisons/sd-us-core-heart-rate-PhenotypicFeature.html">Comparison with US Core Heart Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-observation-lab-PhenotypicFeature.html">Comparison with US Core Laboratory Result Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-pulse-oximetry-PhenotypicFeature.html">Comparison with US Core Pulse Oximetry Profile</a>. <a href="us-core-comparisons/sd-us-core-respiratory-rate-PhenotypicFeature.html">Comparison with US Core Respiratory Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-smokingstatus-PhenotypicFeature.html">Comparison with US Core Smoking Status Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-vital-signs-PhenotypicFeature.html">Comparison with US Core Vital Signs Profile</a></b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-PhenotypicFeatureExt"> </a>
+<h2><a href="StructureDefinition-PhenotypicFeatureExt.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeatureExt.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/PhenotypicFeatureExt: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeatureExt')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-Taxonomy"> </a>
+<h2><a href="StructureDefinition-Taxonomy.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Taxonomy.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/Taxonomy: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Taxonomy')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-TumorGrade"> </a>
+<h2><a href="StructureDefinition-TumorGrade.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/TumorGrade: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-TumorProgression"> </a>
+<h2><a href="StructureDefinition-TumorProgression.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/TumorProgression: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_StructureDefinition-composition-phenopacket"> </a>
+<h2><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.snapshot.element[59].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.snapshot.element[73].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.snapshot.element[87].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.snapshot.element[101].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.differential.element[10].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.differential.element[14].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/composition-phenopacket: StructureDefinition.differential.element[18].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.jurisdiction</b></td><td><b>error</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/composition-phenopacket')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-DiagnosticMarker"> </a>
+<h2><a href="ValueSet-DiagnosticMarker.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-DiagnosticMarker.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/DiagnosticMarker: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'DiagnosticMarker')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-HistologicalDiagnosis"> </a>
+<h2><a href="ValueSet-HistologicalDiagnosis.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-HistologicalDiagnosis.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/HistologicalDiagnosis: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'HistologicalDiagnosis')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-KaryotypicSex"> </a>
+<h2><a href="ValueSet-KaryotypicSex.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-KaryotypicSex.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/KaryotypicSex: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-Onset"> </a>
+<h2><a href="ValueSet-Onset.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Onset.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/Onset: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-PhenotypicModifierValueSet"> </a>
+<h2><a href="ValueSet-PhenotypicModifierValueSet.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-PhenotypicModifierValueSet.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/PhenotypicModifierValueSet: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-Severity"> </a>
+<h2><a href="ValueSet-Severity.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Severity.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/Severity: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-Taxonomy"> </a>
+<h2><a href="ValueSet-Taxonomy.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Taxonomy.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/Taxonomy: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'Taxonomy')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/ncbitaxon.owl</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-TumorGrade"> </a>
+<h2><a href="ValueSet-TumorGrade.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorGrade.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/TumorGrade: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'TumorGrade')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-TumorProgression"> </a>
+<h2><a href="ValueSet-TumorProgression.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorProgression.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/TumorProgression: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet/TumorProgression: ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System specified, so Concepts and Filters can''t be checked</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'TumorProgression')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-TumorStage"> </a>
+<h2><a href="ValueSet-TumorStage.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorStage.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/TumorStage: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'TumorStage')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-observation-categories"> </a>
+<h2><a href="ValueSet-observation-categories.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-observation-categories.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/observation-categories: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-phenotypic-abnormality"> </a>
+<h2><a href="ValueSet-phenotypic-abnormality.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-abnormality.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/phenotypic-abnormality: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_core-ig_core-ig_fsh-generated_resources_ValueSet-phenotypic-component"> </a>
+<h2><a href="ValueSet-phenotypic-component.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-component.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ValueSet/phenotypic-component: ValueSet</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.jurisdiction</b></td><td><b>warning</b></td><td title="RESOURCE_JURISDICTION_MISMATCH"><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Extension_EXT_Unknown_NotHere"> </a>
+<h2>Extension_EXT_Unknown_NotHere</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-phenotypic-abnormality-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-1.json</a></td><td><b>The extension http://github.com/phenopackets/core-ig/ig-tools/validation-error-count is unknown, and not allowed here</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_JURISDICTION_MISMATCH"> </a>
+<h2>RESOURCE_JURISDICTION_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-HtsFormat.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-KaryotypicSex.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-KaryotypicSex.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-categories.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-categories.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-hpo.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-hpo-flat.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="SearchParameter-service-request-supporting-info.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/SearchParameter-service-request-supporting-info.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-Biosample.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-CodedOnset.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-CodedOnset.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-DiagnosticMarker.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-DiagnosticMarker.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-Disease.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Disease.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-HistologicalDiagnosis.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-HistologicalDiagnosis.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-Individual.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Individual.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-KaryotypicSex.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-KaryotypicSex.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-MaterialSample.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MaterialSample.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-Measurement.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Measurement.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-MeasurementExt.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MeasurementExt.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-Onset.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Onset.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PathologicalStage.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalStage.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PathologicalTnmFinding.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PhenotypicFeature.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeature.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-PhenotypicFeatureExt.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeatureExt.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-Taxonomy.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Taxonomy.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-TumorGrade.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-TumorProgression.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-DiagnosticMarker.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-DiagnosticMarker.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-HistologicalDiagnosis.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-HistologicalDiagnosis.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-KaryotypicSex.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-KaryotypicSex.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-Onset.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Onset.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-PhenotypicModifierValueSet.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-PhenotypicModifierValueSet.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-Severity.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Severity.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-Taxonomy.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-Taxonomy.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-TumorGrade.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorGrade.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-TumorProgression.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorProgression.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-TumorStage.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-TumorStage.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-observation-categories.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-observation-categories.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-phenotypic-abnormality.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-abnormality.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ValueSet-phenotypic-component.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-component.json</a></td><td><b>The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US &quot;null&quot;')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_PassThrough_TX_Message"> </a>
+<h2>Terminology_PassThrough_TX_Message</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-id.1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.1.json</a></td><td><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001166 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001166'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-id.2.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.2.json</a></td><td><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0025168 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0025168'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-id.3.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.3.json</a></td><td><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001634 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001634'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-phenotypic-abnormality-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-1.json</a></td><td><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-phenotypic-abnormality-invalid-meta-profile.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-meta-profile.json</a></td><td><b>Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:999999999'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_NoValid_16"> </a>
+<h2>Terminology_TX_NoValid_16</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-id.1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.1.json</a></td><td><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-id.11.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.11.json</a></td><td><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-id.2.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.2.json</a></td><td><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-id.3.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.3.json</a></td><td><b>The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_NoValid_1_CC"> </a>
+<h2>Terminology_TX_NoValid_1_CC</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Condition-id.1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.1.json</a></td><td><b>None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1 (http://hl7.org/fhir/ValueSet/condition-clinical), and a coding from this value set is required) (codes = http://snomed.info/sct#315215002)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="CodeSystem-hpo.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo.json</a></td><td><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="CodeSystem-hpo.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo.json</a></td><td><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="CodeSystem-hpo-flat.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat.json</a></td><td><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="CodeSystem-hpo-flat.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat.json</a></td><td><b>Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-karyotypic-sex-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-invalid-1.json</a></td><td><b>Code System URI 'http://purl.obolibrary.org/obo/GSSO' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-karyotypic-sex-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-invalid-1.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-karyotypic-sex-valid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-valid-1.json</a></td><td><b>Code System URI 'http://purl.obolibrary.org/obo/GSSO' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-karyotypic-sex-valid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-karyotypic-sex-valid-1.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-1.json</a></td><td><b>Code System URI 'http://some/unit/system' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-1.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-invalid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-1.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-invalid-meta-profile.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-meta-profile.json</a></td><td><b>Code System URI 'http://some/unit/system' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-invalid-meta-profile.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-meta-profile.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-invalid-meta-profile.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-invalid-meta-profile.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-valid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-valid-1.json</a></td><td><b>Code System URI 'http://some/unit/system' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-valid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-valid-1.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-phenotypic-abnormality-valid-1.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-valid-1.json</a></td><td><b>Code System URI 'http://github.com/phenopackets/core-ig/CodeSystem/OTHER' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-composition-phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-composition-phenopacket.json</a></td><td><b>Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_String_WS"> </a>
+<h2>Type_Specific_Checks_DT_String_WS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-Biosample.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-PathologicalTnmFinding.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-PathologicalTnmFinding.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-PathologicalTnmFinding.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="US_CORE_DERIVATION"> </a>
+<h2>US_CORE_DERIVATION</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-Disease.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Disease.json</a></td><td><b>US FHIR Usage rules require that all profiles on Condition derive from the core US profile. <a href="us-core-comparisons/sd-us-core-condition-Disease.html">Comparison with US Core Condition Profile</a></b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-Individual.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Individual.json</a></td><td><b>US FHIR Usage rules require that all profiles on Patient derive from the core US profile. <a href="us-core-comparisons/sd-us-core-patient-Individual.html">Comparison with US Core Patient Profile</a></b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-Measurement.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Measurement.json</a></td><td><b>US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. <a href="us-core-comparisons/sd-head-occipital-frontal-circumference-percentile-Measurement.html">Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile</a>. <a href="us-core-comparisons/sd-pediatric-bmi-for-age-Measurement.html">Comparison with US Core Pediatric BMI for Age Observation Profile</a>. <a href="us-core-comparisons/sd-pediatric-weight-for-height-Measurement.html">Comparison with US Core Pediatric Weight for Height Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-blood-pressure-Measurement.html">Comparison with US Core Blood Pressure Profile</a>. <a href="us-core-comparisons/sd-us-core-bmi-Measurement.html">Comparison with US Core BMI Profile</a>. <a href="us-core-comparisons/sd-us-core-body-height-Measurement.html">Comparison with US Core Body Height Profile</a>. <a href="us-core-comparisons/sd-us-core-body-temperature-Measurement.html">Comparison with US Core Body Temperature Profile</a>. <a href="us-core-comparisons/sd-us-core-body-weight-Measurement.html">Comparison with US Core Body Weight Profile</a>. <a href="us-core-comparisons/sd-us-core-head-circumference-Measurement.html">Comparison with US Core Head Circumference Profile</a>. <a href="us-core-comparisons/sd-us-core-heart-rate-Measurement.html">Comparison with US Core Heart Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-observation-lab-Measurement.html">Comparison with US Core Laboratory Result Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-pulse-oximetry-Measurement.html">Comparison with US Core Pulse Oximetry Profile</a>. <a href="us-core-comparisons/sd-us-core-respiratory-rate-Measurement.html">Comparison with US Core Respiratory Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-smokingstatus-Measurement.html">Comparison with US Core Smoking Status Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-vital-signs-Measurement.html">Comparison with US Core Vital Signs Profile</a></b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-PhenotypicFeature.html">/home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeature.json</a></td><td><b>US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. <a href="us-core-comparisons/sd-head-occipital-frontal-circumference-percentile-PhenotypicFeature.html">Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile</a>. <a href="us-core-comparisons/sd-pediatric-bmi-for-age-PhenotypicFeature.html">Comparison with US Core Pediatric BMI for Age Observation Profile</a>. <a href="us-core-comparisons/sd-pediatric-weight-for-height-PhenotypicFeature.html">Comparison with US Core Pediatric Weight for Height Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-blood-pressure-PhenotypicFeature.html">Comparison with US Core Blood Pressure Profile</a>. <a href="us-core-comparisons/sd-us-core-bmi-PhenotypicFeature.html">Comparison with US Core BMI Profile</a>. <a href="us-core-comparisons/sd-us-core-body-height-PhenotypicFeature.html">Comparison with US Core Body Height Profile</a>. <a href="us-core-comparisons/sd-us-core-body-temperature-PhenotypicFeature.html">Comparison with US Core Body Temperature Profile</a>. <a href="us-core-comparisons/sd-us-core-body-weight-PhenotypicFeature.html">Comparison with US Core Body Weight Profile</a>. <a href="us-core-comparisons/sd-us-core-head-circumference-PhenotypicFeature.html">Comparison with US Core Head Circumference Profile</a>. <a href="us-core-comparisons/sd-us-core-heart-rate-PhenotypicFeature.html">Comparison with US Core Heart Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-observation-lab-PhenotypicFeature.html">Comparison with US Core Laboratory Result Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-pulse-oximetry-PhenotypicFeature.html">Comparison with US Core Pulse Oximetry Profile</a>. <a href="us-core-comparisons/sd-us-core-respiratory-rate-PhenotypicFeature.html">Comparison with US Core Respiratory Rate Profile</a>. <a href="us-core-comparisons/sd-us-core-smokingstatus-PhenotypicFeature.html">Comparison with US Core Smoking Status Observation Profile</a>. <a href="us-core-comparisons/sd-us-core-vital-signs-PhenotypicFeature.html">Comparison with US Core Vital Signs Profile</a></b></td>
+   </tr>
+</table>
+</body>
+</html>

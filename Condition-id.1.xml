@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="id.1"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/Disease"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title="Codes: {http://snomed.info/sct 315215002}">Disorder excluded (situation)</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 87628006}">Bacterial infectious disease</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="315215002"/>
+      <display value="Disorder excluded (situation)"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="87628006"/>
+      <display value="Bacterial infectious disease"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+</Condition>

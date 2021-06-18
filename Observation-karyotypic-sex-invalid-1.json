@@ -1,0 +1,25 @@
+{
+  "resourceType": "Observation",
+  "id": "karyotypic-sex-invalid-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title=\"Codes: {http://purl.obolibrary.org/obo/GSSO GSSO:000113}\">GSSO:000113</span></p><p><b>value</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex XXW}\">XXW</span></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://purl.obolibrary.org/obo/GSSO",
+        "code": "GSSO:000113"
+      }
+    ]
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://github.com/phenopackets/core-ig/CodeSystem/observation-karyotypic-sex",
+        "code": "XXW"
+      }
+    ]
+  }
+}

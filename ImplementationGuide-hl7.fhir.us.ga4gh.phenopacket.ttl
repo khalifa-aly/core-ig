@@ -1,0 +1,1085 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "hl7.fhir.us.ga4gh.phenopacket"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>GA4GHPhenopacketIG</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/phenopackets/core-ig/ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket</pre><div><p>FHIR implementation guide for the Global Alliance for Genomics and Health Phenopacket standard.</p>\n</div></div>"
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "https://github.com/phenopackets/core-ig/ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.name [ fhir:value "GA4GHPhenopacketIG"];
+  fhir:ImplementationGuide.title [ fhir:value "GA4GH Phenopacket (version 2) FHIR Implementation Guide"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-18T01:30:22+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/" ]
+     ]
+  ];
+  fhir:ImplementationGuide.description [ fhir:value "FHIR implementation guide for the Global Alliance for Genomics and Health Phenopacket standard."];
+  fhir:ImplementationGuide.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"];
+  fhir:ImplementationGuide.packageId [ fhir:value "hl7.fhir.us.ga4gh.phenopacket"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1";
+     fhir:index 0
+  ];
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "2021+" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "autoload-resources" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-qa" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-temp" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-output" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-history" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "https://github.com/phenopackets/core-ig/history.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-html" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-md" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-context" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-license" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-version" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "active-tables" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Biosample>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Biosample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Biosample" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A unit of biological material from which the substrate molecules (e.g. genomic DNA, RNA, proteins) for molecular analyses (e.g. sequencing, array hybridisation, mass-spectrometry) are extracted." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Disease>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Disease" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Disease profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile stipulates that a FHIR Condition must have a codeable concept that represents the disease. The concepts can be taken from various ontologies, but for rare-disease concepts, we recommend MONDO." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Individual>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Individual" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Individual" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The subject of the Phenopacket is represented by an Individual element. This element intends to represent an individual human or other organism." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Measurement>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Measurement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Measurement" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines the GA4GH Measurement element in terms of the FHIR Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/composition-phenopacket>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/composition-phenopacket" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Phenopacket profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is the main element that represents the Phenopacket in FHIR." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PhenotypicFeature" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Phenotypic Feature" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines the GA4GH PhenotypicFeature element in terms of the FHIR Condition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/CodedOnset>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CodedOnset" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Coded Onset" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The onset of a disease using an ontology class." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/DiagnosticMarker>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/DiagnosticMarker" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Diagnostic Marker" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinically relevant biomarkers. Most of the assays such as immunohistochemistry (IHC) are covered by the NCIT under the sub-hierarchy NCIT:C36292 (Laboratory Test Result), e.g. NCIT:C68748 (HER2/Neu Positive), NCIT:C131711 (Human Papillomavirus-18 Positive)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/HistologicalDiagnosis" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Histological Diagnosis" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This is the pathologist’s diagnosis and may often represent a refinement of the clinical diagnosis (which could be reported in the Phenopacket that contains this Biosample). Normal samples would be tagged with the term “NCIT:C38757”, “Negative Finding”." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/KaryotypicSex>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/KaryotypicSex" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Karyotypic Sex" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Karyotypic sex of an individual (also known as chromosomal sex)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/MaterialSample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Material Sample" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type of sample (diseases, control, etc.)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/MeasurementExt>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/MeasurementExt" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Measurement (Biosample)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Term representing a measurement made on a Biosample" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Onset>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Onset" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Onset" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Describes the age at which a phenotypic feature was first noticed or diagnosed." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PathologicalStage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pathological Tumor Stage" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This element can be used if the phenopacket describes cancer. Tumor staging describes the extent of growth of cancer, including the tumor and, if applicable, affected lymph nodes and distant metastases. This element should not be confused with clinical stage." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PathologicalTnmFinding" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value " Pathological TNM Finding" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pathological TNM findings, if applicable. Corresponds to pathological_tnm_finding (GA4GH)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeatureExt>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PhenotypicFeatureExt" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Phenotypic Feature (Biosample)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Term representing phenotypic features of a Biosample" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Taxonomy>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Taxonomy" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Taxonomy" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Corresponds to taxonomy (GA4GH). For resources where there may be more than one organism being studied it is advisable to indicate the taxonomic identifier of that organism, to its most specific level." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/TumorGrade" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tumor Grade" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "List of terms representing the tumor grade." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/TumorProgression" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tumor Progression" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This field can be used to indicate if a specimen is from the primary tumor, a metastasis or a recurrence. There are multiple ways of representing this using ontology terms, and the terms chosen should have a specific meaning that is application specific." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/DiagnosticMarker>;
+         fhir:Reference.reference [ fhir:value "ValueSet/DiagnosticMarker" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Diagnostic Marker" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes to indicate clinically relevant bio markers." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/HistologicalDiagnosis>;
+         fhir:Reference.reference [ fhir:value "ValueSet/HistologicalDiagnosis" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HistologicalDiagnosis" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Histological diagnosis codes from NCIT." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/KaryotypicSex>;
+         fhir:Reference.reference [ fhir:value "ValueSet/KaryotypicSex" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Karyotypic sex value set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The karyotypic (chromosomal) sex of an individual" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/observation-categories>;
+         fhir:Reference.reference [ fhir:value "ValueSet/observation-categories" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation categories" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet description here" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/Onset>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Onset" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Onset ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Set of HPO codes that denote the onset of a disease or phenotypic feature. The codes are descendants of Onset (HP:0003674) or from SNOMED_CT (282032007)." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/phenotypic-abnormality>;
+         fhir:Reference.reference [ fhir:value "ValueSet/phenotypic-abnormality" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Phenotypic abnormality ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet description here" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component>;
+         fhir:Reference.reference [ fhir:value "ValueSet/phenotypic-component" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Phenotypic component ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet description here" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/PhenotypicModifierValueSet>;
+         fhir:Reference.reference [ fhir:value "ValueSet/PhenotypicModifierValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Phenotypic modifier ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ValueSet description here" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/Severity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Severity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Severity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Phenotypic feature severity codes from the Human Phenotype Ontology and SNOMED CT." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/Taxonomy>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Taxonomy" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Taxonomy" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Taxonomic identifiers of an organism." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/TumorGrade>;
+         fhir:Reference.reference [ fhir:value "ValueSet/TumorGrade" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tumor Grade" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes to indicate the grade of a tumor." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/TumorProgression>;
+         fhir:Reference.reference [ fhir:value "ValueSet/TumorProgression" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tumor Progression" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes to indicate if a specimen is from the primary tumor, a metastasis or a recurrence." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/ValueSet/TumorStage>;
+         fhir:Reference.reference [ fhir:value "ValueSet/TumorStage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Tumor Stage" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes to represent the stage of a tumor." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/CodeSystem/categories>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/categories" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Categories" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Various categories or tags" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/CodeSystem/HtsFormat>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/HtsFormat" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HTS Format" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An enumeration used to represent different high-throughput sequencing file formats." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/KaryotypicSex" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Karyotypic sex code system" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "karyotypic sex of an individual (also known as chromosomal sex)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Patient/example-patient>;
+         fhir:Reference.reference [ fhir:value "Patient/example-patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "example-patient" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of Patient" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/CodeSystem/hpo>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/hpo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "hpo" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A stub for the real HPO CodeSystem to use in other resources until we have a permanent HPO setup." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/CodeSystem/hpo-flat>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/hpo-flat" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "hpo-flat" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A stub for the real HPO CodeSystem to use in other resources until we have a permanent HPO setup." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Condition/id.1>;
+         fhir:Reference.reference [ fhir:value "Condition/id.1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "excluded-disease" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Phenopacket Example for an excluded disease" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Disease";
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Disease>
+       ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/id.1>;
+         fhir:Reference.reference [ fhir:value "Observation/id.1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "arachnodactyly" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PhenotypicFeature Example for arachnodactyly" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature";
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature>
+       ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/id.11>;
+         fhir:Reference.reference [ fhir:value "Observation/id.11" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "thrombocytopenia" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Measurement Example for thrombocytopenia" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Measurement";
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Measurement>
+       ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Condition/id.2>;
+         fhir:Reference.reference [ fhir:value "Condition/id.2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "vitreoretinochoroidopathy" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Phenopacket Example for autosomal dominant vitreoretinochoroidopathy" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Disease";
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Disease>
+       ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/id.2>;
+         fhir:Reference.reference [ fhir:value "Observation/id.2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "lvdysfunction-excluded" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PhenotypicFeature Example for exclusion of LV dysfunction" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature";
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature>
+       ]
+     ], [
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/id.3>;
+         fhir:Reference.reference [ fhir:value "Observation/id.3" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MVP-with-onset" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PhenotypicFeature Example for mitral value prolapse with onset" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature";
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature>
+       ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/karyotypic-sex-invalid-1>;
+         fhir:Reference.reference [ fhir:value "Observation/karyotypic-sex-invalid-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "An INVALID karyotypic sex Observation instance." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/karyotypic-sex-valid-1>;
+         fhir:Reference.reference [ fhir:value "Observation/karyotypic-sex-valid-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "A VALID karyotypic sex Observation instance." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/phenotypic-abnormality-invalid-1>;
+         fhir:Reference.reference [ fhir:value "Observation/phenotypic-abnormality-invalid-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "An INVALID phenotypic abnormality Observation example." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/phenotypic-abnormality-invalid-meta-profile>;
+         fhir:Reference.reference [ fhir:value "Observation/phenotypic-abnormality-invalid-meta-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "phenotypic-abnormality-invalid-meta-profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/Observation/phenotypic-abnormality-valid-1>;
+         fhir:Reference.reference [ fhir:value "Observation/phenotypic-abnormality-valid-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "A valid phenotypic abnormality Observation example." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/SearchParameter/service-request-supporting-info>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/service-request-supporting-info" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "service-request-supporting-info" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Search ServiceRequest by supporting resource parameters" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ];
+     fhir:ImplementationGuide.definition.page [
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index 0;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ga4gh.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "GA4GH" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 2;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "phenotype.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Deep phenotyping" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ];
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index 0;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index 1;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index 2;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index 3;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index 4;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index 5;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index 6;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index 7;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index 8;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
+     ], [
+       fhir:index 9;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/testing" ]
+     ], [
+       fhir:index 10;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
+     ], [
+       fhir:index 11;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
+     ], [
+       fhir:index 12;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index 13;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 14;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,220 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/CodeSystem/hpo> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "hpo"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URL</b></td><td><b>Description</b></td><td><b>Type</b></td></tr><tr><td>synonym</td><td/><td>Holds synonyms as strings</td><td>string</td></tr><tr><td>xref</td><td/><td>Holds references to other codes in the form of Coding. This could be done in ConceptMap as well and that would be more useful. This is just a demo for how this works.</td><td>Coding</td></tr><tr><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td/><td>code</td></tr></table><p>This code system http://github.com/phenopackets/core-ig/CodeSystem/hpo defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">HP:0000001<a name=\"hpo-HP.580000001\"> </a></td><td>All</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  HP:0000118<a name=\"hpo-HP.580000118\"> </a></td><td>Phenotypic abnormality</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0000707<a name=\"hpo-HP.580000707\"> </a></td><td>Abnormality of the nervous system</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0003429<a name=\"hpo-HP.580003429\"> </a></td><td>CNS hypomyelination</td><td>Reduced amount of myelin in the central nervous system resulting from defective myelinogenesis.</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0001249<a name=\"hpo-HP.580001249\"> </a></td><td>Intellectual disability</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0001298<a name=\"hpo-HP.580001298\"> </a></td><td>Encephalopathy</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0000486<a name=\"hpo-HP.580000486\"> </a></td><td>Strabismus</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0002650<a name=\"hpo-HP.580002650\"> </a></td><td>Scoliosis</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0002664<a name=\"hpo-HP.580002664\"> </a></td><td>Neoplasm</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0011793<a name=\"hpo-HP.580011793\"> </a></td><td>Neoplasm by anatomical site</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0001627<a name=\"hpo-HP.580001627\"> </a></td><td>Abnormal heart morphology</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0001671<a name=\"hpo-HP.580001671\"> </a></td><td>Abnormal cardiac septum morphology</td><td/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        HP:0011994<a name=\"hpo-HP.580011994\"> </a></td><td>Abnormal atrial septum morphology</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0011545<a name=\"hpo-HP.580011545\"> </a></td><td>Abnormal connection of the cardiac segments</td><td/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        HP:0011563<a name=\"hpo-HP.580011563\"> </a></td><td>Abnormal ventriculoarterial connection</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0001654<a name=\"hpo-HP.580001654\"> </a></td><td>Abnormal heart valve morphology</td><td/></tr><tr><td>5</td><td style=\"white-space:nowrap\">        HP:0001641<a name=\"hpo-HP.580001641\"> </a></td><td>Abnormal pulmonary valve morphology</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  HP:0012823<a name=\"hpo-HP.580012823\"> </a></td><td>Clinical modifier</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0012824<a name=\"hpo-HP.580012824\"> </a></td><td>Severity</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0012825<a name=\"hpo-HP.580012825\"> </a></td><td>Mild</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0012826<a name=\"hpo-HP.580012826\"> </a></td><td>Moderate</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0410401<a name=\"hpo-HP.580410401\"> </a></td><td>Worse in evening</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0031375<a name=\"hpo-HP.580031375\"> </a></td><td>Refractory</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  HP:0031797<a name=\"hpo-HP.580031797\"> </a></td><td>Clinical course</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    HP:0003674<a name=\"hpo-HP.580003674\"> </a></td><td>Onset</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0003577<a name=\"hpo-HP.580003577\"> </a></td><td>Congenital onset</td><td/></tr><tr><td>4</td><td style=\"white-space:nowrap\">      HP:0003623<a name=\"hpo-HP.580003623\"> </a></td><td>Neonatal onset</td><td/></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td></tr><tr><td>HP:0000001</td><td></td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://github.com/phenopackets/core-ig/CodeSystem/hpo"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "HPO"];
+  fhir:CodeSystem.title [ fhir:value "A stub HPO CodeSystem"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2021-06-18T01:30:22+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A stub for the real HPO CodeSystem to use in other resources until we have a permanent HPO setup."];
+  fhir:CodeSystem.copyright [ fhir:value "[Global Alliance for Genomics and Health](https://www.ga4gh.org)"];
+  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.property [
+     fhir:index 0;
+     fhir:CodeSystem.property.code [ fhir:value "synonym" ];
+     fhir:CodeSystem.property.description [ fhir:value "Holds synonyms as strings" ];
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.property.code [ fhir:value "xref" ];
+     fhir:CodeSystem.property.description [ fhir:value "Holds references to other codes in the form of Coding. This could be done in ConceptMap as well and that would be more useful. This is just a demo for how this works." ];
+     fhir:CodeSystem.property.type [ fhir:value "Coding" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.property.code [ fhir:value "parent" ];
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#parent" ];
+     fhir:CodeSystem.property.type [ fhir:value "code" ]
+  ];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "HP:0000001" ];
+     fhir:CodeSystem.concept.display [ fhir:value "All" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "HP:0000118" ];
+       fhir:CodeSystem.concept.display [ fhir:value "Phenotypic abnormality" ];
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0000707" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Abnormality of the nervous system" ];
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0003429" ];
+           fhir:CodeSystem.concept.display [ fhir:value "CNS hypomyelination" ];
+           fhir:CodeSystem.concept.definition [ fhir:value "Reduced amount of myelin in the central nervous system resulting from defective myelinogenesis." ];
+           fhir:CodeSystem.concept.designation [
+             fhir:index 0;
+             fhir:CodeSystem.concept.designation.language [ fhir:value "en" ];
+             fhir:CodeSystem.concept.designation.use [
+               a sct:900000000000013009;
+               fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+               fhir:Coding.code [ fhir:value "900000000000013009" ];
+               fhir:Coding.display [ fhir:value "Synonym" ]
+             ];
+             fhir:CodeSystem.concept.designation.value [ fhir:value "hypomyelination" ]
+           ];
+           fhir:CodeSystem.concept.property [
+             fhir:index 0;
+             fhir:CodeSystem.concept.property.code [ fhir:value "synonym" ];
+             fhir:CodeSystem.concept.property.valueString [ fhir:value "hypomyelination" ]
+           ], [
+             fhir:index 1;
+             fhir:CodeSystem.concept.property.code [ fhir:value "xref" ];
+             fhir:CodeSystem.concept.property.valueCoding [
+               fhir:Coding.system [ fhir:value "http://www.nlm.nih.gov/research/umls" ];
+               fhir:Coding.code [ fhir:value "C0544820" ]
+             ]
+           ], [
+             fhir:index 2;
+             fhir:CodeSystem.concept.property.code [ fhir:value "xref" ];
+             fhir:CodeSystem.concept.property.valueCoding [
+               fhir:Coding.system [ fhir:value "http://www.nlm.nih.gov/research/umls" ];
+               fhir:Coding.code [ fhir:value "C4025616" ]
+             ]
+           ], [
+             fhir:index 3;
+             fhir:CodeSystem.concept.property.code [ fhir:value "xref" ];
+             fhir:CodeSystem.concept.property.valueCoding [
+               a sct:111007000;
+               fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+               fhir:Coding.code [ fhir:value "111007000" ]
+             ]
+           ]
+         ], [
+           fhir:index 1;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0001249" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Intellectual disability" ]
+         ], [
+           fhir:index 2;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0001298" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Encephalopathy" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0000486" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Strabismus" ]
+       ], [
+         fhir:index 2;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0002650" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Scoliosis" ]
+       ], [
+         fhir:index 3;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0002664" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Neoplasm" ];
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0011793" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Neoplasm by anatomical site" ]
+         ]
+       ], [
+         fhir:index 4;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0001627" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Abnormal heart morphology" ];
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0001671" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Abnormal cardiac septum morphology" ];
+           fhir:CodeSystem.concept.concept [
+             fhir:index 0;
+             fhir:CodeSystem.concept.code [ fhir:value "HP:0011994" ];
+             fhir:CodeSystem.concept.display [ fhir:value "Abnormal atrial septum morphology" ]
+           ]
+         ], [
+           fhir:index 1;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0011545" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Abnormal connection of the cardiac segments" ];
+           fhir:CodeSystem.concept.concept [
+             fhir:index 0;
+             fhir:CodeSystem.concept.code [ fhir:value "HP:0011563" ];
+             fhir:CodeSystem.concept.display [ fhir:value "Abnormal ventriculoarterial connection" ]
+           ]
+         ], [
+           fhir:index 2;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0001654" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Abnormal heart valve morphology" ];
+           fhir:CodeSystem.concept.concept [
+             fhir:index 0;
+             fhir:CodeSystem.concept.code [ fhir:value "HP:0001641" ];
+             fhir:CodeSystem.concept.display [ fhir:value "Abnormal pulmonary valve morphology" ]
+           ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "HP:0012823" ];
+       fhir:CodeSystem.concept.display [ fhir:value "Clinical modifier" ];
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0012824" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Severity" ];
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0012825" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Mild" ]
+         ], [
+           fhir:index 1;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0012826" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Moderate" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0410401" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Worse in evening" ]
+       ], [
+         fhir:index 2;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0031375" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Refractory" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "HP:0031797" ];
+       fhir:CodeSystem.concept.display [ fhir:value "Clinical course" ];
+       fhir:CodeSystem.concept.concept [
+         fhir:index 0;
+         fhir:CodeSystem.concept.code [ fhir:value "HP:0003674" ];
+         fhir:CodeSystem.concept.display [ fhir:value "Onset" ];
+         fhir:CodeSystem.concept.concept [
+           fhir:index 0;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0003577" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Congenital onset" ]
+         ], [
+           fhir:index 1;
+           fhir:CodeSystem.concept.code [ fhir:value "HP:0003623" ];
+           fhir:CodeSystem.concept.display [ fhir:value "Neonatal onset" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/CodeSystem/hpo.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

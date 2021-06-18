@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="6e6bb73f-8221-4ab8-a095-17e722d58404"/>
+  <meta>
+    <lastUpdated value="2021-06-18T01:30:22.588+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://github.com/phenopackets/core-ig/ValueSet/Severity"/>
+    <resource>
+      <ValueSet>
+        <id value="Severity"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 9 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-hpo.html">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>SNOMED CT International edition 31-Jan 2021</li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012825"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012825">HP:0012825</a>
+                </td>
+                <td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td>
+                <td>Mild</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012826"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012826">HP:0012826</a>
+                </td>
+                <td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td>
+                <td>Moderate</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-6736007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6736007">6736007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Moderate</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-24484000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24484000">24484000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Severe</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255604002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255604002">255604002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Mild</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-371923003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371923003">371923003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Mild to moderate</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-371924009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371924009">371924009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Moderate to severe</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-399166001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399166001">399166001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fatal</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-442452003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=442452003">442452003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Life threatening severity</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://github.com/phenopackets/core-ig/ValueSet/Severity"/>
+        <version value="0.1.0"/>
+        <name value="Severity"/>
+        <title value="Severity"/>
+        <status value="active"/>
+        <date value="2020-02-14T16:13:10+10:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="Phenotypic feature severity codes from the Human Phenotype Ontology and SNOMED CT."/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+            <valueBoolean value="true"/>
+          </extension>
+          <identifier value="urn:uuid:783cf520-ebf6-486d-9d0c-eef0bbc6ede3"/>
+          <timestamp value="2021-06-18T01:34:58+00:00"/>
+          <total value="9"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+          </parameter>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012825"/>
+            <display value="Mild"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012826"/>
+            <display value="Moderate"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="6736007"/>
+            <display value="Moderate"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="24484000"/>
+            <display value="Severe"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255604002"/>
+            <display value="Mild"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371923003"/>
+            <display value="Mild to moderate"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371924009"/>
+            <display value="Moderate to severe"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="399166001"/>
+            <display value="Fatal"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="442452003"/>
+            <display value="Life threatening severity"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://github.com/phenopackets/core-ig/ValueSet/KaryotypicSex"/>
+    <resource>
+      <ValueSet>
+        <id value="KaryotypicSex"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 11 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-KaryotypicSex.html">Karyotypic sex code system v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-KaryotypicSex.html">
+                <code>https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-UNKNOWN-KARYOTYPE"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-UNKNOWN_KARYOTYPE">UNKNOWN_KARYOTYPE</a>
+                </td>
+                <td>UNKNOWN_KARYOTYPE</td>
+                <td>Untyped or inconclusive karyotyping</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XX"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XX">XX</a>
+                </td>
+                <td>XX karyotypic sex</td>
+                <td>Karyotype with two X chromosomes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XY"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XY">XY</a>
+                </td>
+                <td>XY karyotypic sex</td>
+                <td>Karyotype with one X chromosome and one Y chromosome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XO"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XO">XO</a>
+                </td>
+                <td>XO karyotypic sex</td>
+                <td>Karyotype with one X chromosome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XXY"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XXY">XXY</a>
+                </td>
+                <td>XXY karyotypic sex</td>
+                <td>Karyotype with two X chromosomes and one Y chromosome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XXX"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XXX">XXX</a>
+                </td>
+                <td>XXX karyotypic sex</td>
+                <td>Karyotype with three X chromosomes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XXYY"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XXYY">XXYY</a>
+                </td>
+                <td>XXYY karyotypic sex</td>
+                <td>Karyotype with two X chromosomes and two Y chromosomes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XXXY"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XXXY">XXXY</a>
+                </td>
+                <td>XXXY karyotypic sex</td>
+                <td>Karyotype with three X chromosomes and one Y chromosome</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XXXX"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XXXX">XXXX</a>
+                </td>
+                <td>XXXX karyotypic sex</td>
+                <td>Karyotype with four X chromosomes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-XYY"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-XYY">XYY</a>
+                </td>
+                <td>XYY karyotypic sex</td>
+                <td>Karyotype with one X chromosome and two Y chromosomes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-KaryotypicSex-OTHER-KARYOTYPE"> </a>
+                  <a href="CodeSystem-KaryotypicSex.html#KaryotypicSex-OTHER_KARYOTYPE">OTHER_KARYOTYPE</a>
+                </td>
+                <td>Other karyotype</td>
+                <td>Karyotype with sex chromosomes other than XX,XY,X0,XXY,XXX,XXYY,XXXY,XXXX, or XYY</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://github.com/phenopackets/core-ig/ValueSet/KaryotypicSex"/>
+        <version value="0.1.0"/>
+        <name value="KaryotypicSex"/>
+        <title value="Karyotypic sex value set"/>
+        <status value="active"/>
+        <date value="2021-05-28T17:06:00-04:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="The karyotypic (chromosomal) sex of an individual"/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <identifier value="urn:uuid:8ba46207-e0ca-43fd-a40d-c1f3cbe6ff99"/>
+          <timestamp value="2021-06-18T01:35:01+00:00"/>
+          <total value="11"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="UNKNOWN_KARYOTYPE"/>
+            <display value="UNKNOWN_KARYOTYPE"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XX"/>
+            <display value="XX karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XY"/>
+            <display value="XY karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XO"/>
+            <display value="XO karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XXY"/>
+            <display value="XXY karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XXX"/>
+            <display value="XXX karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XXYY"/>
+            <display value="XXYY karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XXXY"/>
+            <display value="XXXY karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XXXX"/>
+            <display value="XXXX karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="XYY"/>
+            <display value="XYY karyotypic sex"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/KaryotypicSex"/>
+            <code value="OTHER_KARYOTYPE"/>
+            <display value="Other karyotype"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://github.com/phenopackets/core-ig/ValueSet/phenotypic-abnormality"/>
+    <resource>
+      <ValueSet>
+        <id value="phenotypic-abnormality"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-hpo.html">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-hpo.html">
+                <code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0000118"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580000118">HP:0000118</a>
+                </td>
+                <td>Phenotypic abnormality</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://github.com/phenopackets/core-ig/ValueSet/phenotypic-abnormality"/>
+        <version value="0.1.0"/>
+        <name value="PhenotypicAbnormalityValueSet"/>
+        <title value="Phenotypic abnormality ValueSet"/>
+        <status value="active"/>
+        <date value="2021-06-18T01:30:22+00:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet description here"/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <identifier value="urn:uuid:162cce11-f023-4a8f-a966-0c2eb084403b"/>
+          <timestamp value="2021-06-18T01:35:01+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0000118"/>
+            <display value="Phenotypic abnormality"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://github.com/phenopackets/core-ig/ValueSet/phenotypic-modifier"/>
+    <resource>
+      <ValueSet>
+        <id value="PhenotypicModifierValueSet"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-hpo.html">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-hpo.html">
+                <code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012823"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012823">HP:0012823</a>
+                </td>
+                <td>Clinical modifier</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012824"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012824">HP:0012824</a>
+                </td>
+                <td>Severity</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012825"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012825">HP:0012825</a>
+                </td>
+                <td>Mild</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012826"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012826">HP:0012826</a>
+                </td>
+                <td>Moderate</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://github.com/phenopackets/core-ig/ValueSet/phenotypic-modifier"/>
+        <version value="0.1.0"/>
+        <name value="PhenotypicModifierValueSet"/>
+        <title value="Phenotypic modifier ValueSet"/>
+        <status value="active"/>
+        <date value="2021-06-18T01:30:22+00:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet description here"/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <identifier value="urn:uuid:eefb190b-db42-4d76-a7e3-91e568961a29"/>
+          <timestamp value="2021-06-18T01:35:01+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012823"/>
+            <display value="Clinical modifier"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012824"/>
+            <display value="Severity"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012825"/>
+            <display value="Mild"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012826"/>
+            <display value="Moderate"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://github.com/phenopackets/core-ig/ValueSet/Onset"/>
+    <resource>
+      <ValueSet>
+        <id value="Onset"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 21 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-hpo.html">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>SNOMED CT International edition 31-Jan 2021</li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003674"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580003674">HP:0003674</a>
+                </td>
+                <td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td>
+                <td>Onset</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003577"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580003577">HP:0003577</a>
+                </td>
+                <td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td>
+                <td>Congenital onset</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003623"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580003623">HP:0003623</a>
+                </td>
+                <td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td>
+                <td>Neonatal onset</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-3658006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3658006">3658006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Infancy</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-41847000"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=41847000">41847000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Adulthood</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255398004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255398004">255398004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Childhood</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255399007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255399007">255399007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Congenital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-255407002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255407002">255407002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Neonatal</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-263659003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263659003">263659003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Adolescence</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-271872005"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=271872005">271872005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Old age</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303112003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303112003">303112003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fetal period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303113008"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303113008">303113008</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Postmortem period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303114002"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303114002">303114002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Early neonatal period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-303115001"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303115001">303115001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Late neonatal period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-371578004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371578004">371578004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Perinatal period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-450426006"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=450426006">450426006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fetal or neonatal period</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-713152004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713152004">713152004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Early childhood</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-713153009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713153009">713153009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Toddler</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-717830007"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717830007">717830007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Entire life</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-764868004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=764868004">764868004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Middle age</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-767023003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=767023003">767023003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Period of life beginning after birth and ending before death</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://github.com/phenopackets/core-ig/ValueSet/Onset"/>
+        <version value="0.1.0"/>
+        <name value="Onset"/>
+        <title value="Onset ValueSet"/>
+        <status value="active"/>
+        <date value="2021-06-03T10:26:00-04:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="Set of HPO codes that denote the onset of a disease or phenotypic feature. The codes are descendants of Onset (HP:0003674) or from SNOMED_CT (282032007)."/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
+            <valueBoolean value="true"/>
+          </extension>
+          <identifier value="urn:uuid:6e0bcd97-cf72-4b3a-89c0-fd014ad9e671"/>
+          <timestamp value="2021-06-18T01:35:03+00:00"/>
+          <total value="21"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+          </parameter>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0003674"/>
+            <display value="Onset"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0003577"/>
+            <display value="Congenital onset"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0003623"/>
+            <display value="Neonatal onset"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="3658006"/>
+            <display value="Infancy"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="41847000"/>
+            <display value="Adulthood"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255398004"/>
+            <display value="Childhood"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255399007"/>
+            <display value="Congenital"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="255407002"/>
+            <display value="Neonatal"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="263659003"/>
+            <display value="Adolescence"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="271872005"/>
+            <display value="Old age"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303112003"/>
+            <display value="Fetal period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303113008"/>
+            <display value="Postmortem period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303114002"/>
+            <display value="Early neonatal period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="303115001"/>
+            <display value="Late neonatal period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371578004"/>
+            <display value="Perinatal period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="450426006"/>
+            <display value="Fetal or neonatal period"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="713152004"/>
+            <display value="Early childhood"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="713153009"/>
+            <display value="Toddler"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="717830007"/>
+            <display value="Entire life"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="764868004"/>
+            <display value="Middle age"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="767023003"/>
+            <display value="Period of life beginning after birth and ending before death"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://github.com/phenopackets/core-ig/ValueSet/observation-categories"/>
+    <resource>
+      <ValueSet>
+        <id value="observation-categories"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 10 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-categories.html">Categories v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html">Observation Category Codes v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://hl7.org/fhir/R4/valueset-observation-category.html">Observation Category Codes v4.0.1 (ValueSet)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-social-history"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-social-history">social-history</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Social History</td>
+                <td>Social History Observations define the patient&#39;s occupational, personal (e.g., lifestyle), social, familial, and environmental history and health risk factors that may impact the patient&#39;s health.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-vital-signs"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-vital-signs">vital-signs</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Vital Signs</td>
+                <td>Clinical observations measure the body&#39;s basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-imaging"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-imaging">imaging</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Imaging</td>
+                <td>Observations generated by imaging. The scope includes observations regarding plain x-ray, ultrasound, CT, MRI, angiography, echocardiography, and nuclear medicine.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-laboratory"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-laboratory">laboratory</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Laboratory</td>
+                <td>The results of observations generated by laboratories.  Laboratory results are typically generated by laboratories providing analytic services in areas such as chemistry, hematology, serology, histology, cytology, anatomic pathology (including digital pathology), microbiology, and/or virology. These observations are based on analysis of specimens obtained from the patient and submitted to the laboratory.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-procedure"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-procedure">procedure</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Procedure</td>
+                <td>Observations generated by other procedures.  This category includes observations resulting from interventional and non-interventional procedures excluding laboratory and imaging (e.g., cardiology catheterization, endoscopy, electrodiagnostics, etc.).  Procedure results are typically generated by a clinician to provide more granular information about component observations made during a procedure.  An example would be when a gastroenterologist reports the size of a polyp observed during a colonoscopy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-survey"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-survey">survey</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Survey</td>
+                <td>Assessment tool/survey instrument observations (e.g., Apgar Scores, Montreal Cognitive Assessment (MoCA)).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-exam"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-exam">exam</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Exam</td>
+                <td>Observations generated by physical exam findings including direct observations made by a clinician and use of simple instruments and the result of simple maneuvers performed directly on the patient&#39;s body.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-therapy"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-therapy">therapy</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Therapy</td>
+                <td>Observations generated by non-interventional treatment protocols (e.g. occupational, physical, radiation, nutritional and medication therapy)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-observation-category-activity"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html#observation-category-activity">activity</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/observation-category</td>
+                <td>Activity</td>
+                <td>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.  Not under direct supervision of practitioner such as a physical therapist. (e.g., laps swum, steps, sleep data)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---github.com-phenopackets-core-ig-CodeSystem-categories-phenotype"> </a>
+                  <a href="CodeSystem-categories.html#categories-phenotype">phenotype</a>
+                </td>
+                <td>https://github.com/phenopackets/core-ig/CodeSystem/categories</td>
+                <td>Phenotype</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://github.com/phenopackets/core-ig/ValueSet/observation-categories"/>
+        <version value="0.1.0"/>
+        <name value="ObservationCategories"/>
+        <title value="Observation categories"/>
+        <status value="draft"/>
+        <date value="2021-06-18T01:30:22+00:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet description here"/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <identifier value="urn:uuid:741a068d-30b7-4f9d-817d-5aa399f184f1"/>
+          <timestamp value="2021-06-18T01:35:05+00:00"/>
+          <total value="10"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/ValueSet/observation-category|4.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/observation-category|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://github.com/phenopackets/core-ig/CodeSystem/categories|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="social-history"/>
+            <display value="Social History"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="vital-signs"/>
+            <display value="Vital Signs"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="imaging"/>
+            <display value="Imaging"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="laboratory"/>
+            <display value="Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="procedure"/>
+            <display value="Procedure"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="survey"/>
+            <display value="Survey"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="exam"/>
+            <display value="Exam"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="therapy"/>
+            <display value="Therapy"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="activity"/>
+            <display value="Activity"/>
+          </contains>
+          <contains>
+            <system value="https://github.com/phenopackets/core-ig/CodeSystem/categories"/>
+            <code value="phenotype"/>
+            <display value="Phenotype"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component"/>
+    <resource>
+      <ValueSet>
+        <id value="phenotypic-component"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-hpo.html">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-hpo.html">
+                <code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012823"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012823">HP:0012823</a>
+                </td>
+                <td>Clinical modifier</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012824"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580012824">HP:0012824</a>
+                </td>
+                <td>Severity</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003674"> </a>
+                  <a href="CodeSystem-hpo.html#hpo-HP.580003674">HP:0003674</a>
+                </td>
+                <td>Onset</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component"/>
+        <version value="0.1.0"/>
+        <name value="PhenotypicComponentValueSet"/>
+        <title value="Phenotypic component ValueSet"/>
+        <status value="active"/>
+        <date value="2021-06-18T01:30:22+00:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="ValueSet description here"/>
+        <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
+        <expansion>
+          <identifier value="urn:uuid:c640cebf-cf99-41cc-9ad5-04ed3774bae1"/>
+          <timestamp value="2021-06-18T01:35:05+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012823"/>
+            <display value="Clinical modifier"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0012824"/>
+            <display value="Severity"/>
+          </contains>
+          <contains>
+            <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+            <code value="HP:0003674"/>
+            <display value="Onset"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
