@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "02f48b97-d17c-435a-9399-f10b3073c2c5-50",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/02f48b97-d17c-435a-9399-f10b3073c2c5-50",
+  "id" : "6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-50",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-50",
   "name" : "UnionUSCoreSmokingStatusProfileAndMeasurement",
   "title" : "Union of US Core Smoking Status Observation Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-18T01:31:15+00:00",
+  "date" : "2021-06-18T01:43:03+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -474,7 +474,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/02f48b97-d17c-435a-9399-f10b3073c2c5-53"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-53"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -563,7 +563,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/02f48b97-d17c-435a-9399-f10b3073c2c5-56"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c2710c5-ccff-4abe-a5aa-c3f7bd285e2b-56"
       },
       "mapping" : [{
         "identity" : "workflow",
