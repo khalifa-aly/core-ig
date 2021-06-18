@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "a70ce5e9-935b-4e5f-a15d-28094c97d798-30",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a70ce5e9-935b-4e5f-a15d-28094c97d798-30",
+  "id" : "02f48b97-d17c-435a-9399-f10b3073c2c5-30",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/02f48b97-d17c-435a-9399-f10b3073c2c5-30",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndMeasurement",
   "title" : "Intersection of US Core Body Temperature Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-18T01:30:34+00:00",
+  "date" : "2021-06-18T01:31:15+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
