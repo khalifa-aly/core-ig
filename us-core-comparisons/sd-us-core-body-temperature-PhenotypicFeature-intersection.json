@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "95b500bb-9734-4ec5-8c9e-c0b2e7c0da5a-81",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/95b500bb-9734-4ec5-8c9e-c0b2e7c0da5a-81",
+  "id" : "039deae1-3240-4c95-a8c4-dee973352abc-81",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/039deae1-3240-4c95-a8c4-dee973352abc-81",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Body Temperature Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-28T16:40:26+00:00",
+  "date" : "2021-06-28T16:40:57+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
