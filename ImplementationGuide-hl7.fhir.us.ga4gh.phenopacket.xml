@@ -11,7 +11,7 @@
   <name value="GA4GHPhenopacketIG"/>
   <title value="GA4GH Phenopacket (version 2) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-28T14:25:48+00:00"/>
+  <date value="2021-06-28T16:39:48+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -754,6 +754,11 @@
       <page>
         <nameUrl value="ga4gh.html"/>
         <title value="GA4GH"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="genomicDiagnostics.html"/>
+        <title value="Genomic Diagnostics"/>
         <generation value="markdown"/>
       </page>
       <page>

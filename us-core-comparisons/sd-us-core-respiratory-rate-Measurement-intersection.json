@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ad55c9e2-6064-41d4-aed3-448d3f583832-48",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ad55c9e2-6064-41d4-aed3-448d3f583832-48",
+  "id" : "558aa5a0-bca1-44a8-9b87-f4d7b16b22df-48",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/558aa5a0-bca1-44a8-9b87-f4d7b16b22df-48",
   "name" : "IntersectionUSCoreRespiratoryRateProfileAndMeasurement",
   "title" : "Intersection of US Core Respiratory Rate Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-28T14:26:03+00:00",
+  "date" : "2021-06-28T16:40:00+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

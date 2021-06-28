@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GA4GHPhenopacketIG"];
   fhir:ImplementationGuide.title [ fhir:value "GA4GH Phenopacket (version 2) FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-28T14:25:48+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-28T16:39:48+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1022,11 +1022,16 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 2;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "genomicDiagnostics.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Genomic Diagnostics" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 3;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "phenotype.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Deep phenotyping" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 3;
+         fhir:index 4;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "modeling.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Modeling phenotypic data" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]

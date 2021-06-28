@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>HL7.FHIR.US.GA4GH.PHENOPACKET\thrombocytopenia - TTL Representation - FHIR v4.0.1</title>
+    <title>HL7.FHIR.US.GA4GH.PHENOPACKET\Genomic Diagnostics - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"6.43"}
-    h3,h4,h5,h6{--heading-prefix:"6.43"}</style>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -126,7 +126,7 @@
       <li>
         <a href="StructureDefinition-PhenotypicFeature.html">PhenotypicFeature</a>
       </li>
-      <li><a name="497338e9-eff9-45d5-902a-7ea5b510dd4c">​</a>
+      <li><a name="188ce42b-3cd6-4e34-b2f7-94f4968c9565">​</a>
         <a href="StructureDefinition-Phenopacket.html">Phenopacket</a>
       </li>
       <li>
@@ -184,7 +184,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>thrombocytopenia</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Genomic Diagnostics</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -196,119 +196,50 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 9" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">GA4GH Phenopacket (version 2) FHIR Implementation Guide - Local Development build (v0.1.0). See the <a href="https://github.com/phenopackets/core-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-
-
-
-
-
-
-
-<ul class="nav nav-tabs">
-
-  <li>
-    <a href="Observation-id.11.html">Narrative Content</a>
-  </li>
-
-
-  
-    <li>
-      <a href="Observation-id.11.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="Observation-id.11.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li class="active">
-      <a href="#">TTL</a>
-    </li>
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">GA4GH Phenopacket (version 2) FHIR Implementation Guide - Local Development build (v0.1.0). See the <a href="https://github.com/phenopackets/core-ig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Genomic Diagnostics</h2>
   
 
 
 
-</ul>
-
-
-<a name="root"> </a>
-
-
-<h2 id="root">: thrombocytopenia - TTL Representation</h2>
-
-<p><a href="Observation-id.11.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Observation-id.11.ttl">Download</a></p>
-
-    <!-- insert intro if present -->
-  
 
 
 
-  <pre class="rdf"><code class="language-turtle">
-@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
-@prefix loinc: &lt;http://loinc.org/rdf#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
-
-# - resource -------------------------------------------------------------------
-
- a fhir:Observation;
-  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "id.11"];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">fhir:Resource.meta</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> "https://github.com/phenopackets/core-ig/StructureDefinition/Measurement";
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://github.com/phenopackets/core-ig/StructureDefinition/Measurement&gt;     ]
-  ];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "generated" ];
-     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\"Codes: {http://loinc.org 26515-7}\"&gt;Platelets [#/volume] in Blood&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2018-03-06&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 20 10^12/L&lt;/p&gt;&lt;h3&gt;ReferenceRanges&lt;/h3&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Low&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;High&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;150000 10^12/L&lt;/td&gt;&lt;td&gt;450000 10^12/L&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
-  ];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "active"];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:Observation.code</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-       a loinc:26515-7;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://loinc.org" ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "26515-7" ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Platelets [#/volume] in Blood" ]     ]
-  ];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> "2018-03-06"^^xsd:date];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">fhir:Observation.valueQuantity</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> "20"^^xsd:decimal ];
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "10^12/L" ];
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://unitsofmeasure.org" ]
-  ];
-  <a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange">fhir:Observation.referenceRange</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.low">fhir:Observation.referenceRange.low</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> "150000"^^xsd:decimal ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "10^12/L" ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://unitsofmeasure.org" ]     ];
-     <a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange.high">fhir:Observation.referenceRange.high</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> "450000"^^xsd:decimal ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "10^12/L" ];
-       <a href="http://hl7.org/fhir/R4/datatypes.html#SimpleQuantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://unitsofmeasure.org" ]     ]
-  ].
-
-# - ontology header ------------------------------------------------------------
-
- a owl:Ontology;
-  owl:imports fhir:fhir.ttl.
-
-</code></pre>
 
 
 
-    <!-- insert notes if present -->
-  
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+</div>
+<h1 id="genomic-diagnostics">Genomic Diagnostics</h1>
+
+<p>Whole-exome sequencing (WES) and whole-genome sequencing (WGS) have greatly accelerated the pace of elucidation of the genetic basis of Mendelian disease and offer clear diagnostic benefits for patients with rare disease. One of the main tenets of genomic medicine is that knowledge of the genetic etiology of a condition can be used to guide development of preventative or therapeutic interventions <a href="https://ojrd.biomedcentral.com/articles/10.1186/s13023-019-1127-0">Posey, 2019</a>.</p>
+
+<h2 id="phenotype-driven-genomic-diagnostics">Phenotype-driven genomic diagnostics</h2>
+
+<p>The analysis of WES or WGS data generally involves a pipeline in which the tens of thousands (WES) or millions (WGS) of identified variants are filter
+to remove variants unlikely to be causative for a rare dsease (for instance, variants with a high population frequency). Remaining variants are 
+then prioritized according to a variety of approaches. One powerful approach has been to employ computational phenotype analysis can serve to assess each candidate gene’s relevance to the clinical abnormalities observed in the patient <a href="https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-015-0199-2">Smedley, 2015</a>.</p>
+
+<p>A primary use case of this IG is to support this kind of phenotype-driven genomic diagnostics. The clinician would collect a list of all phenotypic abnormalities observed in the patient being investigated. If available, additional information such as the age of onset of individual phenotypic abnormalities and other modifiers would be provided. Excluded abnormalities would be coded if appropriate. For rare disease, the <a href="https://hpo.jax.org/app/">Human Phenotype Ontology</a> provides the broadest and deepest coverage, with currently over 16,000 terms. The term list can be used to inform analysis of WES of WGS data using tools such as <a href="https://www.nature.com/articles/nprot.2015.124">Exomiser</a>.</p>
+
+<h2 id="phenotype-driven-genomic-diagnostics-in-an-ehr-context">Phenotype-driven genomic diagnostics in an EHR context</h2>
+
+<p>It is envisaged that a FHIR Phenopacket can be used to accompany a <a href="https://www.hl7.org/fhir/servicerequest.html">ServiceRequest</a> for WES or WGS diagnostics.</p>
+
+<h2 id="research-use-cases">Research use cases</h2>
+
+<p>FHIR Phenopackets can also be used to exchange information about study participants in mutlicenter rare disease cohort research projects.</p>
+
 
 
 
