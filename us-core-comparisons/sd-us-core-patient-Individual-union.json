@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "9ecf4964-f9cd-44b7-91a8-ba110b7864c4-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9ecf4964-f9cd-44b7-91a8-ba110b7864c4-2",
+  "id" : "c54479bb-18cf-41e8-91f8-4fc2e19c0a73-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c54479bb-18cf-41e8-91f8-4fc2e19c0a73-2",
   "name" : "UnionUSCorePatientProfileAndIndividual",
   "title" : "Union of US Core Patient Profile And Individual",
   "status" : "active",
-  "date" : "2021-06-28T18:28:08+00:00",
+  "date" : "2021-06-28T18:28:32+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -2596,7 +2596,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "A human language.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9ecf4964-f9cd-44b7-91a8-ba110b7864c4-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c54479bb-18cf-41e8-91f8-4fc2e19c0a73-5"
       },
       "mapping" : [{
         "identity" : "v2",
