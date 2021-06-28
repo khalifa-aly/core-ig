@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "6c3cf994-f25c-4090-b323-f324e22073c9-14",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6c3cf994-f25c-4090-b323-f324e22073c9-14",
+  "id" : "4802bed0-95f6-4e02-b859-00b202803ca2-14",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4802bed0-95f6-4e02-b859-00b202803ca2-14",
   "name" : "UnionUSCorePediatricBMIforAgeObservationProfileAndMeasurement",
   "title" : "Union of US Core Pediatric BMI for Age Observation Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-28T14:20:26+00:00",
+  "date" : "2021-06-28T14:21:08+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c3cf994-f25c-4090-b323-f324e22073c9-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4802bed0-95f6-4e02-b859-00b202803ca2-11"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1763,7 +1763,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c3cf994-f25c-4090-b323-f324e22073c9-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/4802bed0-95f6-4e02-b859-00b202803ca2-11"
       },
       "mapping" : [{
         "identity" : "w5",
