@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "039deae1-3240-4c95-a8c4-dee973352abc-39",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/039deae1-3240-4c95-a8c4-dee973352abc-39",
+  "id" : "cf731b85-d0a7-431f-bff5-88ddd798cfab-39",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/cf731b85-d0a7-431f-bff5-88ddd798cfab-39",
   "name" : "IntersectionUSCoreHeartRateProfileAndMeasurement",
   "title" : "Intersection of US Core Heart Rate Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-28T16:40:57+00:00",
+  "date" : "2021-06-28T18:27:26+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

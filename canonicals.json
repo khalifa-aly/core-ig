@@ -147,6 +147,13 @@
     "name": "PathologicalTnmFinding"
   },
   {
+    "id": "Phenopacket",
+    "type": "StructureDefinition",
+    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket",
+    "version": "0.1.0",
+    "name": "Phenopacket"
+  },
+  {
     "id": "PhenotypicFeature",
     "type": "StructureDefinition",
     "url": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature",
@@ -187,13 +194,6 @@
     "url": "https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression",
     "version": "0.1.0",
     "name": "TumorProgression"
-  },
-  {
-    "id": "composition-phenopacket",
-    "type": "StructureDefinition",
-    "url": "https://github.com/phenopackets/core-ig/StructureDefinition/composition-phenopacket",
-    "version": "0.1.0",
-    "name": "Phenopacket"
   },
   {
     "id": "DiagnosticMarker",
