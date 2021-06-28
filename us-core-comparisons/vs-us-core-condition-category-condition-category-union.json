@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "558aa5a0-bca1-44a8-9b87-f4d7b16b22df-110",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/558aa5a0-bca1-44a8-9b87-f4d7b16b22df-110",
+  "id" : "95b500bb-9734-4ec5-8c9e-c0b2e7c0da5a-110",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/95b500bb-9734-4ec5-8c9e-c0b2e7c0da5a-110",
   "name" : "UnionUSCoreConditionCategoryCodesAndConditionCategoryCodes",
   "title" : "Union of US Core Condition Category Codes And Condition Category Codes",
   "status" : "active",
-  "date" : "2021-06-28T16:40:00+00:00",
+  "date" : "2021-06-28T16:40:26+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
