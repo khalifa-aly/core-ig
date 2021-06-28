@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-06-18T22:26:43+00:00",
+  "date": "2021-06-28T14:20:13+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -1022,6 +1022,11 @@
         {
           "nameUrl": "phenotype.html",
           "title": "Deep phenotyping",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "modeling.html",
+          "title": "Modeling phenotypic data",
           "generation": "markdown"
         }
       ]

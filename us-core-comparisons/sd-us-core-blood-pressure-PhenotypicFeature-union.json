@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "45969f15-2af1-45a8-9f0b-7505905d7b53-71",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/45969f15-2af1-45a8-9f0b-7505905d7b53-71",
+  "id" : "6c3cf994-f25c-4090-b323-f324e22073c9-71",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6c3cf994-f25c-4090-b323-f324e22073c9-71",
   "name" : "UnionUSCoreBloodPressureProfileAndPhenotypicFeature",
   "title" : "Union of US Core Blood Pressure Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-18T22:26:55+00:00",
+  "date" : "2021-06-28T14:20:26+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/45969f15-2af1-45a8-9f0b-7505905d7b53-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c3cf994-f25c-4090-b323-f324e22073c9-11"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1609,7 +1609,7 @@
     },
     {
       "path" : "Observation.component",
-      "short" : "left: Component observations; right: Component results",
+      "short" : "left: Component observations; right: GA4GH severity and modifiers should be coded as CodeableConcepts in the code field of the component",
       "definition" : "left: Used when reporting component observation such as systolic and diastolic blood pressure.; right: Some observations have multiple component observations.  These component observations are expressed as separate code value pairs that share the same attributes.  Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations.",
       "comment" : "For a discussion on the ways Observations can be assembled in groups together see [Notes] below.",
       "requirements" : "Component observations share the same attributes in the Observation resource as the primary observation and are always treated a part of a single observation (they are not separable).   However, the reference range for the primary observation value is not inherited by the component values and is required when appropriate for each component observation.",
@@ -1767,7 +1767,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/45969f15-2af1-45a8-9f0b-7505905d7b53-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6c3cf994-f25c-4090-b323-f324e22073c9-11"
       },
       "mapping" : [{
         "identity" : "w5",

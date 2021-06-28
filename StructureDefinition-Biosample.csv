@@ -19,17 +19,9 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "Specimen.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"Specimen.extension","","","",2,*,"","","","Extension {[]} {[]}
+"Specimen.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Specimen.extension","PhenotypicFeature","","",1,*,"Y","","","Extension {[CanonicalType[https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeatureExt]]} {[]}
-","Phenotypic Feature (Biosample)","Term representing phenotypic features of a Biosample","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Specimen.extension","Measurement","","",1,*,"Y","","","Extension {[CanonicalType[https://github.com/phenopackets/core-ig/StructureDefinition/MeasurementExt]]} {[]}
-","Measurement (Biosample)","Term representing a measurement made on a Biosample","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Specimen.extension","Taxonomy","","",0,1,"Y","","","Extension {[CanonicalType[https://github.com/phenopackets/core-ig/StructureDefinition/Taxonomy]]} {[]}
 ","Taxonomy","Corresponds to taxonomy (GA4GH). For resources where there may be more than one organism being studied it is advisable to indicate the taxonomic identifier of that organism, to its most specific level.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1

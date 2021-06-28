@@ -210,16 +210,10 @@
     "https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample": [
       "Specimen"
     ],
-    "https://github.com/phenopackets/core-ig/StructureDefinition/MeasurementExt": [
-      "Specimen"
-    ],
     "https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage": [
       "Specimen"
     ],
     "https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding": [
-      "Specimen"
-    ],
-    "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeatureExt": [
       "Specimen"
     ],
     "https://github.com/phenopackets/core-ig/StructureDefinition/Taxonomy": [
