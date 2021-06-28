@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f728052b-6fa7-4436-80b9-0b761cf9c27f-78",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f728052b-6fa7-4436-80b9-0b761cf9c27f-78",
+  "id" : "4e760bb2-857d-427f-a03f-c0dbb58ee91a-78",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4e760bb2-857d-427f-a03f-c0dbb58ee91a-78",
   "name" : "IntersectionUSCoreBodyHeightProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Body Height Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-28T14:24:55+00:00",
+  "date" : "2021-06-28T14:25:14+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
