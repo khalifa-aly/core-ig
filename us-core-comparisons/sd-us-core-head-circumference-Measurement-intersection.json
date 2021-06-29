@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e14b0ce0-2c41-40c8-bfa6-338de305c30c-36",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e14b0ce0-2c41-40c8-bfa6-338de305c30c-36",
+  "id" : "3b3316b5-1a80-4af9-99da-b1a4226149ed-36",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3b3316b5-1a80-4af9-99da-b1a4226149ed-36",
   "name" : "IntersectionUSCoreHeadCircumferenceProfileAndMeasurement",
   "title" : "Intersection of US Core Head Circumference Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-29T19:36:08+00:00",
+  "date" : "2021-06-29T19:36:38+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
