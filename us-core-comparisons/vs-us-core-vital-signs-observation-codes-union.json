@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "3b3316b5-1a80-4af9-99da-b1a4226149ed-11",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/3b3316b5-1a80-4af9-99da-b1a4226149ed-11",
+  "id" : "acba17ed-2411-48a3-a7b5-5c92a5dfed36-11",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/acba17ed-2411-48a3-a7b5-5c92a5dfed36-11",
   "name" : "UnionUsCoreVitalSignsAndLOINCCodes",
   "title" : "Union of US Core Vital Signs ValueSet And LOINC Codes",
   "status" : "active",
-  "date" : "2021-06-29T19:36:38+00:00",
+  "date" : "2021-06-29T22:33:23+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

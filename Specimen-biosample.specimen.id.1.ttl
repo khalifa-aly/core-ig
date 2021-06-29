@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Specimen/biosample.specimen.id.1> a fhir:Specimen;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "biosample.specimen.id.1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Biosample";
+       fhir:index 0;
+       fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Biosample>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Histological Diagnosis</b>: <span title=\"{http://purl.obolibrary.org/obo/ncit.owl NCIT_C39853}\">Infiltrating Urothelial Carcinoma</span></p><p><b>Tumor Progression</b>: <span title=\"{http://purl.obolibrary.org/obo/ncit.owl NCIT_C84509}\">Primary Malignant Neoplasm</span></p><p><b>Tumor Grade</b>: <span title=\"{http://purl.obolibrary.org/obo/ncit.owl NCIT_C36136}\">Grade 2 Lesion</span></p><p><b>Pathological Tumor Stage</b>: <span title=\"{http://purl.obolibrary.org/obo/ncit.owl NCIT_C28054}\">Stage II</span></p><p><b> Pathological TNM Finding</b>: <span title=\"{http://purl.obolibrary.org/obo/ncit.owl NCIT_C48699}\">M0 Stage Finding</span></p><p><b>Material Sample</b>: <span title=\"{https://github.com/EBISPOT/efo EFO_0009655}\">abnormal sample</span></p><p><b>identifier</b>: id: arbitrary identifier</p><p><b>type</b>: <span title=\"Codes: {https://github.com/EBISPOT/efo EFO_0010942}\">primary tumor sample</span></p><p><b>subject</b>: <a href=\"Patient-example-patient.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p><h3>Collections</h3><table class=\"grid\"><tr><td>-</td><td><b>Collected[x]</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td>2021-01-20</td><td><span title=\"Codes: {https://github.com/obophenotype/uberon UBERON_0001256}\">wall of urinary bladder</span></td></tr></table><h3>Processings</h3><table class=\"grid\"><tr><td>-</td><td><b>Procedure</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://purl.obolibrary.org/obo/ncit.owl NCIT_C5189}\">Radical Cystoprostatectomy</span></td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+       fhir:Coding.code [ fhir:value "NCIT_C39853" ];
+       fhir:Coding.display [ fhir:value "Infiltrating Urothelial Carcinoma" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+       fhir:Coding.code [ fhir:value "NCIT_C84509" ];
+       fhir:Coding.display [ fhir:value "Primary Malignant Neoplasm" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+       fhir:Coding.code [ fhir:value "NCIT_C36136" ];
+       fhir:Coding.display [ fhir:value "Grade 2 Lesion" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+       fhir:Coding.code [ fhir:value "NCIT_C28054" ];
+       fhir:Coding.display [ fhir:value "Stage II" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Extension.url [ fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+       fhir:Coding.code [ fhir:value "NCIT_C48699" ];
+       fhir:Coding.display [ fhir:value "M0 Stage Finding" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Extension.url [ fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample" ];
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "https://github.com/EBISPOT/efo" ];
+       fhir:Coding.code [ fhir:value "EFO_0009655" ];
+       fhir:Coding.display [ fhir:value "abnormal sample" ]
+     ]
+  ];
+  fhir:Specimen.identifier [
+     fhir:index 0;
+     fhir:Identifier.value [ fhir:value "arbitrary identifier" ]
+  ];
+  fhir:Specimen.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://github.com/EBISPOT/efo" ];
+       fhir:Coding.code [ fhir:value "EFO_0010942" ];
+       fhir:Coding.display [ fhir:value "primary tumor sample" ]
+     ]
+  ];
+  fhir:Specimen.subject [
+     fhir:link <https://github.com/phenopackets/core-ig/Patient/example-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/example-patient" ]
+  ];
+  fhir:Specimen.collection [
+     fhir:Specimen.collection.collectedDateTime [ fhir:value "2021-01-20"^^xsd:date ];
+     fhir:Specimen.collection.bodySite [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://github.com/obophenotype/uberon" ];
+         fhir:Coding.code [ fhir:value "UBERON_0001256" ];
+         fhir:Coding.display [ fhir:value "wall of urinary bladder" ]
+       ]
+     ]
+  ];
+  fhir:Specimen.processing [
+     fhir:index 0;
+     fhir:Specimen.processing.procedure [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+         fhir:Coding.code [ fhir:value "NCIT_C5189" ];
+         fhir:Coding.display [ fhir:value "Radical Cystoprostatectomy" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Specimen/biosample.specimen.id.1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

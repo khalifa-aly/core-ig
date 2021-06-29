@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-06-29T19:36:25+00:00",
+  "date": "2021-06-29T22:33:12+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -797,6 +797,20 @@
         "name": "Karyotypic sex code system",
         "description": "karyotypic sex of an individual (also known as chromosomal sex)",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Specimen"
+          }
+        ],
+        "reference": {
+          "reference": "Specimen/biosample.specimen.id.1"
+        },
+        "name": "bladderCarcinoma",
+        "description": "Biosample Example for bladder carcinoma",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Biosample"
       },
       {
         "extension": [

@@ -1,9 +1,9 @@
 ﻿GA4GHPhenopacketIG : Validation Results
 =========================================
 
-err = 37, warn = 57, info = 27
+err = 67, warn = 50, info = 36
 IG Publisher Version: 1.1.76
-Generated Tue Jun 29 19:37:14 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
+Generated Tue Jun 29 22:33:55 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
 
  Build Errors : 29 / 5 / 0
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat : 0 / 1 / 1
@@ -27,26 +27,27 @@ Generated Tue Jun 29 19:37:14 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-phenotypic-abnormality-valid-1 : 0 / 0 / 4
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Patient-example-patient : 0 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/SearchParameter-service-request-supporting-info : 0 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample : 1 / 2 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Specimen-biosample.specimen.id.1 : 30 / 0 / 10
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-CodedOnset : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-DiagnosticMarker : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Disease : 1 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-HistologicalDiagnosis : 1 / 1 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-HistologicalDiagnosis : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Individual : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-KaryotypicSex : 1 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MaterialSample : 1 / 1 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MaterialSample : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Measurement : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MeasurementExt : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Onset : 1 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalStage : 1 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding : 1 / 4 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalStage : 1 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding : 1 / 3 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Phenopacket : 1 / 1 / 9
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeature : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeatureExt : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Taxonomy : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Treatment : 1 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade : 1 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression : 1 / 1 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade : 1 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-DiagnosticMarker : 0 / 2 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-HistologicalDiagnosis : 0 / 2 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-KaryotypicSex : 0 / 1 / 1
@@ -159,10 +160,49 @@ INFORMATION: Observation/phenotypic-abnormality-valid-1: Observation.component[4
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Patient-example-patient.json ==
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/SearchParameter-service-request-supporting-info.json ==
 WARNING: SearchParameter.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Specimen-biosample.specimen.id.1.json ==
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[0]: The Extension 'https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis' definition allows for the types [CodeableConcept] but found type Coding
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[0].value.ofType(Coding): This element does not match any known slice  defined in the profile https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis and slicing is CLOSED: Specimen.extension[0].value.ofType(Coding): Does not match slice 'valueCodeableConcept'
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[0].value.ofType(Coding).system: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[0].value.ofType(Coding).code: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[0].value.ofType(Coding).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.extension[0].value.ofType(Coding): Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[1]: The Extension 'https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression' definition allows for the types [CodeableConcept] but found type Coding
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[1].value.ofType(Coding): This element does not match any known slice  defined in the profile https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression and slicing is CLOSED: Specimen.extension[1].value.ofType(Coding): Does not match slice 'valueCodeableConcept'
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[1].value.ofType(Coding).system: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[1].value.ofType(Coding).code: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[1].value.ofType(Coding).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.extension[1].value.ofType(Coding): Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[2]: The Extension 'https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade' definition allows for the types [CodeableConcept] but found type Coding
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[2].value.ofType(Coding): This element does not match any known slice  defined in the profile https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade and slicing is CLOSED: Specimen.extension[2].value.ofType(Coding): Does not match slice 'valueCodeableConcept'
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[2].value.ofType(Coding).system: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[2].value.ofType(Coding).code: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[2].value.ofType(Coding).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.extension[2].value.ofType(Coding): Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[3]: The Extension 'https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage' definition allows for the types [CodeableConcept] but found type Coding
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[3].value.ofType(Coding): This element does not match any known slice  defined in the profile https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage and slicing is CLOSED: Specimen.extension[3].value.ofType(Coding): Does not match slice 'valueCodeableConcept'
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[3].value.ofType(Coding).system: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[3].value.ofType(Coding).code: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[3].value.ofType(Coding).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.extension[3].value.ofType(Coding): Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[4]: The Extension 'https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding' definition allows for the types [CodeableConcept] but found type Coding
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[4].value.ofType(Coding): This element does not match any known slice  defined in the profile https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding and slicing is CLOSED: Specimen.extension[4].value.ofType(Coding): Does not match slice 'valueCodeableConcept'
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[4].value.ofType(Coding).system: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[4].value.ofType(Coding).code: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[4].value.ofType(Coding).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.extension[4].value.ofType(Coding): Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[5]: The Extension 'https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample' definition allows for the types [CodeableConcept] but found type Coding
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[5].value.ofType(Coding): This element does not match any known slice  defined in the profile https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample and slicing is CLOSED: Specimen.extension[5].value.ofType(Coding): Does not match slice 'valueCodeableConcept'
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[5].value.ofType(Coding).system: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[5].value.ofType(Coding).code: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.1: Specimen.extension[5].value.ofType(Coding).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.extension[5].value.ofType(Coding): Code System URI 'https://github.com/EBISPOT/efo' is unknown so the code cannot be validated
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.type.coding[0]: Code System URI 'https://github.com/EBISPOT/efo' is unknown so the code cannot be validated
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.collection.bodySite.coding[0]: Code System URI 'https://github.com/obophenotype/uberon' is unknown so the code cannot be validated
+INFORMATION: Specimen/biosample.specimen.id.1: Specimen.processing[0].procedure.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample.json ==
 WARNING: StructureDefinition/Biosample: StructureDefinition.snapshot.element[13].short: value should not start or finish with whitespace
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Biosample'): The Implementation Guide contains no examples for this profile
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-CodedOnset.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/CodedOnset'): The Implementation Guide contains no examples for this extension
@@ -174,7 +214,6 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Disease').baseDefinition: US FHIR Usage rules require that all profiles on Condition derive from the core US profile
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-HistologicalDiagnosis.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Individual.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Individual').baseDefinition: US FHIR Usage rules require that all profiles on Patient derive from the core US profile
@@ -183,7 +222,6 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/KaryotypicSex'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-MaterialSample.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Measurement.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Measurement').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles
@@ -195,13 +233,11 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Onset'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalStage.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PathologicalTnmFinding.json ==
 WARNING: StructureDefinition/PathologicalTnmFinding: StructureDefinition.title: value should not start or finish with whitespace
 WARNING: StructureDefinition/PathologicalTnmFinding: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace
 WARNING: StructureDefinition/PathologicalTnmFinding: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Phenopacket.json ==
 INFORMATION: StructureDefinition/Phenopacket: StructureDefinition.snapshot.element[59].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Phenopacket: StructureDefinition.snapshot.element[73].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
@@ -227,10 +263,8 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Treatment'): The Implementation Guide contains no examples for this profile
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-DiagnosticMarker.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 WARNING: ValueSet.where(id = 'DiagnosticMarker'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/ncit.owl

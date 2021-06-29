@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3b3316b5-1a80-4af9-99da-b1a4226149ed-87",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3b3316b5-1a80-4af9-99da-b1a4226149ed-87",
+  "id" : "acba17ed-2411-48a3-a7b5-5c92a5dfed36-87",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acba17ed-2411-48a3-a7b5-5c92a5dfed36-87",
   "name" : "IntersectionUSCoreHeadCircumferenceProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Head Circumference Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-29T19:36:39+00:00",
+  "date" : "2021-06-29T22:33:24+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

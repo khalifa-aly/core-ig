@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="biosample.specimen.id.1"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/Biosample"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Histological Diagnosis</b>: <span title="{http://purl.obolibrary.org/obo/ncit.owl NCIT_C39853}">Infiltrating Urothelial Carcinoma</span></p><p><b>Tumor Progression</b>: <span title="{http://purl.obolibrary.org/obo/ncit.owl NCIT_C84509}">Primary Malignant Neoplasm</span></p><p><b>Tumor Grade</b>: <span title="{http://purl.obolibrary.org/obo/ncit.owl NCIT_C36136}">Grade 2 Lesion</span></p><p><b>Pathological Tumor Stage</b>: <span title="{http://purl.obolibrary.org/obo/ncit.owl NCIT_C28054}">Stage II</span></p><p><b> Pathological TNM Finding</b>: <span title="{http://purl.obolibrary.org/obo/ncit.owl NCIT_C48699}">M0 Stage Finding</span></p><p><b>Material Sample</b>: <span title="{https://github.com/EBISPOT/efo EFO_0009655}">abnormal sample</span></p><p><b>identifier</b>: id: arbitrary identifier</p><p><b>type</b>: <span title="Codes: {https://github.com/EBISPOT/efo EFO_0010942}">primary tumor sample</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p><h3>Collections</h3><table class="grid"><tr><td>-</td><td><b>Collected[x]</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td>2021-01-20</td><td><span title="Codes: {https://github.com/obophenotype/uberon UBERON_0001256}">wall of urinary bladder</span></td></tr></table><h3>Processings</h3><table class="grid"><tr><td>-</td><td><b>Procedure</b></td></tr><tr><td>*</td><td><span title="Codes: {http://purl.obolibrary.org/obo/ncit.owl NCIT_C5189}">Radical Cystoprostatectomy</span></td></tr></table></div>
+  </text>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/HistologicalDiagnosis">
+    <valueCoding>
+      <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+      <code value="NCIT_C39853"/>
+      <display value="Infiltrating Urothelial Carcinoma"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/TumorProgression">
+    <valueCoding>
+      <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+      <code value="NCIT_C84509"/>
+      <display value="Primary Malignant Neoplasm"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/TumorGrade">
+    <valueCoding>
+      <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+      <code value="NCIT_C36136"/>
+      <display value="Grade 2 Lesion"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalStage">
+    <valueCoding>
+      <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+      <code value="NCIT_C28054"/>
+      <display value="Stage II"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/PathologicalTnmFinding">
+    <valueCoding>
+      <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+      <code value="NCIT_C48699"/>
+      <display value="M0 Stage Finding"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample">
+    <valueCoding>
+      <system value="https://github.com/EBISPOT/efo"/>
+      <code value="EFO_0009655"/>
+      <display value="abnormal sample"/>
+    </valueCoding>
+  </extension>
+  <identifier>
+    <value value="arbitrary identifier"/>
+  </identifier>
+  <type>
+    <coding>
+      <system value="https://github.com/EBISPOT/efo"/>
+      <code value="EFO_0010942"/>
+      <display value="primary tumor sample"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+  <collection>
+    <collectedDateTime value="2021-01-20"/>
+    <bodySite>
+      <coding>
+        <system value="https://github.com/obophenotype/uberon"/>
+        <code value="UBERON_0001256"/>
+        <display value="wall of urinary bladder"/>
+      </coding>
+    </bodySite>
+  </collection>
+  <processing>
+    <procedure>
+      <coding>
+        <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <code value="NCIT_C5189"/>
+        <display value="Radical Cystoprostatectomy"/>
+      </coding>
+    </procedure>
+  </processing>
+</Specimen>
