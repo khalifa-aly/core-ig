@@ -1,0 +1,47 @@
+{
+  "resourceType": "Condition",
+  "id": "id.disease.3",
+  "meta": {
+    "profile": [
+      "https://github.com/phenopackets/core-ig/StructureDefinition/Disease"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>code</b>: <span title=\"Codes: {https://github.com/monarch-initiative/mondo MONDO_0005009}\">congestive heart failure</span></p><p><b>subject</b>: <a href=\"Patient-example-patient.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p><h3>Stages</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td><span title=\"Codes: {https://github.com/EBISPOT/efo EFO:0003148}\">moderate heart failure</span></td></tr></table></div>"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active",
+        "display": "Active"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://github.com/monarch-initiative/mondo",
+        "code": "MONDO_0005009",
+        "display": "congestive heart failure"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example-patient"
+  },
+  "stage": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "https://github.com/EBISPOT/efo",
+            "code": "EFO:0003148",
+            "display": "moderate heart failure"
+          }
+        ]
+      }
+    }
+  ]
+}

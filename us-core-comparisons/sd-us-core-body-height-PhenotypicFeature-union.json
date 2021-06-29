@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "73084518-ba97-4c27-9f7e-13aea8dee2fa-77",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/73084518-ba97-4c27-9f7e-13aea8dee2fa-77",
+  "id" : "e14b0ce0-2c41-40c8-bfa6-338de305c30c-77",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e14b0ce0-2c41-40c8-bfa6-338de305c30c-77",
   "name" : "UnionUSCoreBodyHeightProfileAndPhenotypicFeature",
   "title" : "Union of US Core Body Height Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-29T19:23:50+00:00",
+  "date" : "2021-06-29T19:36:08+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/73084518-ba97-4c27-9f7e-13aea8dee2fa-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e14b0ce0-2c41-40c8-bfa6-338de305c30c-11"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1736,7 +1736,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/73084518-ba97-4c27-9f7e-13aea8dee2fa-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/e14b0ce0-2c41-40c8-bfa6-338de305c30c-11"
       },
       "mapping" : [{
         "identity" : "w5",

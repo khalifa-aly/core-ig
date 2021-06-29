@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-06-29T19:23:35+00:00",
+  "date": "2021-06-29T19:35:58+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -866,6 +866,20 @@
         },
         "name": "vitreoretinochoroidopathy",
         "description": "Phenopacket Example for autosomal dominant vitreoretinochoroidopathy",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Disease"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/id.disease.3"
+        },
+        "name": "CHF-stageIII",
+        "description": "Congestive heart failure, New York Heart Association stage III",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Disease"
       },
       {
