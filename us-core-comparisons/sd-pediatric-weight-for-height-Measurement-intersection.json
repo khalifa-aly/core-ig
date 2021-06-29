@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "acba17ed-2411-48a3-a7b5-5c92a5dfed36-18",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acba17ed-2411-48a3-a7b5-5c92a5dfed36-18",
+  "id" : "c3b237b9-e69f-46b6-896b-34dae50cfe10-18",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3b237b9-e69f-46b6-896b-34dae50cfe10-18",
   "name" : "IntersectionUSCorePediatricWeightForHeightObservationProfileAndMeasurement",
   "title" : "Intersection of US Core Pediatric Weight for Height Observation Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-29T22:33:23+00:00",
+  "date" : "2021-06-29T22:34:15+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

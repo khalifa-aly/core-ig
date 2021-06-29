@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "acba17ed-2411-48a3-a7b5-5c92a5dfed36-80",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/acba17ed-2411-48a3-a7b5-5c92a5dfed36-80",
+  "id" : "c3b237b9-e69f-46b6-896b-34dae50cfe10-80",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3b237b9-e69f-46b6-896b-34dae50cfe10-80",
   "name" : "UnionUSCoreBodyTemperatureProfileAndPhenotypicFeature",
   "title" : "Union of US Core Body Temperature Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-29T22:33:24+00:00",
+  "date" : "2021-06-29T22:34:15+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/acba17ed-2411-48a3-a7b5-5c92a5dfed36-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c3b237b9-e69f-46b6-896b-34dae50cfe10-11"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1736,7 +1736,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/acba17ed-2411-48a3-a7b5-5c92a5dfed36-11"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c3b237b9-e69f-46b6-896b-34dae50cfe10-11"
       },
       "mapping" : [{
         "identity" : "w5",
