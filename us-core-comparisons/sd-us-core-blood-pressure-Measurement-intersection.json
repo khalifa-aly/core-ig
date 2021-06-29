@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "0f82c78a-3301-4e59-a45d-a1bbe73c1938-21",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/0f82c78a-3301-4e59-a45d-a1bbe73c1938-21",
+  "id" : "aa2530f0-9aeb-4401-85fa-13a96f61a21e-21",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/aa2530f0-9aeb-4401-85fa-13a96f61a21e-21",
   "name" : "IntersectionUSCoreBloodPressureProfileAndMeasurement",
   "title" : "Intersection of US Core Blood Pressure Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-29T19:23:03+00:00",
+  "date" : "2021-06-29T19:23:18+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
