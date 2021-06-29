@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-06-28T18:28:20+00:00",
+  "date": "2021-06-29T19:22:22+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -810,7 +810,7 @@
         },
         "name": "example-patient",
         "description": "Example of Patient",
-        "exampleBoolean": true
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Individual"
       },
       {
         "extension": [
@@ -848,7 +848,7 @@
           }
         ],
         "reference": {
-          "reference": "Condition/id.1"
+          "reference": "Condition/id.disease.1"
         },
         "name": "excluded-disease",
         "description": "Phenopacket Example for an excluded disease",
@@ -858,39 +858,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/id.1"
-        },
-        "name": "arachnodactyly",
-        "description": "PhenotypicFeature Example for arachnodactyly",
-        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/id.11"
-        },
-        "name": "thrombocytopenia",
-        "description": "Measurement Example for thrombocytopenia",
-        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Measurement"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Condition"
           }
         ],
         "reference": {
-          "reference": "Condition/id.2"
+          "reference": "Condition/id.disease.2"
         },
         "name": "vitreoretinochoroidopathy",
         "description": "Phenopacket Example for autosomal dominant vitreoretinochoroidopathy",
@@ -904,7 +876,35 @@
           }
         ],
         "reference": {
-          "reference": "Observation/id.2"
+          "reference": "Observation/id.measurement.1"
+        },
+        "name": "thrombocytopenia",
+        "description": "Measurement Example for thrombocytopenia",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Measurement"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/id.phenotypicfeature.1"
+        },
+        "name": "arachnodactyly",
+        "description": "PhenotypicFeature Example for arachnodactyly",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/id.phenotypicfeature.2"
         },
         "name": "lvdysfunction-excluded",
         "description": "PhenotypicFeature Example for exclusion of LV dysfunction",
@@ -918,10 +918,24 @@
           }
         ],
         "reference": {
-          "reference": "Observation/id.3"
+          "reference": "Observation/id.phenotypicfeature.3"
         },
         "name": "MVP-with-onset",
         "description": "PhenotypicFeature Example for mitral value prolapse with onset",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/id.phenotypicfeature.4"
+        },
+        "name": "CHF-with-severity",
+        "description": "PhenotypicFeature Example for severe Low-output congestive heart failure",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
       {
@@ -1032,6 +1046,11 @@
         {
           "nameUrl": "modeling.html",
           "title": "Modeling phenotypic data",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "examples.html",
+          "title": "Examples",
           "generation": "markdown"
         }
       ]

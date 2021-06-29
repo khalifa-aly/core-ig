@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c54479bb-18cf-41e8-91f8-4fc2e19c0a73-41",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c54479bb-18cf-41e8-91f8-4fc2e19c0a73-41",
+  "id" : "427f4f70-e156-4a7a-9352-82b7b41631c0-41",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/427f4f70-e156-4a7a-9352-82b7b41631c0-41",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndMeasurement",
   "title" : "Union of US Core Laboratory Result Observation Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-28T18:28:34+00:00",
+  "date" : "2021-06-29T19:22:34+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -882,7 +882,7 @@
     {
       "path" : "Observation.value[x]",
       "short" : "left: Result Value; right: Actual result",
-      "definition" : "left: The Laboratory result value.  If a coded value,  the valueCodeableConcept.code **SHOULD**  be selected from [SNOMED CT].  If a numeric value, valueQuantity.code **SHALL** be selected from [UCUM].  A FHIR [UCUM Codes value set] that defines all UCUM codes is in the FHIR specification.; right: The information determined as a result of making the observation, if the information has a simple value.",
+      "definition" : "left: The Laboratory result value.  If a coded value,  the valueCodeableConcept.code **SHOULD** be selected from [SNOMED CT] if the concept exists. If a numeric value, valueQuantity.code **SHALL** be selected from [UCUM].  A FHIR [UCUM Codes value set] that defines all UCUM codes is in the FHIR specification.; right: The information determined as a result of making the observation, if the information has a simple value.",
       "comment" : "An observation may have; 1)  a single value here, 2)  both a value and a set of related or component values,  or 3)  only a set of related or component values. If a value is present, the datatype for this element should be determined by Observation.code.  A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section] below.",
       "requirements" : "An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.",
       "min" : 0,

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c54479bb-18cf-41e8-91f8-4fc2e19c0a73-69",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c54479bb-18cf-41e8-91f8-4fc2e19c0a73-69",
+  "id" : "427f4f70-e156-4a7a-9352-82b7b41631c0-69",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/427f4f70-e156-4a7a-9352-82b7b41631c0-69",
   "name" : "IntersectionUSCorePediatricWeightForHeightObservationProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Pediatric Weight for Height Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-28T18:28:34+00:00",
+  "date" : "2021-06-29T19:22:34+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
@@ -1814,11 +1814,7 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "VitalSignsUnits"
-        }],
-        "strength" : "required",
+        "strength" : "extensible",
         "description" : "Common UCUM units for recording Vital Signs.",
         "valueSet" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1"
       },

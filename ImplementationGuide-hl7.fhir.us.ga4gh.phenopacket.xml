@@ -11,7 +11,7 @@
   <name value="GA4GHPhenopacketIG"/>
   <title value="GA4GH Phenopacket (version 2) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-28T18:28:20+00:00"/>
+  <date value="2021-06-29T19:22:22+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -591,7 +591,7 @@
       </reference>
       <name value="example-patient"/>
       <description value="Example of Patient"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Individual"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -620,7 +620,7 @@
         <valueString value="Condition"/>
       </extension>
       <reference>
-        <reference value="Condition/id.1"/>
+        <reference value="Condition/id.disease.1"/>
       </reference>
       <name value="excluded-disease"/>
       <description value="Phenopacket Example for an excluded disease"/>
@@ -628,32 +628,10 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/id.1"/>
-      </reference>
-      <name value="arachnodactyly"/>
-      <description value="PhenotypicFeature Example for arachnodactyly"/>
-      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/id.11"/>
-      </reference>
-      <name value="thrombocytopenia"/>
-      <description value="Measurement Example for thrombocytopenia"/>
-      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Measurement"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Condition"/>
       </extension>
       <reference>
-        <reference value="Condition/id.2"/>
+        <reference value="Condition/id.disease.2"/>
       </reference>
       <name value="vitreoretinochoroidopathy"/>
       <description value="Phenopacket Example for autosomal dominant vitreoretinochoroidopathy"/>
@@ -664,7 +642,29 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/id.2"/>
+        <reference value="Observation/id.measurement.1"/>
+      </reference>
+      <name value="thrombocytopenia"/>
+      <description value="Measurement Example for thrombocytopenia"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Measurement"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/id.phenotypicfeature.1"/>
+      </reference>
+      <name value="arachnodactyly"/>
+      <description value="PhenotypicFeature Example for arachnodactyly"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/id.phenotypicfeature.2"/>
       </reference>
       <name value="lvdysfunction-excluded"/>
       <description value="PhenotypicFeature Example for exclusion of LV dysfunction"/>
@@ -675,10 +675,21 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/id.3"/>
+        <reference value="Observation/id.phenotypicfeature.3"/>
       </reference>
       <name value="MVP-with-onset"/>
       <description value="PhenotypicFeature Example for mitral value prolapse with onset"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/id.phenotypicfeature.4"/>
+      </reference>
+      <name value="CHF-with-severity"/>
+      <description value="PhenotypicFeature Example for severe Low-output congestive heart failure"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
     </resource>
     <resource>
@@ -769,6 +780,11 @@
       <page>
         <nameUrl value="modeling.html"/>
         <title value="Modeling phenotypic data"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="examples.html"/>
+        <title value="Examples"/>
         <generation value="markdown"/>
       </page>
     </page>

@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c54479bb-18cf-41e8-91f8-4fc2e19c0a73-5",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c54479bb-18cf-41e8-91f8-4fc2e19c0a73-5",
+  "id" : "427f4f70-e156-4a7a-9352-82b7b41631c0-5",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/427f4f70-e156-4a7a-9352-82b7b41631c0-5",
   "name" : "UnionLanguageCodesWithLanguageAndOptionallyARegionModifierAndCommonLanguages",
   "title" : "Union of Language codes with language and optionally a region modifier And Common Languages",
   "status" : "active",
-  "date" : "2021-06-28T18:28:32+00:00",
+  "date" : "2021-06-29T19:22:33+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

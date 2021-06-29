@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="id.phenotypicfeature.4"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0009805}">Low-output congestive heart failure</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p><p><b>effective</b>: 2018-03-06</p><p><b>value</b>: true</p><h3>Components</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012828}">Severe</span></td><td>true</td></tr></table></div>
+  </text>
+  <status value="active"/>
+  <code>
+    <coding>
+      <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+      <code value="HP:0009805"/>
+      <display value="Low-output congestive heart failure"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+  <effectiveDateTime value="2018-03-06"/>
+  <valueBoolean value="true"/>
+  <component>
+    <code>
+      <coding>
+        <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+        <code value="HP:0012828"/>
+        <display value="Severe"/>
+      </coding>
+    </code>
+    <valueBoolean value="true"/>
+  </component>
+</Observation>

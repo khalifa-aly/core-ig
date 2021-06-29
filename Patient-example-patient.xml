@@ -2,6 +2,9 @@
 
 <Patient xmlns="http://hl7.org/fhir">
   <id value="example-patient"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/Individual"/>
+  </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Medical Record Number: m123 (USUAL)</p><p><b>name</b>: Anyname A. Anyperson </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2001-01-20</p><p><b>address</b>: 123 Any St Anytown 12345 US </p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Telecom</b></td></tr><tr><td>*</td><td>ph: 777-444-2222(HOME), <a href="mailto:anyname.anyperson@example.com">anyname.anyperson@example.com</a></td></tr></table><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td></tr><tr><td>*</td><td><span title="Codes: {urn:ietf:bcp:47 en-US}">English</span></td></tr></table></div>
   </text>
