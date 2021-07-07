@@ -1,9 +1,9 @@
 ﻿GA4GHPhenopacketIG : Validation Results
 =========================================
 
-err = 67, warn = 50, info = 36
+err = 67, warn = 49, info = 38
 IG Publisher Version: 1.1.76
-Generated Tue Jun 29 22:34:49 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
+Generated Wed Jul 07 21:19:44 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
 
  Build Errors : 29 / 5 / 0
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat : 0 / 1 / 1
@@ -15,6 +15,7 @@ Generated Tue Jun 29 22:34:49 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.2 : 0 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.3 : 1 / 0 / 3
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket : 0 / 2 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/MedicationAdministration-id.treatment.1 : 0 / 0 / 3
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.measurement.1 : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.phenotypicfeature.1 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.phenotypicfeature.2 : 2 / 0 / 1
@@ -45,7 +46,7 @@ Generated Tue Jun 29 22:34:49 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeature : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-PhenotypicFeatureExt : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Taxonomy : 1 / 1 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Treatment : 1 / 1 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Treatment : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-DiagnosticMarker : 0 / 2 / 1
@@ -121,6 +122,9 @@ INFORMATION: Condition/id.disease.3: Condition.stage[0].type.coding[0]: Code Sys
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.json ==
 WARNING: ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket: ImplementationGuide.definition.resource[15].name: value should not start or finish with whitespace
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/MedicationAdministration-id.treatment.1.json ==
+INFORMATION: MedicationAdministration/id.treatment.1: MedicationAdministration.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://drugcentral.org/' is unknown so the code cannot be validated
+INFORMATION: MedicationAdministration/id.treatment.1: MedicationAdministration.dosage.route.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.measurement.1.json ==
 ERROR: Observation/id.measurement.1: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.phenotypicfeature.1.json ==
@@ -260,7 +264,6 @@ ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdict
 WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Taxonomy'): The Implementation Guide contains no examples for this extension
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Treatment.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
-WARNING: StructureDefinition.where(url = 'https://github.com/phenopackets/core-ig/StructureDefinition/Treatment'): The Implementation Guide contains no examples for this profile
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorGrade.json ==
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-TumorProgression.json ==

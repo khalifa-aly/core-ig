@@ -3,7 +3,7 @@
   "id": "Onset",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"CodeSystem-hpo.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a> where concept  is-a  <a href=\"CodeSystem-hpo.html#hpo-HP.580003674\">HP:0003674</a></li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  282032007 (Periods of life)</li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"CodeSystem-hpo-flat.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a> where concept  is-a  <a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580003674\">HP:0003674</a></li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  282032007 (Periods of life)</li></ul></div>"
   },
   "url": "https://github.com/phenopackets/core-ig/ValueSet/Onset",
   "version": "0.1.0",

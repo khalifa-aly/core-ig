@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationAdministration xmlns="http://hl7.org/fhir">
+  <id value="id.treatment.1"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/Treatment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/medicationrequest-category outpatient}">Outpatient</span></p><p><b>medication</b>: <span title="Codes: {https://drugcentral.org/ DrugCentral_1610}">losartan</span></p><p><b>subject</b>: <a href="Patient-example-patient.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p><p><b>effective</b>: Mar 15, 2020 1:00:00 PM --&gt; Mar 25, 2020 9:00:00 AM</p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td><td><b>Dose</b></td></tr><tr><td>*</td><td><span title="Codes: {http://purl.obolibrary.org/obo/ncit.owl NCIT_C38288}">Oral Route of Administration</span></td><td>30 mg</td></tr></table></div>
+  </text>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+      <code value="outpatient"/>
+    </coding>
+  </category>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="https://drugcentral.org/"/>
+      <code value="DrugCentral_1610"/>
+      <display value="losartan"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/example-patient"/>
+  </subject>
+  <effectivePeriod>
+    <start value="2020-03-15T13:00:00Z"/>
+    <end value="2020-03-25T09:00:00Z"/>
+  </effectivePeriod>
+  <dosage>
+    <route>
+      <coding>
+        <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <code value="NCIT_C38288"/>
+        <display value="Oral Route of Administration"/>
+      </coding>
+    </route>
+    <dose>
+      <value value="30"/>
+      <unit value="mg"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mg"/>
+    </dose>
+  </dosage>
+</MedicationAdministration>

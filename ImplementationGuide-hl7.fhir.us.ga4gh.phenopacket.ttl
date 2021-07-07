@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GA4GHPhenopacketIG"];
   fhir:ImplementationGuide.title [ fhir:value "GA4GH Phenopacket (version 2) FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-29T22:34:04+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-07T21:19:02+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -985,6 +985,23 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationAdministration" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://github.com/phenopackets/core-ig/MedicationAdministration/id.treatment.1>;
+         fhir:Reference.reference [ fhir:value "MedicationAdministration/id.treatment.1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "losartan" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Treatment Example (Losartan))" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Treatment";
+         fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Treatment>
+       ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -994,7 +1011,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "An INVALID karyotypic sex Observation instance." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 49;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1007,7 +1024,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "A VALID karyotypic sex Observation instance." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 50;
+       fhir:index 51;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1020,7 +1037,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "An INVALID phenotypic abnormality Observation example." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 51;
+       fhir:index 52;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1033,7 +1050,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "phenotypic-abnormality-invalid-meta-profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 52;
+       fhir:index 53;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1046,7 +1063,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "A valid phenotypic abnormality Observation example." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 53;
+       fhir:index 54;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

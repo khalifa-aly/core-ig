@@ -1,13 +1,13 @@
 [
   {
-    "id": "hpo-flat",
+    "id": "hpo",
     "type": "CodeSystem",
     "url": "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
     "version": "0.1.0",
     "name": "HPO"
   },
   {
-    "id": "hpo",
+    "id": "hpo-flat",
     "type": "CodeSystem",
     "url": "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
     "version": "0.1.0",

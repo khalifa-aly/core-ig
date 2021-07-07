@@ -11,7 +11,7 @@
   <name value="GA4GHPhenopacketIG"/>
   <title value="GA4GH Phenopacket (version 2) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-29T22:34:04+00:00"/>
+  <date value="2021-07-07T21:19:02+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -713,6 +713,17 @@
       <name value="CHF-with-severity"/>
       <description value="PhenotypicFeature Example for severe Low-output congestive heart failure"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationAdministration"/>
+      </extension>
+      <reference>
+        <reference value="MedicationAdministration/id.treatment.1"/>
+      </reference>
+      <name value="losartan"/>
+      <description value="Treatment Example (Losartan))"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Treatment"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

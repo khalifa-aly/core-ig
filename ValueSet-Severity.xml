@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="Severity"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href="CodeSystem-hpo.html"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a> where concept  descends from  <a href="CodeSystem-hpo.html#hpo-HP.580012824">HP:0012824</a></li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  272141005 (Severities)</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href="CodeSystem-hpo-flat.html"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a> where concept  descends from  <a href="CodeSystem-hpo-flat.html#hpo-flat-HP.580012824">HP:0012824</a></li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  272141005 (Severities)</li></ul></div>
   </text>
   <url value="https://github.com/phenopackets/core-ig/ValueSet/Severity"/>
   <version value="0.1.0"/>

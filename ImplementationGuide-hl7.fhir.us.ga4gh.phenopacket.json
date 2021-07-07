@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-06-29T22:34:04+00:00",
+  "date": "2021-07-07T21:19:02+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -965,6 +965,20 @@
         "name": "CHF-with-severity",
         "description": "PhenotypicFeature Example for severe Low-output congestive heart failure",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationAdministration"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationAdministration/id.treatment.1"
+        },
+        "name": "losartan",
+        "description": "Treatment Example (Losartan))",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Treatment"
       },
       {
         "extension": [

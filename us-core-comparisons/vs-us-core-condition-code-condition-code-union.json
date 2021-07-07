@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "c3b237b9-e69f-46b6-896b-34dae50cfe10-113",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/c3b237b9-e69f-46b6-896b-34dae50cfe10-113",
+  "id" : "01b35043-be58-456c-819e-2cd09f6b47b9-113",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/01b35043-be58-456c-819e-2cd09f6b47b9-113",
   "name" : "UnionUSCoreConditionCodeAndCondition/Problem/DiagnosisCodes",
   "title" : "Union of US Core Condition Code And Condition/Problem/Diagnosis Codes",
   "status" : "active",
-  "date" : "2021-06-29T22:34:15+00:00",
+  "date" : "2021-07-07T21:19:14+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

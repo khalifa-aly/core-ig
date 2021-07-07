@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c3b237b9-e69f-46b6-896b-34dae50cfe10-63",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3b237b9-e69f-46b6-896b-34dae50cfe10-63",
+  "id" : "01b35043-be58-456c-819e-2cd09f6b47b9-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/01b35043-be58-456c-819e-2cd09f6b47b9-3",
   "name" : "IntersectionUSCorePediatricHeadOccipitalFrontalCircumferencePercentileProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Pediatric Head Occipital-frontal Circumference Percentile Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-06-29T22:34:15+00:00",
+  "date" : "2021-07-07T21:19:12+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c3b237b9-e69f-46b6-896b-34dae50cfe10-45",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3b237b9-e69f-46b6-896b-34dae50cfe10-45",
+  "id" : "01b35043-be58-456c-819e-2cd09f6b47b9-90",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/01b35043-be58-456c-819e-2cd09f6b47b9-90",
   "name" : "IntersectionUSCorePulseOximetryProfileAndMeasurement",
   "title" : "Intersection of US Core Pulse Oximetry Profile And Measurement",
   "status" : "active",
-  "date" : "2021-06-29T22:34:15+00:00",
+  "date" : "2021-07-07T21:19:13+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

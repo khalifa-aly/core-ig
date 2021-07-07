@@ -1,112 +1,11 @@
 {
   "resourceType" : "Bundle",
-  "id" : "25a07b6c-2d10-4557-b3b1-e2abb0e9a64e",
+  "id" : "da4c24a5-2d30-47b6-938d-bad577a83bdb",
   "meta" : {
-    "lastUpdated" : "2021-06-29T22:34:04.636+00:00"
+    "lastUpdated" : "2021-07-07T21:19:02.282+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/Severity",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "Severity",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-hpo.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2021</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012825\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012825\">HP:0012825</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Mild</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012826\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012826\">HP:0012826</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Moderate</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6736007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6736007\">6736007</a></td><td>http://snomed.info/sct</td><td>Moderate</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-24484000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24484000\">24484000</a></td><td>http://snomed.info/sct</td><td>Severe</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255604002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255604002\">255604002</a></td><td>http://snomed.info/sct</td><td>Mild</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371923003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371923003\">371923003</a></td><td>http://snomed.info/sct</td><td>Mild to moderate (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371924009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371924009\">371924009</a></td><td>http://snomed.info/sct</td><td>Moderate to severe (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-399166001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399166001\">399166001</a></td><td>http://snomed.info/sct</td><td>Fatal (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-442452003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=442452003\">442452003</a></td><td>http://snomed.info/sct</td><td>Life threatening severity</td><td/></tr></table></div>"
-      },
-      "url" : "https://github.com/phenopackets/core-ig/ValueSet/Severity",
-      "version" : "0.1.0",
-      "name" : "Severity",
-      "title" : "Severity",
-      "status" : "active",
-      "date" : "2020-02-14T16:13:10+10:00",
-      "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
-      "contact" : [{
-        "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
-        }]
-      }],
-      "description" : "Phenotypic feature severity codes from the Human Phenotype Ontology and SNOMED CT.",
-      "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
-      "expansion" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
-          "valueBoolean" : true
-        }],
-        "identifier" : "urn:uuid:f765a784-feca-49b4-bcdd-5756e07c79f8",
-        "timestamp" : "2021-06-29T22:34:29+00:00",
-        "total" : 9,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-        }],
-        "contains" : [{
-          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
-          "code" : "HP:0012825",
-          "display" : "Mild"
-        },
-        {
-          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
-          "code" : "HP:0012826",
-          "display" : "Moderate"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "6736007",
-          "display" : "Moderate"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "24484000",
-          "display" : "Severe"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "255604002",
-          "display" : "Mild"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "371923003",
-          "display" : "Mild to moderate (qualifier value)"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "371924009",
-          "display" : "Moderate to severe (qualifier value)"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "399166001",
-          "display" : "Fatal (qualifier value)"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "442452003",
-          "display" : "Life threatening severity"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/KaryotypicSex",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -132,8 +31,8 @@
       "description" : "The karyotypic (chromosomal) sex of an individual",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:2ac7ea6b-a6de-4aa6-95d4-e89b0e03a412",
-        "timestamp" : "2021-06-29T22:34:31+00:00",
+        "identifier" : "urn:uuid:69b90723-4741-4341-8ad8-ae5e5055bee1",
+        "timestamp" : "2021-07-07T21:19:23+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -208,14 +107,14 @@
       "id" : "phenotypic-abnormality",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-hpo.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-hpo.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0000118\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580000118\">HP:0000118</a></td><td>Phenotypic abnormality</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-hpo-flat.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-hpo-flat.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0000118\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580000118\">HP:0000118</a></td><td>Phenotypic abnormality</td><td/></tr></table></div>"
       },
       "url" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-abnormality",
       "version" : "0.1.0",
       "name" : "PhenotypicAbnormalityValueSet",
       "title" : "Phenotypic abnormality ValueSet",
       "status" : "active",
-      "date" : "2021-06-29T22:34:04+00:00",
+      "date" : "2021-07-07T21:19:02+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -227,8 +126,8 @@
       "description" : "ValueSet description here",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:4a3f08d8-6ed2-40bf-b1d7-4094069f29a1",
-        "timestamp" : "2021-06-29T22:34:31+00:00",
+        "identifier" : "urn:uuid:922cac1b-240c-41b0-94c8-f513dc481ddc",
+        "timestamp" : "2021-07-07T21:19:25+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -247,20 +146,20 @@
     }
   },
   {
-    "fullUrl" : "http://github.com/phenopackets/core-ig/ValueSet/phenotypic-modifier",
+    "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "PhenotypicModifierValueSet",
+      "id" : "phenotypic-component",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-hpo.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-hpo.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012823\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012823\">HP:0012823</a></td><td>Clinical modifier</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012824\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012824\">HP:0012824</a></td><td>Severity</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012825\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012825\">HP:0012825</a></td><td>Mild</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012826\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012826\">HP:0012826</a></td><td>Moderate</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-hpo-flat.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-hpo-flat.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012823\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012823\">HP:0012823</a></td><td>Clinical modifier</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012824\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012824\">HP:0012824</a></td><td>Severity</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003674\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580003674\">HP:0003674</a></td><td>Onset</td><td/></tr></table></div>"
       },
-      "url" : "http://github.com/phenopackets/core-ig/ValueSet/phenotypic-modifier",
+      "url" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component",
       "version" : "0.1.0",
-      "name" : "PhenotypicModifierValueSet",
-      "title" : "Phenotypic modifier ValueSet",
+      "name" : "PhenotypicComponentValueSet",
+      "title" : "Phenotypic component ValueSet",
       "status" : "active",
-      "date" : "2021-06-29T22:34:04+00:00",
+      "date" : "2021-07-07T21:19:02+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -272,8 +171,63 @@
       "description" : "ValueSet description here",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:284dea6d-3432-46b3-9f83-04d25e0dcc61",
-        "timestamp" : "2021-06-29T22:34:32+00:00",
+        "identifier" : "urn:uuid:28c2e238-dee1-4c23-85c5-4e9ec410de8c",
+        "timestamp" : "2021-07-07T21:19:26+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+          "code" : "HP:0012823",
+          "display" : "Clinical modifier"
+        },
+        {
+          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+          "code" : "HP:0012824",
+          "display" : "Severity"
+        },
+        {
+          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+          "code" : "HP:0003674",
+          "display" : "Onset"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://github.com/phenopackets/core-ig/ValueSet/phenotypic-modifier",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "PhenotypicModifierValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-hpo-flat.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-hpo-flat.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012823\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012823\">HP:0012823</a></td><td>Clinical modifier</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012824\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012824\">HP:0012824</a></td><td>Severity</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012825\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012825\">HP:0012825</a></td><td>Mild</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012826\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012826\">HP:0012826</a></td><td>Moderate</td><td/></tr></table></div>"
+      },
+      "url" : "http://github.com/phenopackets/core-ig/ValueSet/phenotypic-modifier",
+      "version" : "0.1.0",
+      "name" : "PhenotypicModifierValueSet",
+      "title" : "Phenotypic modifier ValueSet",
+      "status" : "active",
+      "date" : "2021-07-07T21:19:02+00:00",
+      "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+      "contact" : [{
+        "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
+        }]
+      }],
+      "description" : "ValueSet description here",
+      "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
+      "expansion" : {
+        "identifier" : "urn:uuid:2469ecb3-f79c-4a06-a192-f1bc8fd181a5",
+        "timestamp" : "2021-07-07T21:19:28+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -307,13 +261,114 @@
     }
   },
   {
+    "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/Severity",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "Severity",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-hpo-flat.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2021</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012825\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012825\">HP:0012825</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Mild</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012826\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580012826\">HP:0012826</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Moderate</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6736007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6736007\">6736007</a></td><td>http://snomed.info/sct</td><td>Moderate</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-24484000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24484000\">24484000</a></td><td>http://snomed.info/sct</td><td>Severe</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255604002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255604002\">255604002</a></td><td>http://snomed.info/sct</td><td>Mild</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371923003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371923003\">371923003</a></td><td>http://snomed.info/sct</td><td>Mild to moderate (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371924009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371924009\">371924009</a></td><td>http://snomed.info/sct</td><td>Moderate to severe (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-399166001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399166001\">399166001</a></td><td>http://snomed.info/sct</td><td>Fatal (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-442452003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=442452003\">442452003</a></td><td>http://snomed.info/sct</td><td>Life threatening severity</td><td/></tr></table></div>"
+      },
+      "url" : "https://github.com/phenopackets/core-ig/ValueSet/Severity",
+      "version" : "0.1.0",
+      "name" : "Severity",
+      "title" : "Severity",
+      "status" : "active",
+      "date" : "2020-02-14T16:13:10+10:00",
+      "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+      "contact" : [{
+        "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
+        }]
+      }],
+      "description" : "Phenotypic feature severity codes from the Human Phenotype Ontology and SNOMED CT.",
+      "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+          "valueBoolean" : true
+        }],
+        "identifier" : "urn:uuid:9b5dfde3-2a6a-4aa7-b09a-f7a2a893e01c",
+        "timestamp" : "2021-07-07T21:19:29+00:00",
+        "total" : 9,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+        }],
+        "contains" : [{
+          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+          "code" : "HP:0012825",
+          "display" : "Mild"
+        },
+        {
+          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+          "code" : "HP:0012826",
+          "display" : "Moderate"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "6736007",
+          "display" : "Moderate"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "24484000",
+          "display" : "Severe"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "255604002",
+          "display" : "Mild"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "371923003",
+          "display" : "Mild to moderate (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "371924009",
+          "display" : "Moderate to severe (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "399166001",
+          "display" : "Fatal (qualifier value)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "442452003",
+          "display" : "Life threatening severity"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/Onset",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "Onset",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 21 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-hpo.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2021</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003674\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580003674\">HP:0003674</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Onset</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003577\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580003577\">HP:0003577</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Congenital onset</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003623\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580003623\">HP:0003623</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Neonatal onset</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-3658006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3658006\">3658006</a></td><td>http://snomed.info/sct</td><td>Infancy</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-41847000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=41847000\">41847000</a></td><td>http://snomed.info/sct</td><td>Adulthood</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255398004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255398004\">255398004</a></td><td>http://snomed.info/sct</td><td>Childhood</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255399007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255399007\">255399007</a></td><td>http://snomed.info/sct</td><td>Congenital</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255407002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255407002\">255407002</a></td><td>http://snomed.info/sct</td><td>Neonatal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-263659003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263659003\">263659003</a></td><td>http://snomed.info/sct</td><td>Adolescence</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271872005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=271872005\">271872005</a></td><td>http://snomed.info/sct</td><td>Old age</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303112003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303112003\">303112003</a></td><td>http://snomed.info/sct</td><td>Fetal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303113008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303113008\">303113008</a></td><td>http://snomed.info/sct</td><td>Postmortem period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303114002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303114002\">303114002</a></td><td>http://snomed.info/sct</td><td>Early neonatal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303115001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303115001\">303115001</a></td><td>http://snomed.info/sct</td><td>Late neonatal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371578004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371578004\">371578004</a></td><td>http://snomed.info/sct</td><td>Perinatal period (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-450426006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=450426006\">450426006</a></td><td>http://snomed.info/sct</td><td>Fetal or neonatal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-713152004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713152004\">713152004</a></td><td>http://snomed.info/sct</td><td>Early childhood (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-713153009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713153009\">713153009</a></td><td>http://snomed.info/sct</td><td>Toddler</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-717830007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717830007\">717830007</a></td><td>http://snomed.info/sct</td><td>Entire life (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-764868004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=764868004\">764868004</a></td><td>http://snomed.info/sct</td><td>Middle age (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-767023003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=767023003\">767023003</a></td><td>http://snomed.info/sct</td><td>Period of life beginning after birth and ending before death (qualifier value)</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 21 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-hpo-flat.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2021</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003674\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580003674\">HP:0003674</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Onset</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003577\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580003577\">HP:0003577</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Congenital onset</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003623\"> </a><a href=\"CodeSystem-hpo-flat.html#hpo-flat-HP.580003623\">HP:0003623</a></td><td>http://github.com/phenopackets/core-ig/CodeSystem/hpo</td><td>Neonatal onset</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-3658006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3658006\">3658006</a></td><td>http://snomed.info/sct</td><td>Infancy</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-41847000\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=41847000\">41847000</a></td><td>http://snomed.info/sct</td><td>Adulthood</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255398004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255398004\">255398004</a></td><td>http://snomed.info/sct</td><td>Childhood</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255399007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255399007\">255399007</a></td><td>http://snomed.info/sct</td><td>Congenital</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255407002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255407002\">255407002</a></td><td>http://snomed.info/sct</td><td>Neonatal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-263659003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263659003\">263659003</a></td><td>http://snomed.info/sct</td><td>Adolescence</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-271872005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=271872005\">271872005</a></td><td>http://snomed.info/sct</td><td>Old age</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303112003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303112003\">303112003</a></td><td>http://snomed.info/sct</td><td>Fetal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303113008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303113008\">303113008</a></td><td>http://snomed.info/sct</td><td>Postmortem period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303114002\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303114002\">303114002</a></td><td>http://snomed.info/sct</td><td>Early neonatal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-303115001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303115001\">303115001</a></td><td>http://snomed.info/sct</td><td>Late neonatal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-371578004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371578004\">371578004</a></td><td>http://snomed.info/sct</td><td>Perinatal period (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-450426006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=450426006\">450426006</a></td><td>http://snomed.info/sct</td><td>Fetal or neonatal period</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-713152004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713152004\">713152004</a></td><td>http://snomed.info/sct</td><td>Early childhood (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-713153009\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713153009\">713153009</a></td><td>http://snomed.info/sct</td><td>Toddler</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-717830007\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717830007\">717830007</a></td><td>http://snomed.info/sct</td><td>Entire life (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-764868004\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=764868004\">764868004</a></td><td>http://snomed.info/sct</td><td>Middle age (qualifier value)</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-767023003\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=767023003\">767023003</a></td><td>http://snomed.info/sct</td><td>Period of life beginning after birth and ending before death (qualifier value)</td><td/></tr></table></div>"
       },
       "url" : "https://github.com/phenopackets/core-ig/ValueSet/Onset",
       "version" : "0.1.0",
@@ -336,8 +391,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:3d32cd1e-2301-40c0-b5a2-d8aabda988a5",
-        "timestamp" : "2021-06-29T22:34:33+00:00",
+        "identifier" : "urn:uuid:0fcff1db-815a-4b3e-994f-aeb0e28de52f",
+        "timestamp" : "2021-07-07T21:19:30+00:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -481,7 +536,7 @@
       "name" : "ObservationCategories",
       "title" : "Observation categories",
       "status" : "draft",
-      "date" : "2021-06-29T22:34:04+00:00",
+      "date" : "2021-07-07T21:19:02+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -493,8 +548,8 @@
       "description" : "ValueSet description here",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:3caf536e-c8df-449f-a69a-dbc15e390802",
-        "timestamp" : "2021-06-29T22:34:33+00:00",
+        "identifier" : "urn:uuid:815d6eb9-6e60-4460-bc13-47f61f47afba",
+        "timestamp" : "2021-07-07T21:19:30+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -579,61 +634,6 @@
           "system" : "https://github.com/phenopackets/core-ig/CodeSystem/categories",
           "code" : "phenotype",
           "display" : "Phenotype"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "phenotypic-component",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-hpo.html\">A stub HPO CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-hpo.html\"><code>http://github.com/phenopackets/core-ig/CodeSystem/hpo</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012823\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012823\">HP:0012823</a></td><td>Clinical modifier</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0012824\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580012824\">HP:0012824</a></td><td>Severity</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---github.com-phenopackets-core-ig-CodeSystem-hpo-HP-0003674\"> </a><a href=\"CodeSystem-hpo.html#hpo-HP.580003674\">HP:0003674</a></td><td>Onset</td><td/></tr></table></div>"
-      },
-      "url" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component",
-      "version" : "0.1.0",
-      "name" : "PhenotypicComponentValueSet",
-      "title" : "Phenotypic component ValueSet",
-      "status" : "active",
-      "date" : "2021-06-29T22:34:04+00:00",
-      "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
-      "contact" : [{
-        "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"
-        }]
-      }],
-      "description" : "ValueSet description here",
-      "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
-      "expansion" : {
-        "identifier" : "urn:uuid:5bb093c7-206b-44c8-8451-3695e035f405",
-        "timestamp" : "2021-06-29T22:34:34+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
-          "code" : "HP:0012823",
-          "display" : "Clinical modifier"
-        },
-        {
-          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
-          "code" : "HP:0012824",
-          "display" : "Severity"
-        },
-        {
-          "system" : "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
-          "code" : "HP:0003674",
-          "display" : "Onset"
         }]
       }
     }
