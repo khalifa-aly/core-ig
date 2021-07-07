@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "01b35043-be58-456c-819e-2cd09f6b47b9-99",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/01b35043-be58-456c-819e-2cd09f6b47b9-99",
+  "id" : "551770e0-85ec-4929-a177-25d12f96c4d5-99",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/551770e0-85ec-4929-a177-25d12f96c4d5-99",
   "name" : "IntersectionUSCoreVitalSignsProfileAndMeasurement",
   "title" : "Intersection of US Core Vital Signs Profile And Measurement",
   "status" : "active",
-  "date" : "2021-07-07T21:19:13+00:00",
+  "date" : "2021-07-07T21:19:33+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

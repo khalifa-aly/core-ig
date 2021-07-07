@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "01b35043-be58-456c-819e-2cd09f6b47b9-47",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/01b35043-be58-456c-819e-2cd09f6b47b9-47",
+  "id" : "551770e0-85ec-4929-a177-25d12f96c4d5-47",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/551770e0-85ec-4929-a177-25d12f96c4d5-47",
   "name" : "UnionUSCoreObservationSmokingStatusStatusAndObservationStatus",
   "title" : "Union of US Core Status for Smoking Status Observation And ObservationStatus",
   "status" : "active",
-  "date" : "2021-07-07T21:19:12+00:00",
+  "date" : "2021-07-07T21:19:33+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

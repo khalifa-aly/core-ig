@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "01b35043-be58-456c-819e-2cd09f6b47b9-15",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/01b35043-be58-456c-819e-2cd09f6b47b9-15",
+  "id" : "551770e0-85ec-4929-a177-25d12f96c4d5-15",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/551770e0-85ec-4929-a177-25d12f96c4d5-15",
   "name" : "IntersectionUSCoreBloodPressureProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Blood Pressure Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-07T21:19:12+00:00",
+  "date" : "2021-07-07T21:19:33+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
