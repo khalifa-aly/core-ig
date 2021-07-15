@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "551770e0-85ec-4929-a177-25d12f96c4d5-45",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/551770e0-85ec-4929-a177-25d12f96c4d5-45",
+  "id" : "f61ac795-a71a-4b9f-a480-42a84f22e6fe-45",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f61ac795-a71a-4b9f-a480-42a84f22e6fe-45",
   "name" : "IntersectionUSCoreSmokingStatusProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Smoking Status Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-07T21:19:33+00:00",
+  "date" : "2021-07-15T14:29:25+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
@@ -480,7 +480,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Codes providing the status of an observation.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/551770e0-85ec-4929-a177-25d12f96c4d5-48"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f61ac795-a71a-4b9f-a480-42a84f22e6fe-48"
       },
       "mapping" : [{
         "identity" : "workflow",

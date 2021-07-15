@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Composition/id.treatment.1> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "id.treatment.1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket";
+       fhir:index 0;
+       fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: preliminary</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org LOINC_11516-2}\">Physician Episode of care medical records</span></p><p><b>date</b>: 2018-03-16</p><p><b>author</b>: <a href=\"Practitioner-PeterGeneticist.html\">Generated Summary: id: practitioner.id1; Peter Geneticist ; gender: male</a></p><p><b>title</b>: Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay).</p></div>"
+  ];
+  fhir:Composition.status [ fhir:value "preliminary"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:LOINC_11516-2;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "LOINC_11516-2" ];
+       fhir:Coding.display [ fhir:value "Physician Episode of care medical records" ]
+     ]
+  ];
+  fhir:Composition.subject [
+     fhir:link <https://github.com/phenopackets/core-ig/Patient/Proband1>;
+     fhir:Reference.reference [ fhir:value "Patient/Proband1" ]
+  ];
+  fhir:Composition.date [ fhir:value "2018-03-16"^^xsd:date];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <https://github.com/phenopackets/core-ig/Practitioner/PeterGeneticist>;
+     fhir:Reference.reference [ fhir:value "Practitioner/PeterGeneticist" ]
+  ];
+  fhir:Composition.title [ fhir:value "Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay)."] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Composition/id.treatment.1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

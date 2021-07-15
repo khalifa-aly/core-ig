@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="id.treatment.1"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: preliminary</p><p><b>type</b>: <span title="Codes: {http://loinc.org LOINC_11516-2}">Physician Episode of care medical records</span></p><p><b>date</b>: 2018-03-16</p><p><b>author</b>: <a href="Practitioner-PeterGeneticist.html">Generated Summary: id: practitioner.id1; Peter Geneticist ; gender: male</a></p><p><b>title</b>: Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay).</p></div>
+  </text>
+  <status value="preliminary"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LOINC_11516-2"/>
+      <display value="Physician Episode of care medical records"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/Proband1"/>
+  </subject>
+  <date value="2018-03-16"/>
+  <author>
+    <reference value="Practitioner/PeterGeneticist"/>
+  </author>
+  <title value="Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay)."/>
+</Composition>

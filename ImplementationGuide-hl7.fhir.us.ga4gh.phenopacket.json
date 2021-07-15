@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-07-07T21:19:22+00:00",
+  "date": "2021-07-15T14:29:15+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -802,6 +802,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/PeterGeneticist"
+        },
+        "name": "PeterGeneticist",
+        "description": "Extended example: example practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/Proband1"
+        },
+        "name": "Proband1",
+        "description": "Example child with developmental delay",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Individual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Specimen"
           }
         ],
@@ -825,6 +853,104 @@
         "name": "example-patient",
         "description": "Example of Patient",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Individual"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0000316"
+        },
+        "name": "Hypertelorism",
+        "description": "Hypertelorism (HP:0000316)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0000343"
+        },
+        "name": "longPhiltrum",
+        "description": "Long philtrum (HP:0000343)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0000369"
+        },
+        "name": "lowSetEars",
+        "description": "Low-set ears (HP:0000369)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0000568"
+        },
+        "name": "microphthalmia",
+        "description": "Long philtrum (HP:0000568)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0000612"
+        },
+        "name": "irisColoboma",
+        "description": "Iris coloboma (HP:0000612)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0001263"
+        },
+        "name": "globalDevelopmentalDelay",
+        "description": "Global developmental delay (HP:0001263)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0007663"
+        },
+        "name": "reducedVisualAcuity",
+        "description": "Reduced visual acuity (HP:0007663)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
       {
         "extension": [
@@ -965,6 +1091,20 @@
         "name": "CHF-with-severity",
         "description": "PhenotypicFeature Example for severe Low-output congestive heart failure",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Composition"
+          }
+        ],
+        "reference": {
+          "reference": "Composition/id.treatment.1"
+        },
+        "name": "DevelopmentalDelay",
+        "description": "Example use case for a child with undiagnosed developmental delay",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket"
       },
       {
         "extension": [

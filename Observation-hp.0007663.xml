@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="hp.0007663"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0007663}">Reduced visual acuity</span></p><p><b>subject</b>: <a href="Patient-Proband1.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p><p><b>value</b>: true</p></div>
+  </text>
+  <status value="active"/>
+  <code>
+    <coding>
+      <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+      <code value="HP:0007663"/>
+      <display value="Reduced visual acuity"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/Proband1"/>
+  </subject>
+  <valueBoolean value="true"/>
+</Observation>

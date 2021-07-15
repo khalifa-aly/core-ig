@@ -1,0 +1,33 @@
+{
+  "resourceType": "Composition",
+  "id": "id.treatment.1",
+  "meta": {
+    "profile": [
+      "https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: preliminary</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org LOINC_11516-2}\">Physician Episode of care medical records</span></p><p><b>date</b>: 2018-03-16</p><p><b>author</b>: <a href=\"Practitioner-PeterGeneticist.html\">Generated Summary: id: practitioner.id1; Peter Geneticist ; gender: male</a></p><p><b>title</b>: Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay).</p></div>"
+  },
+  "status": "preliminary",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LOINC_11516-2",
+        "display": "Physician Episode of care medical records"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Proband1"
+  },
+  "date": "2018-03-16",
+  "author": [
+    {
+      "reference": "Practitioner/PeterGeneticist"
+    }
+  ],
+  "title": "Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay)."
+}

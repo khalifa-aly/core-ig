@@ -11,7 +11,7 @@
   <name value="GA4GHPhenopacketIG"/>
   <title value="GA4GH Phenopacket (version 2) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-07T21:19:22+00:00"/>
+  <date value="2021-07-15T14:29:15+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -584,6 +584,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/PeterGeneticist"/>
+      </reference>
+      <name value="PeterGeneticist"/>
+      <description value="Extended example: example practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/Proband1"/>
+      </reference>
+      <name value="Proband1"/>
+      <description value="Example child with developmental delay"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Individual"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Specimen"/>
       </extension>
       <reference>
@@ -603,6 +625,83 @@
       <name value="example-patient"/>
       <description value="Example of Patient"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Individual"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0000316"/>
+      </reference>
+      <name value="Hypertelorism"/>
+      <description value="Hypertelorism (HP:0000316)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0000343"/>
+      </reference>
+      <name value="longPhiltrum"/>
+      <description value="Long philtrum (HP:0000343)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0000369"/>
+      </reference>
+      <name value="lowSetEars"/>
+      <description value="Low-set ears (HP:0000369)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0000568"/>
+      </reference>
+      <name value="microphthalmia"/>
+      <description value="Long philtrum (HP:0000568)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0000612"/>
+      </reference>
+      <name value="irisColoboma"/>
+      <description value="Iris coloboma (HP:0000612)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0001263"/>
+      </reference>
+      <name value="globalDevelopmentalDelay"/>
+      <description value="Global developmental delay (HP:0001263)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0007663"/>
+      </reference>
+      <name value="reducedVisualAcuity"/>
+      <description value="Reduced visual acuity (HP:0007663)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -713,6 +812,17 @@
       <name value="CHF-with-severity"/>
       <description value="PhenotypicFeature Example for severe Low-output congestive heart failure"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/id.treatment.1"/>
+      </reference>
+      <name value="DevelopmentalDelay"/>
+      <description value="Example use case for a child with undiagnosed developmental delay"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
