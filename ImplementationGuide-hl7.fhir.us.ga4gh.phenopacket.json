@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-07-15T16:42:29+00:00",
+  "date": "2021-07-15T23:22:57+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -920,7 +920,7 @@
         "reference": {
           "reference": "Observation/hp.0001252"
         },
-        "name": "hpotonia",
+        "name": "hypotonia",
         "description": "Hypotonia (HP:0001252)",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
@@ -978,6 +978,20 @@
         },
         "name": "amyotrophy",
         "description": "Skeletal muscle atrophy (HP:0003202)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0003557"
+        },
+        "name": "fiberSizeVariability",
+        "description": "Increased variability in muscle fiber diameter (HP:0003557)",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
       {

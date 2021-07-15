@@ -1,9 +1,9 @@
 ﻿GA4GHPhenopacketIG : Validation Results
 =========================================
 
-err = 94, warn = 49, info = 45
+err = 96, warn = 49, info = 45
 IG Publisher Version: 1.1.76
-Generated Thu Jul 15 16:43:15 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
+Generated Thu Jul 15 23:23:39 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
 
  Build Errors : 29 / 5 / 0
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat : 0 / 1 / 1
@@ -26,6 +26,7 @@ Generated Thu Jul 15 16:43:15 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001324 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001669 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0003202 : 2 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0003557 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0007663 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.measurement.1 : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.phenotypicfeature.1 : 2 / 0 / 1
@@ -174,6 +175,9 @@ ERROR: Observation/hp.0001669: Observation.code.coding[0]: Unknown Code http://g
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0003202.json ==
 ERROR: Observation/hp.0003202: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
 ERROR: Observation/hp.0003202: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0003202 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0003202'
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0003557.json ==
+ERROR: Observation/hp.0003557: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
+ERROR: Observation/hp.0003557: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0003557 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0003557'
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0007663.json ==
 ERROR: Observation/hp.0007663: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
 ERROR: Observation/hp.0007663: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0007663 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0007663'

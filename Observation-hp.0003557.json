@@ -1,0 +1,29 @@
+{
+  "resourceType": "Observation",
+  "id": "hp.0003557",
+  "meta": {
+    "profile": [
+      "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0003557}\">Increased variability in muscle fiber diameter</span></p><p><b>focus</b>: <a href=\"Specimen-biosample.specimen.id.2.html\">Generated Summary: id: arbitrary identifier</a></p><p><b>value</b>: true</p></div>"
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "http://github.com/phenopackets/core-ig/CodeSystem/hpo",
+        "code": "HP:0003557",
+        "display": "Increased variability in muscle fiber diameter"
+      }
+    ]
+  },
+  "focus": [
+    {
+      "reference": "Specimen/biosample.specimen.id.2"
+    }
+  ],
+  "valueBoolean": true
+}

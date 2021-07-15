@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="hp.0003557"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0003557}">Increased variability in muscle fiber diameter</span></p><p><b>focus</b>: <a href="Specimen-biosample.specimen.id.2.html">Generated Summary: id: arbitrary identifier</a></p><p><b>value</b>: true</p></div>
+  </text>
+  <status value="active"/>
+  <code>
+    <coding>
+      <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
+      <code value="HP:0003557"/>
+      <display value="Increased variability in muscle fiber diameter"/>
+    </coding>
+  </code>
+  <focus>
+    <reference value="Specimen/biosample.specimen.id.2"/>
+  </focus>
+  <valueBoolean value="true"/>
+</Observation>

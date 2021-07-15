@@ -3,13 +3,13 @@
 <SearchParameter xmlns="http://hl7.org/fhir">
   <id value="service-request-supporting-info"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://github.com/phenopackets/core-ig/SearchParameter/service-request-supporting-info</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: ServiceRequestSupportingInfo</p><p><b>status</b>: active</p><p><b>date</b>: Jul 15, 2021 4:42:29 PM</p><p><b>publisher</b>: Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</p><p><b>contact</b>: Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream: <a href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/</a></p><p><b>description</b>: Search ServiceRequest by supporting resource parameters</p><p><b>code</b>: supporting-info</p><p><b>base</b>: ServiceRequest</p><p><b>type</b>: reference</p><p><b>expression</b>: ServiceRequest.supportingInfo</p><p><b>target</b>: Bundle</p><p><b>comparator</b>: eq</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://github.com/phenopackets/core-ig/SearchParameter/service-request-supporting-info</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: ServiceRequestSupportingInfo</p><p><b>status</b>: active</p><p><b>date</b>: Jul 15, 2021 11:22:57 PM</p><p><b>publisher</b>: Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream</p><p><b>contact</b>: Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream: <a href="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/">https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/</a></p><p><b>description</b>: Search ServiceRequest by supporting resource parameters</p><p><b>code</b>: supporting-info</p><p><b>base</b>: ServiceRequest</p><p><b>type</b>: reference</p><p><b>expression</b>: ServiceRequest.supportingInfo</p><p><b>target</b>: Bundle</p><p><b>comparator</b>: eq</p></div>
   </text>
   <url value="http://github.com/phenopackets/core-ig/SearchParameter/service-request-supporting-info"/>
   <version value="0.1.0"/>
   <name value="ServiceRequestSupportingInfo"/>
   <status value="active"/>
-  <date value="2021-07-15T16:42:29+00:00"/>
+  <date value="2021-07-15T23:22:57+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>

@@ -81,7 +81,13 @@
           "reference": "Observation/hp.0001324"
         },
         {
+          "reference": "Observation/hp.0001252"
+        },
+        {
           "reference": "Observation/hp.0003202"
+        },
+        {
+          "reference": "Observation/hp.0003557"
         }
       ]
     },

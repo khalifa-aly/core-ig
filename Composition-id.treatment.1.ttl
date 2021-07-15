@@ -97,8 +97,16 @@
        fhir:Reference.reference [ fhir:value "Observation/hp.0001324" ]
      ], [
        fhir:index 8;
+       fhir:link <https://github.com/phenopackets/core-ig/Observation/hp.0001252>;
+       fhir:Reference.reference [ fhir:value "Observation/hp.0001252" ]
+     ], [
+       fhir:index 9;
        fhir:link <https://github.com/phenopackets/core-ig/Observation/hp.0003202>;
        fhir:Reference.reference [ fhir:value "Observation/hp.0003202" ]
+     ], [
+       fhir:index 10;
+       fhir:link <https://github.com/phenopackets/core-ig/Observation/hp.0003557>;
+       fhir:Reference.reference [ fhir:value "Observation/hp.0003557" ]
      ]
   ], [
      fhir:index 2;

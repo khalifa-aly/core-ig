@@ -67,7 +67,13 @@
       <reference value="Observation/hp.0001324"/>
     </entry>
     <entry>
+      <reference value="Observation/hp.0001252"/>
+    </entry>
+    <entry>
       <reference value="Observation/hp.0003202"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0003557"/>
     </entry>
   </section>
   <section>
