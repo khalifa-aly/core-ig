@@ -1,0 +1,41 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Condition/id.disease.intellectualDisability> a fhir:Condition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "id.disease.intellectualDisability"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/Disease";
+       fhir:index 0;
+       fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/Disease>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {https://github.com/monarch-initiative/mondo MONDO_0001071}\">Intellectual disability</span></p><p><b>subject</b>: <a href=\"Patient-Proband1.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p></div>"
+  ];
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://github.com/monarch-initiative/mondo" ];
+       fhir:Coding.code [ fhir:value "MONDO_0001071" ];
+       fhir:Coding.display [ fhir:value "Intellectual disability" ]
+     ]
+  ];
+  fhir:Condition.subject [
+     fhir:link <https://github.com/phenopackets/core-ig/Patient/Proband1>;
+     fhir:Reference.reference [ fhir:value "Patient/Proband1" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Condition/id.disease.intellectualDisability.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

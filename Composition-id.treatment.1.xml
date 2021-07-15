@@ -24,4 +24,61 @@
     <reference value="Practitioner/PeterGeneticist"/>
   </author>
   <title value="Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay)."/>
+  <section>
+    <code>
+      <coding>
+        <system value="http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType"/>
+        <code value="diseases"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="Condition/id.disease.intellectualDisability"/>
+    </entry>
+  </section>
+  <section>
+    <code>
+      <coding>
+        <system value="http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType"/>
+        <code value="phenotypic_features"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="Observation/hp.0000343"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0000568"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0000541"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0001669"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0007663"/>
+    </entry>
+    <entry>
+      <reference value="lowSetEars"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0001263"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0001324"/>
+    </entry>
+    <entry>
+      <reference value="Observation/hp.0003202"/>
+    </entry>
+  </section>
+  <section>
+    <code>
+      <coding>
+        <system value="http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType"/>
+        <code value="biosamples"/>
+      </coding>
+    </code>
+    <entry>
+      <reference value="Specimen/biosample.specimen.id.2"/>
+    </entry>
+  </section>
 </Composition>

@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Observation/hp.0000541> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "hp.0000541"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature";
+       fhir:index 0;
+       fhir:link <https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0000541}\">Retinal detachment</span></p><p><b>subject</b>: <a href=\"Patient-Proband1.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p><p><b>value</b>: true</p></div>"
+  ];
+  fhir:Observation.status [ fhir:value "active"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://github.com/phenopackets/core-ig/CodeSystem/hpo" ];
+       fhir:Coding.code [ fhir:value "HP:0000541" ];
+       fhir:Coding.display [ fhir:value "Retinal detachment" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <https://github.com/phenopackets/core-ig/Patient/Proband1>;
+     fhir:Reference.reference [ fhir:value "Patient/Proband1" ]
+  ];
+  fhir:Observation.valueBoolean [ fhir:value "true"^^xsd:boolean] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://github.com/phenopackets/core-ig/Observation/hp.0000541.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

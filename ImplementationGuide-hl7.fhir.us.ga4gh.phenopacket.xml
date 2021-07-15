@@ -11,7 +11,7 @@
   <name value="GA4GHPhenopacketIG"/>
   <title value="GA4GH Phenopacket (version 2) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-15T15:35:07+00:00"/>
+  <date value="2021-07-15T16:41:47+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -617,6 +617,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Specimen"/>
+      </extension>
+      <reference>
+        <reference value="Specimen/biosample.specimen.id.2"/>
+      </reference>
+      <name value="muscleBiopsy"/>
+      <description value="Biosample Example -- muscle biopsy"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Biosample"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
@@ -625,17 +636,6 @@
       <name value="example-patient"/>
       <description value="Example of Patient"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Individual"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/hp.0000316"/>
-      </reference>
-      <name value="Hypertelorism"/>
-      <description value="Hypertelorism (HP:0000316)"/>
-      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -653,10 +653,10 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/hp.0000369"/>
+        <reference value="Observation/hp.0000541"/>
       </reference>
-      <name value="lowSetEars"/>
-      <description value="Low-set ears (HP:0000369)"/>
+      <name value="retinalDetachment"/>
+      <description value="Retinal detachment (HP:0000541)"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
     </resource>
     <resource>
@@ -675,10 +675,10 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/hp.0000612"/>
+        <reference value="Observation/hp.0001252"/>
       </reference>
-      <name value="irisColoboma"/>
-      <description value="Iris coloboma (HP:0000612)"/>
+      <name value="hpotonia"/>
+      <description value="Hypotonia (HP:0001252)"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
     </resource>
     <resource>
@@ -690,6 +690,39 @@
       </reference>
       <name value="globalDevelopmentalDelay"/>
       <description value="Global developmental delay (HP:0001263)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0001324"/>
+      </reference>
+      <name value="muscleWeakness"/>
+      <description value="Muscle weakness (HP:0001324)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0001669"/>
+      </reference>
+      <name value="tga"/>
+      <description value="Transposition of the great arteries (HP:0001669)"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/hp.0003202"/>
+      </reference>
+      <name value="amyotrophy"/>
+      <description value="Skeletal muscle atrophy (HP:0003202)"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
     </resource>
     <resource>
@@ -756,6 +789,17 @@
       </reference>
       <name value="CHF-stageIII"/>
       <description value="Congestive heart failure, New York Heart Association stage III"/>
+      <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Disease"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/id.disease.intellectualDisability"/>
+      </reference>
+      <name value="intellectualDisabilityDisease"/>
+      <description value="Intellectual disability (disease)"/>
       <exampleCanonical value="https://github.com/phenopackets/core-ig/StructureDefinition/Disease"/>
     </resource>
     <resource>

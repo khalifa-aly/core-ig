@@ -1,9 +1,9 @@
 ﻿GA4GHPhenopacketIG : Validation Results
 =========================================
 
-err = 83, warn = 49, info = 38
+err = 94, warn = 49, info = 45
 IG Publisher Version: 1.1.76
-Generated Thu Jul 15 15:35:52 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
+Generated Thu Jul 15 16:42:28 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
 
  Build Errors : 29 / 5 / 0
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat : 0 / 1 / 1
@@ -11,18 +11,21 @@ Generated Thu Jul 15 15:35:52 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-categories : 0 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo : 0 / 1 / 3
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat : 0 / 1 / 3
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/Composition-id.treatment.1 : 2 / 1 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Composition-id.treatment.1 : 4 / 1 / 4
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.1 : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.2 : 0 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.3 : 1 / 0 / 3
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.intellectualDisability : 0 / 0 / 2
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket : 0 / 2 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/MedicationAdministration-id.treatment.1 : 0 / 0 / 3
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000316 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000343 : 2 / 0 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000369 : 2 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000541 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000568 : 2 / 0 / 1
- /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000612 : 2 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001252 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001263 : 2 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001324 : 2 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001669 : 2 / 0 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0003202 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0007663 : 2 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.measurement.1 : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-id.phenotypicfeature.1 : 2 / 0 / 1
@@ -39,6 +42,7 @@ Generated Thu Jul 15 15:35:52 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Practitioner-PeterGeneticist : 0 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/SearchParameter-service-request-supporting-info : 0 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Specimen-biosample.specimen.id.1 : 30 / 0 / 10
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/Specimen-biosample.specimen.id.2 : 5 / 0 / 4
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-CodedOnset : 1 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-DiagnosticMarker : 1 / 1 / 1
@@ -123,9 +127,14 @@ INFORMATION: CodeSystem/hpo-flat: CodeSystem.concept[3].property[2].value.ofType
 INFORMATION: CodeSystem/hpo-flat: CodeSystem.concept[3].property[3].value.ofType(Coding): Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Composition-id.treatment.1.json ==
+ERROR: Composition/id.treatment.1: Composition.section[1]: As specified by profile https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket, Element 'section' is out of order in ordered slice
 WARNING: Composition/id.treatment.1: Composition.type: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/doc-typecodes because the value set or code system is not known to the validator]
 ERROR: Composition/id.treatment.1: Composition.type: The code "LOINC_11516-2" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LOINC_11516-2) is not valid in the value set 'FHIRDocumentTypeCodes' (from http://tx.fhir.org/r4)
 ERROR: Composition/id.treatment.1: Composition.type.coding[0]: The code "LOINC_11516-2" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LOINC_11516-2) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#LOINC_11516-2'
+INFORMATION: Composition/id.treatment.1: Composition.section[0].code.coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
+INFORMATION: Composition/id.treatment.1: Composition.section[1].code.coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
+ERROR: Composition/id.treatment.1: Composition.section[1].entry[5]: Unable to resolve resource 'lowSetEars'
+INFORMATION: Composition/id.treatment.1: Composition.section[2].code.coding[0]: Code System URI 'http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType' is unknown so the code cannot be validated
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.1.json ==
 ERROR: Condition/id.disease.1: Condition.clinicalStatus: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1 (http://hl7.org/fhir/ValueSet/condition-clinical), and a coding from this value set is required) (codes = http://snomed.info/sct#315215002)
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.2.json ==
@@ -133,30 +142,38 @@ ERROR: Condition/id.disease.1: Condition.clinicalStatus: None of the codings pro
 INFORMATION: Condition/id.disease.3: Condition.code.coding[0]: Code System URI 'https://github.com/monarch-initiative/mondo' is unknown so the code cannot be validated
 ERROR: Condition/id.disease.3: Condition.stage[0]: con-1: 'Stage SHALL have summary or assessment' Rule 'Stage SHALL have summary or assessment' Failed
 INFORMATION: Condition/id.disease.3: Condition.stage[0].type.coding[0]: Code System URI 'https://github.com/EBISPOT/efo' is unknown so the code cannot be validated
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.intellectualDisability.json ==
+INFORMATION: Condition/id.disease.intellectualDisability: Condition.code.coding[0]: Code System URI 'https://github.com/monarch-initiative/mondo' is unknown so the code cannot be validated
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.ga4gh.phenopacket.json ==
 WARNING: ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket: ImplementationGuide.definition.resource[15].name: value should not start or finish with whitespace
 WARNING: ImplementationGuide.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/MedicationAdministration-id.treatment.1.json ==
 INFORMATION: MedicationAdministration/id.treatment.1: MedicationAdministration.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://drugcentral.org/' is unknown so the code cannot be validated
 INFORMATION: MedicationAdministration/id.treatment.1: MedicationAdministration.dosage.route.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
-== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000316.json ==
-ERROR: Observation/hp.0000316: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
-ERROR: Observation/hp.0000316: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000316 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000316'
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000343.json ==
 ERROR: Observation/hp.0000343: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
 ERROR: Observation/hp.0000343: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000343 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000343'
-== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000369.json ==
-ERROR: Observation/hp.0000369: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
-ERROR: Observation/hp.0000369: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000369 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000369'
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000541.json ==
+ERROR: Observation/hp.0000541: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
+ERROR: Observation/hp.0000541: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000541 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000541'
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000568.json ==
 ERROR: Observation/hp.0000568: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
 ERROR: Observation/hp.0000568: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000568 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000568'
-== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0000612.json ==
-ERROR: Observation/hp.0000612: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
-ERROR: Observation/hp.0000612: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000612 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0000612'
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001252.json ==
+ERROR: Observation/hp.0001252: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
+ERROR: Observation/hp.0001252: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001252 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001252'
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001263.json ==
 ERROR: Observation/hp.0001263: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
 ERROR: Observation/hp.0001263: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001263 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001263'
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001324.json ==
+ERROR: Observation/hp.0001324: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
+ERROR: Observation/hp.0001324: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001324 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001324'
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0001669.json ==
+ERROR: Observation/hp.0001669: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
+ERROR: Observation/hp.0001669: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001669 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0001669'
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0003202.json ==
+ERROR: Observation/hp.0003202: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
+ERROR: Observation/hp.0003202: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0003202 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0003202'
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Observation-hp.0007663.json ==
 ERROR: Observation/hp.0007663: Observation.status: The value provided ('active') is not in the value set http://hl7.org/fhir/ValueSet/observation-status|4.0.1 (http://hl7.org/fhir/ValueSet/observation-status), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/observation-status#active in http://hl7.org/fhir/observation-status)
 ERROR: Observation/hp.0007663: Observation.code.coding[0]: Unknown Code http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0007663 in http://github.com/phenopackets/core-ig/CodeSystem/hpo for 'http://github.com/phenopackets/core-ig/CodeSystem/hpo#HP:0007663'
@@ -241,6 +258,15 @@ INFORMATION: Specimen/biosample.specimen.id.1: Specimen.extension[5].value.ofTyp
 INFORMATION: Specimen/biosample.specimen.id.1: Specimen.type.coding[0]: Code System URI 'https://github.com/EBISPOT/efo' is unknown so the code cannot be validated
 INFORMATION: Specimen/biosample.specimen.id.1: Specimen.collection.bodySite.coding[0]: Code System URI 'https://github.com/obophenotype/uberon' is unknown so the code cannot be validated
 INFORMATION: Specimen/biosample.specimen.id.1: Specimen.processing[0].procedure.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/Specimen-biosample.specimen.id.2.json ==
+ERROR: Specimen/biosample.specimen.id.2: Specimen.extension[0]: The Extension 'https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample' definition allows for the types [CodeableConcept] but found type Coding
+ERROR: Specimen/biosample.specimen.id.2: Specimen.extension[0].value.ofType(Coding): This element does not match any known slice  defined in the profile https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample and slicing is CLOSED: Specimen.extension[0].value.ofType(Coding): Does not match slice 'valueCodeableConcept'
+ERROR: Specimen/biosample.specimen.id.2: Specimen.extension[0].value.ofType(Coding).system: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.2: Specimen.extension[0].value.ofType(Coding).code: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+ERROR: Specimen/biosample.specimen.id.2: Specimen.extension[0].value.ofType(Coding).display: This element is not allowed by the profile http://hl7.org/fhir/StructureDefinition/CodeableConcept
+INFORMATION: Specimen/biosample.specimen.id.2: Specimen.extension[0].value.ofType(Coding): Code System URI 'https://github.com/EBISPOT/efo' is unknown so the code cannot be validated
+INFORMATION: Specimen/biosample.specimen.id.2: Specimen.collection.bodySite.coding[0]: Code System URI 'https://github.com/obophenotype/uberon' is unknown so the code cannot be validated
+INFORMATION: Specimen/biosample.specimen.id.2: Specimen.processing[0].procedure.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/StructureDefinition-Biosample.json ==
 WARNING: StructureDefinition/Biosample: StructureDefinition.snapshot.element[13].short: value should not start or finish with whitespace
 ERROR: StructureDefinition.jurisdiction: The resource must declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')

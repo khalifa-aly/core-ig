@@ -1,0 +1,25 @@
+{
+  "resourceType": "Condition",
+  "id": "id.disease.intellectualDisability",
+  "meta": {
+    "profile": [
+      "https://github.com/phenopackets/core-ig/StructureDefinition/Disease"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {https://github.com/monarch-initiative/mondo MONDO_0001071}\">Intellectual disability</span></p><p><b>subject</b>: <a href=\"Patient-Proband1.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "https://github.com/monarch-initiative/mondo",
+        "code": "MONDO_0001071",
+        "display": "Intellectual disability"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/Proband1"
+  }
+}

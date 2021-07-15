@@ -1,0 +1,56 @@
+{
+  "resourceType": "Specimen",
+  "id": "biosample.specimen.id.2",
+  "meta": {
+    "profile": [
+      "https://github.com/phenopackets/core-ig/StructureDefinition/Biosample"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Material Sample</b>: <span title=\"{https://github.com/EBISPOT/efo EFO_0009655}\">abnormal sample</span></p><p><b>identifier</b>: id: arbitrary identifier</p><p><b>subject</b>: <a href=\"Patient-Proband1.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p><h3>Collections</h3><table class=\"grid\"><tr><td>-</td><td><b>Collected[x]</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td>2021-01-20</td><td><span title=\"Codes: {https://github.com/obophenotype/uberon UBERON_0001388}\">gastrocnemius</span></td></tr></table><h3>Processings</h3><table class=\"grid\"><tr><td>-</td><td><b>Procedure</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://purl.obolibrary.org/obo/ncit.owl NCIT_C51895}\">Muscle Biopsy</span></td></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "https://github.com/phenopackets/core-ig/StructureDefinition/MaterialSample",
+      "valueCoding": {
+        "system": "https://github.com/EBISPOT/efo",
+        "code": "EFO_0009655",
+        "display": "abnormal sample"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "value": "arbitrary identifier"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/Proband1"
+  },
+  "collection": {
+    "collectedDateTime": "2021-01-20",
+    "bodySite": {
+      "coding": [
+        {
+          "system": "https://github.com/obophenotype/uberon",
+          "code": "UBERON_0001388",
+          "display": "gastrocnemius"
+        }
+      ]
+    }
+  },
+  "processing": [
+    {
+      "procedure": {
+        "coding": [
+          {
+            "system": "http://purl.obolibrary.org/obo/ncit.owl",
+            "code": "NCIT_C51895",
+            "display": "Muscle Biopsy"
+          }
+        ]
+      }
+    }
+  ]
+}

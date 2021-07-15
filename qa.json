@@ -3,10 +3,10 @@
   "name": "GA4GHPhenopacketIG",
   "package-id": "hl7.fhir.us.ga4gh.phenopacket",
   "ig-ver": "0.1.0",
-  "date": "Thu, 15 Jul, 2021 15:35:07 +0000",
-  "errs": 83,
+  "date": "Thu, 15 Jul, 2021 16:41:47 +0000",
+  "errs": 94,
   "warnings": 49,
-  "hints": 38,
+  "hints": 45,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

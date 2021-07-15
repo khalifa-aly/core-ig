@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "827bb4ef-560c-46d1-8e25-e0140416a185-27",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/827bb4ef-560c-46d1-8e25-e0140416a185-27",
+  "id" : "d05e67ec-1a3f-418b-8116-6bd3739875b0-27",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d05e67ec-1a3f-418b-8116-6bd3739875b0-27",
   "name" : "IntersectionUSCoreBodyWeightProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Body Weight Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-15T15:35:18+00:00",
+  "date" : "2021-07-15T16:41:58+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

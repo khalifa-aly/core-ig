@@ -10,7 +10,7 @@
   "name": "GA4GHPhenopacketIG",
   "title": "GA4GH Phenopacket (version 2) FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-07-15T15:35:07+00:00",
+  "date": "2021-07-15T16:41:47+00:00",
   "publisher": "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
   "contact": [
     {
@@ -844,6 +844,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Specimen"
+          }
+        ],
+        "reference": {
+          "reference": "Specimen/biosample.specimen.id.2"
+        },
+        "name": "muscleBiopsy",
+        "description": "Biosample Example -- muscle biopsy",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Biosample"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Patient"
           }
         ],
@@ -853,20 +867,6 @@
         "name": "example-patient",
         "description": "Example of Patient",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Individual"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/hp.0000316"
-        },
-        "name": "Hypertelorism",
-        "description": "Hypertelorism (HP:0000316)",
-        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
       {
         "extension": [
@@ -890,10 +890,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/hp.0000369"
+          "reference": "Observation/hp.0000541"
         },
-        "name": "lowSetEars",
-        "description": "Low-set ears (HP:0000369)",
+        "name": "retinalDetachment",
+        "description": "Retinal detachment (HP:0000541)",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
       {
@@ -918,10 +918,10 @@
           }
         ],
         "reference": {
-          "reference": "Observation/hp.0000612"
+          "reference": "Observation/hp.0001252"
         },
-        "name": "irisColoboma",
-        "description": "Iris coloboma (HP:0000612)",
+        "name": "hpotonia",
+        "description": "Hypotonia (HP:0001252)",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
       {
@@ -936,6 +936,48 @@
         },
         "name": "globalDevelopmentalDelay",
         "description": "Global developmental delay (HP:0001263)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0001324"
+        },
+        "name": "muscleWeakness",
+        "description": "Muscle weakness (HP:0001324)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0001669"
+        },
+        "name": "tga",
+        "description": "Transposition of the great arteries (HP:0001669)",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/hp.0003202"
+        },
+        "name": "amyotrophy",
+        "description": "Skeletal muscle atrophy (HP:0003202)",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"
       },
       {
@@ -1020,6 +1062,20 @@
         },
         "name": "CHF-stageIII",
         "description": "Congestive heart failure, New York Heart Association stage III",
+        "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Disease"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/id.disease.intellectualDisability"
+        },
+        "name": "intellectualDisabilityDisease",
+        "description": "Intellectual disability (disease)",
         "exampleCanonical": "https://github.com/phenopackets/core-ig/StructureDefinition/Disease"
       },
       {

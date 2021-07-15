@@ -29,5 +29,76 @@
       "reference": "Practitioner/PeterGeneticist"
     }
   ],
-  "title": "Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay)."
+  "title": "Phenopacket (static snapshot of clinical findings to support differential diagnosis of a child with developmental delay).",
+  "section": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType",
+            "code": "diseases"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Condition/id.disease.intellectualDisability"
+        }
+      ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType",
+            "code": "phenotypic_features"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Observation/hp.0000343"
+        },
+        {
+          "reference": "Observation/hp.0000568"
+        },
+        {
+          "reference": "Observation/hp.0000541"
+        },
+        {
+          "reference": "Observation/hp.0001669"
+        },
+        {
+          "reference": "Observation/hp.0007663"
+        },
+        {
+          "reference": "lowSetEars"
+        },
+        {
+          "reference": "Observation/hp.0001263"
+        },
+        {
+          "reference": "Observation/hp.0001324"
+        },
+        {
+          "reference": "Observation/hp.0003202"
+        }
+      ]
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType",
+            "code": "biosamples"
+          }
+        ]
+      },
+      "entry": [
+        {
+          "reference": "Specimen/biosample.specimen.id.2"
+        }
+      ]
+    }
+  ]
 }

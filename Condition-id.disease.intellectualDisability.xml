@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="id.disease.intellectualDisability"/>
+  <meta>
+    <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/Disease"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title="Codes: {https://github.com/monarch-initiative/mondo MONDO_0001071}">Intellectual disability</span></p><p><b>subject</b>: <a href="Patient-Proband1.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p></div>
+  </text>
+  <code>
+    <coding>
+      <system value="https://github.com/monarch-initiative/mondo"/>
+      <code value="MONDO_0001071"/>
+      <display value="Intellectual disability"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/Proband1"/>
+  </subject>
+</Condition>
