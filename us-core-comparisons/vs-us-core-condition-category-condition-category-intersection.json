@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "f61ac795-a71a-4b9f-a480-42a84f22e6fe-111",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/f61ac795-a71a-4b9f-a480-42a84f22e6fe-111",
+  "id" : "6bdb7b39-0210-45bb-b20e-6bef2740a03f-111",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6bdb7b39-0210-45bb-b20e-6bef2740a03f-111",
   "name" : "IntersectionUSCoreConditionCategoryCodesAndConditionCategoryCodes",
   "title" : "Intersection of US Core Condition Category Codes And Condition Category Codes",
   "status" : "active",
-  "date" : "2021-07-15T14:29:26+00:00",
+  "date" : "2021-07-15T14:29:45+00:00",
   "expansion" : {
     "contains" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/condition-category",

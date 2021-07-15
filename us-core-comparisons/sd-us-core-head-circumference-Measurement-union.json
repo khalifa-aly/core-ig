@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f61ac795-a71a-4b9f-a480-42a84f22e6fe-80",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f61ac795-a71a-4b9f-a480-42a84f22e6fe-80",
+  "id" : "6bdb7b39-0210-45bb-b20e-6bef2740a03f-80",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6bdb7b39-0210-45bb-b20e-6bef2740a03f-80",
   "name" : "UnionUSCoreHeadCircumferenceProfileAndMeasurement",
   "title" : "Union of US Core Head Circumference Profile And Measurement",
   "status" : "active",
-  "date" : "2021-07-15T14:29:25+00:00",
+  "date" : "2021-07-15T14:29:44+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f61ac795-a71a-4b9f-a480-42a84f22e6fe-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6bdb7b39-0210-45bb-b20e-6bef2740a03f-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1763,7 +1763,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/f61ac795-a71a-4b9f-a480-42a84f22e6fe-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6bdb7b39-0210-45bb-b20e-6bef2740a03f-5"
       },
       "mapping" : [{
         "identity" : "w5",
