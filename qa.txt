@@ -3,7 +3,7 @@
 
 err = 83, warn = 49, info = 38
 IG Publisher Version: 1.1.76
-Generated Thu Jul 15 14:31:13 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
+Generated Thu Jul 15 15:35:00 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
 
  Build Errors : 29 / 5 / 0
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat : 0 / 1 / 1
@@ -81,33 +81,33 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/phenotypic-abnormality-invalid-meta-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/phenotypic-abnormality-valid-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-ga4gh.phenopacket in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 269, column 1104: The link 'HP:0000001' for "HP:0000001" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 269, column 1291: The link 'HP:0000118' for "HP:0000118" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 43: The link 'HP:0000707' for "HP:0000707" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 220: The link 'HP:0000707' for "HP:0000707" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 388: The link 'HP:0000707' for "HP:0000707" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 552: The link 'HP:0000118' for "HP:0000118" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 715: The link 'HP:0000118' for "HP:0000118" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 886: The link 'HP:0000001' for "HP:0000001" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 1048: The link 'HP:0012823' for "HP:0012823" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 1206: The link 'HP:0012824' for "HP:0012824" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 1368: The link 'HP:0012824' for "HP:0012824" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 1538: The link 'HP:0012823' for "HP:0012823" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 1702: The link 'HP:0012823' for "HP:0012823" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 1871: The link 'HP:0000001' for "HP:0000001" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 2030: The link 'HP:0031797' for "HP:0031797" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 2200: The link 'HP:0003674' for "HP:0003674" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 2368: The link 'HP:0003674' for "HP:0003674" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 2530: The link 'HP:0000118' for "HP:0000118" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 2711: The link 'HP:0002664' for "HP:0002664" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 2890: The link 'HP:0000118' for "HP:0000118" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 3078: The link 'HP:0001627' for "HP:0001627" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 3265: The link 'HP:0001671' for "HP:0001671" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 3462: The link 'HP:0001627' for "HP:0001627" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 3654: The link 'HP:0011545' for "HP:0011545" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 3839: The link 'HP:0001627' for "HP:0001627" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 270, column 4028: The link 'HP:0001654' for "HP:0001654" cannot be resolved
-ERROR: /home/runner/work/core-ig/core-ig/output/modeling.html#/html/body/div/div/div/div/div/p/a at Line 216, column 57: The link 'phenotype.md' for "deep phenotyping" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 272, column 1104: The link 'HP:0000001' for "HP:0000001" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 272, column 1291: The link 'HP:0000118' for "HP:0000118" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 43: The link 'HP:0000707' for "HP:0000707" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 220: The link 'HP:0000707' for "HP:0000707" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 388: The link 'HP:0000707' for "HP:0000707" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 552: The link 'HP:0000118' for "HP:0000118" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 715: The link 'HP:0000118' for "HP:0000118" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 886: The link 'HP:0000001' for "HP:0000001" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 1048: The link 'HP:0012823' for "HP:0012823" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 1206: The link 'HP:0012824' for "HP:0012824" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 1368: The link 'HP:0012824' for "HP:0012824" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 1538: The link 'HP:0012823' for "HP:0012823" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 1702: The link 'HP:0012823' for "HP:0012823" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 1871: The link 'HP:0000001' for "HP:0000001" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 2030: The link 'HP:0031797' for "HP:0031797" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 2200: The link 'HP:0003674' for "HP:0003674" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 2368: The link 'HP:0003674' for "HP:0003674" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 2530: The link 'HP:0000118' for "HP:0000118" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 2711: The link 'HP:0002664' for "HP:0002664" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 2890: The link 'HP:0000118' for "HP:0000118" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 3078: The link 'HP:0001627' for "HP:0001627" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 3265: The link 'HP:0001671' for "HP:0001671" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 3462: The link 'HP:0001627' for "HP:0001627" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 3654: The link 'HP:0011545' for "HP:0011545" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 3839: The link 'HP:0001627' for "HP:0001627" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/CodeSystem-hpo-flat.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 273, column 4028: The link 'HP:0001654' for "HP:0001654" cannot be resolved
+ERROR: /home/runner/work/core-ig/core-ig/output/modeling.html#/html/body/div/div/div/div/div/p/a at Line 219, column 57: The link 'phenotype.md' for "deep phenotyping" cannot be resolved
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat.json ==
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-KaryotypicSex.json ==
