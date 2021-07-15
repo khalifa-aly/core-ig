@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3fb492d3-d09d-492d-82d8-ed576633656e-11",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3fb492d3-d09d-492d-82d8-ed576633656e-11",
+  "id" : "827bb4ef-560c-46d1-8e25-e0140416a185-11",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/827bb4ef-560c-46d1-8e25-e0140416a185-11",
   "name" : "UnionUSCorePediatricWeightForHeightObservationProfileAndPhenotypicFeature",
   "title" : "Union of US Core Pediatric Weight for Height Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-15T15:34:55+00:00",
+  "date" : "2021-07-15T15:35:18+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3fb492d3-d09d-492d-82d8-ed576633656e-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/827bb4ef-560c-46d1-8e25-e0140416a185-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1736,7 +1736,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3fb492d3-d09d-492d-82d8-ed576633656e-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/827bb4ef-560c-46d1-8e25-e0140416a185-5"
       },
       "mapping" : [{
         "identity" : "w5",
