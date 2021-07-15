@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d05e67ec-1a3f-418b-8116-6bd3739875b0-69",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d05e67ec-1a3f-418b-8116-6bd3739875b0-69",
+  "id" : "e97e44c6-24e7-41d6-8d61-b1091a995d39-69",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e97e44c6-24e7-41d6-8d61-b1091a995d39-69",
   "name" : "IntersectionUSCoreBMIProfileProfileAndMeasurement",
   "title" : "Intersection of US Core BMI Profile And Measurement",
   "status" : "active",
-  "date" : "2021-07-15T16:41:58+00:00",
+  "date" : "2021-07-15T16:42:41+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
