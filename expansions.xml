@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a13e80fe-08c7-44b6-8a4d-f57887bf5cc6"/>
+  <id value="be3065e4-f5d4-416d-a941-e0a1c2612d6f"/>
   <meta>
-    <lastUpdated value="2021-07-16T13:47:10.184+00:00"/>
+    <lastUpdated value="2021-07-16T13:47:17.483+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -143,8 +143,8 @@
         <description value="The karyotypic (chromosomal) sex of an individual"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:91a23011-2df9-42d9-966a-b9382dac95d2"/>
-          <timestamp value="2021-07-16T13:47:34+00:00"/>
+          <identifier value="urn:uuid:63fbb175-b7ee-409d-ac02-7810404edd20"/>
+          <timestamp value="2021-07-16T13:47:45+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -258,7 +258,7 @@
         <name value="PhenotypicAbnormalityValueSet"/>
         <title value="Phenotypic abnormality ValueSet"/>
         <status value="active"/>
-        <date value="2021-07-16T13:47:10+00:00"/>
+        <date value="2021-07-16T13:47:17+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -270,8 +270,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:dc38087c-fdd9-43d7-ad4d-d58e56e1aa3a"/>
-          <timestamp value="2021-07-16T13:47:36+00:00"/>
+          <identifier value="urn:uuid:b3cf7993-804c-4f4c-bc40-fdf2fd5b1ce4"/>
+          <timestamp value="2021-07-16T13:47:46+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -351,7 +351,7 @@
         <name value="PhenotypicComponentValueSet"/>
         <title value="Phenotypic component ValueSet"/>
         <status value="active"/>
-        <date value="2021-07-16T13:47:10+00:00"/>
+        <date value="2021-07-16T13:47:17+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -363,8 +363,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:c524639c-933f-4008-b83b-14109c156f47"/>
-          <timestamp value="2021-07-16T13:47:37+00:00"/>
+          <identifier value="urn:uuid:7f29f39d-3bb5-472d-9351-130c6deb370a"/>
+          <timestamp value="2021-07-16T13:47:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -462,7 +462,7 @@
         <name value="PhenotypicModifierValueSet"/>
         <title value="Phenotypic modifier ValueSet"/>
         <status value="active"/>
-        <date value="2021-07-16T13:47:10+00:00"/>
+        <date value="2021-07-16T13:47:17+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -474,8 +474,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:3bcd1c41-d87e-4f62-b13c-6fe6cba7450f"/>
-          <timestamp value="2021-07-16T13:47:39+00:00"/>
+          <identifier value="urn:uuid:513a2eb8-50a6-4b55-aa14-7e5fe0c67246"/>
+          <timestamp value="2021-07-16T13:47:49+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -560,7 +560,7 @@
         <name value="PhenotypicFeatureStatusValueSet"/>
         <title value="Observation Codes for status of a PhenotypicFeature"/>
         <status value="active"/>
-        <date value="2021-07-16T13:47:10+00:00"/>
+        <date value="2021-07-16T13:47:17+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -572,8 +572,8 @@
         <description value="The LOINC codes for present if a feature is observed and absent if a feature was excluded."/>
         <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc"/>
         <expansion>
-          <identifier value="urn:uuid:4646b486-1af4-4dd6-9df0-b0ad91b5a3a3"/>
-          <timestamp value="2021-07-16T13:47:40+00:00"/>
+          <identifier value="urn:uuid:1f1f3a5b-2736-4120-aef4-80f910bfb541"/>
+          <timestamp value="2021-07-16T13:47:50+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -738,8 +738,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:f3c1e00f-1085-4fe5-aa12-aad3610dbf46"/>
-          <timestamp value="2021-07-16T13:47:40+00:00"/>
+          <identifier value="urn:uuid:fa866a93-0fda-406b-af06-3750b4f84c3e"/>
+          <timestamp value="2021-07-16T13:47:50+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1055,8 +1055,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:2b757d7f-3b5b-4b3c-b8e5-dfa51f466971"/>
-          <timestamp value="2021-07-16T13:47:41+00:00"/>
+          <identifier value="urn:uuid:feea410b-6b1a-4f85-aeb7-32bfead7fbe4"/>
+          <timestamp value="2021-07-16T13:47:51+00:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1323,7 +1323,7 @@
         <name value="ObservationCategories"/>
         <title value="Observation categories"/>
         <status value="draft"/>
-        <date value="2021-07-16T13:47:10+00:00"/>
+        <date value="2021-07-16T13:47:17+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -1335,8 +1335,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:c9bdf3b2-1abd-42cb-b66e-4498927e7ca2"/>
-          <timestamp value="2021-07-16T13:47:41+00:00"/>
+          <identifier value="urn:uuid:2d526514-e5fc-45a3-8726-4874b638cfb5"/>
+          <timestamp value="2021-07-16T13:47:51+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>

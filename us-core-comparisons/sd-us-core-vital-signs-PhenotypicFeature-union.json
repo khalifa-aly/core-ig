@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "6322c46d-d19d-40e5-99db-a3be4111fb24-56",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6322c46d-d19d-40e5-99db-a3be4111fb24-56",
+  "id" : "20efd488-ebbf-41ef-a413-2af5ac671a98-56",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/20efd488-ebbf-41ef-a413-2af5ac671a98-56",
   "name" : "UnionUSCoreVitalSignsProfileAndPhenotypicFeature",
   "title" : "Union of US Core Vital Signs Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-16T13:47:22+00:00",
+  "date" : "2021-07-16T13:47:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6322c46d-d19d-40e5-99db-a3be4111fb24-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/20efd488-ebbf-41ef-a413-2af5ac671a98-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -914,7 +914,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6322c46d-d19d-40e5-99db-a3be4111fb24-8"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/20efd488-ebbf-41ef-a413-2af5ac671a98-8"
       },
       "mapping" : [{
         "identity" : "sct-concept",
@@ -1767,7 +1767,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6322c46d-d19d-40e5-99db-a3be4111fb24-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/20efd488-ebbf-41ef-a413-2af5ac671a98-5"
       },
       "mapping" : [{
         "identity" : "w5",
