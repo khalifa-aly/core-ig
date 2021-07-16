@@ -6,7 +6,7 @@
     <profile value="https://github.com/phenopackets/core-ig/StructureDefinition/PhenotypicFeature"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0001669}">Transposition of the great arteries</span></p><p><b>subject</b>: <a href="Patient-Proband1.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p><p><b>value</b>: true</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title="Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0001669}">Transposition of the great arteries</span></p><p><b>subject</b>: <a href="Patient-Proband1.html">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9633-4}">Present</span></p></div>
   </text>
   <status value="active"/>
   <code>
@@ -19,5 +19,11 @@
   <subject>
     <reference value="Patient/Proband1"/>
   </subject>
-  <valueBoolean value="true"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA9633-4"/>
+      <display value="Present"/>
+    </coding>
+  </valueCodeableConcept>
 </Observation>

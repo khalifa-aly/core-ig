@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fc685f2c-df7a-4b19-b4c9-143449c3e2dd-20",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc685f2c-df7a-4b19-b4c9-143449c3e2dd-20",
+  "id" : "74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-23",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-23",
   "name" : "UnionUSCoreBodyHeightProfileAndPhenotypicFeature",
   "title" : "Union of US Core Body Height Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-15T23:23:22+00:00",
+  "date" : "2021-07-16T13:46:15+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fc685f2c-df7a-4b19-b4c9-143449c3e2dd-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-5"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -867,7 +867,7 @@
         "code" : "Quantity"
       },
       {
-        "code" : "boolean"
+        "code" : "CodeableConcept"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -881,9 +881,9 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "strength" : "example",
+        "strength" : "extensible",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-8"
       },
       "mapping" : [{
         "identity" : "sct-concept",
@@ -1736,7 +1736,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: The vital sign codes from the base FHIR and US Core Vital Signs.; right: Codes identifying names of simple observations.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/fc685f2c-df7a-4b19-b4c9-143449c3e2dd-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-5"
       },
       "mapping" : [{
         "identity" : "w5",

@@ -1,9 +1,9 @@
 ﻿GA4GHPhenopacketIG : Validation Results
 =========================================
 
-err = 96, warn = 49, info = 45
+err = 96, warn = 51, info = 45
 IG Publisher Version: 1.1.76
-Generated Thu Jul 15 23:23:52 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
+Generated Fri Jul 16 13:46:51 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh.phenopacket#0.1.0 (canonical = https://github.com/phenopackets/core-ig)
 
  Build Errors : 29 / 5 / 0
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-HtsFormat : 0 / 1 / 1
@@ -11,6 +11,7 @@ Generated Thu Jul 15 23:23:52 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-categories : 0 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo : 0 / 1 / 3
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat : 0 / 1 / 3
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-phenotypicFeatureStatusCS : 0 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Composition-id.treatment.1 : 4 / 1 / 4
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.1 : 1 / 0 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/Condition-id.disease.2 : 0 / 0 / 1
@@ -77,6 +78,7 @@ Generated Thu Jul 15 23:23:52 UTC 2021. FHIR version 4.0.1 for hl7.fhir.us.ga4gh
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-observation-categories : 0 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-abnormality : 0 / 1 / 1
  /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-component : 0 / 1 / 1
+ /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypicFeatureVS : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[26].value: Supressed messages file not found
@@ -126,6 +128,8 @@ WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction t
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-hpo-flat.json ==
 INFORMATION: CodeSystem/hpo-flat: CodeSystem.concept[3].property[2].value.ofType(Coding): Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated
 INFORMATION: CodeSystem/hpo-flat: CodeSystem.concept[3].property[3].value.ofType(Coding): Code System URI 'http://www.nlm.nih.gov/research/umls' is unknown so the code cannot be validated
+WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/CodeSystem-phenotypicFeatureStatusCS.json ==
 WARNING: CodeSystem.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/Composition-id.treatment.1.json ==
 ERROR: Composition/id.treatment.1: Composition.section[1]: As specified by profile https://github.com/phenopackets/core-ig/StructureDefinition/Phenopacket, Element 'section' is out of order in ordered slice
@@ -366,4 +370,6 @@ WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to 
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-abnormality.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
 == /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypic-component.json ==
+WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')
+== /home/runner/work/core-ig/core-ig/fsh-generated/resources/ValueSet-phenotypicFeatureVS.json ==
 WARNING: ValueSet.jurisdiction: The resource should declare its jurisdiction to match the package id (hl7.fhir.us.ga4gh.phenopacket, jurisdiction = urn:iso:std:iso:3166#US) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#US "null"')

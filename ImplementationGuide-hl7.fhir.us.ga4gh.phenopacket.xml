@@ -11,7 +11,7 @@
   <name value="GA4GHPhenopacketIG"/>
   <title value="GA4GH Phenopacket (version 2) FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-15T23:23:10+00:00"/>
+  <date value="2021-07-16T13:46:05+00:00"/>
   <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
   <contact>
     <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -488,6 +488,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/phenotypicFeatureVS"/>
+      </reference>
+      <name value="Observation Codes for status of a PhenotypicFeature"/>
+      <description value="The LOINC codes for present if a feature is observed and absent if a feature was excluded."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/PhenotypicModifierValueSet"/>
       </reference>
       <name value="Phenotypic modifier ValueSet"/>
@@ -580,6 +591,17 @@
       </reference>
       <name value="Karyotypic sex code system"/>
       <description value="karyotypic sex of an individual (also known as chromosomal sex)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/phenotypicFeatureStatusCS"/>
+      </reference>
+      <name value="Categories"/>
+      <description value="Various categories or tags"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

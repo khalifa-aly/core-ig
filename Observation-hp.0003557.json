@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0003557}\">Increased variability in muscle fiber diameter</span></p><p><b>focus</b>: <a href=\"Specimen-biosample.specimen.id.2.html\">Generated Summary: id: arbitrary identifier</a></p><p><b>value</b>: true</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0003557}\">Increased variability in muscle fiber diameter</span></p><p><b>focus</b>: <a href=\"Specimen-biosample.specimen.id.2.html\">Generated Summary: id: arbitrary identifier</a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA9633-4}\">Present</span></p></div>"
   },
   "status": "active",
   "code": {
@@ -25,5 +25,13 @@
       "reference": "Specimen/biosample.specimen.id.2"
     }
   ],
-  "valueBoolean": true
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9633-4",
+        "display": "Present"
+      }
+    ]
+  }
 }

@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0001263}\">Global developmental delay</span></p><p><b>subject</b>: <a href=\"Patient-Proband1.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p><p><b>value</b>: true</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0001263}\">Global developmental delay</span></p><p><b>subject</b>: <a href=\"Patient-Proband1.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2017-01-20</a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA9633-4}\">Present</span></p></div>"
   },
   "status": "active",
   "code": {
@@ -23,5 +23,13 @@
   "subject": {
     "reference": "Patient/Proband1"
   },
-  "valueBoolean": true
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9633-4",
+        "display": "Present"
+      }
+    ]
+  }
 }

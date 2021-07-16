@@ -1,4 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -17,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0009805}\">Low-output congestive heart failure</span></p><p><b>subject</b>: <a href=\"Patient-example-patient.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p><p><b>effective</b>: 2018-03-06</p><p><b>value</b>: true</p><h3>Components</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012828}\">Severe</span></td><td>true</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>code</b>: <span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0009805}\">Low-output congestive heart failure</span></p><p><b>subject</b>: <a href=\"Patient-example-patient.html\">Generated Summary: Medical Record Number: m123 (USUAL); Anyname A. Anyperson ; gender: male; birthDate: 2001-01-20</a></p><p><b>effective</b>: 2018-03-06</p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA9633-4}\">Present</span></p><h3>Components</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://github.com/phenopackets/core-ig/CodeSystem/hpo HP:0012828}\">Severe</span></td><td>true</td></tr></table></div>"
   ];
   fhir:Observation.status [ fhir:value "active"];
   fhir:Observation.code [
@@ -33,7 +34,15 @@
      fhir:Reference.reference [ fhir:value "Patient/example-patient" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2018-03-06"^^xsd:date];
-  fhir:Observation.valueBoolean [ fhir:value "true"^^xsd:boolean];
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:LA9633-4;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "LA9633-4" ];
+       fhir:Coding.display [ fhir:value "Present" ]
+     ]
+  ];
   fhir:Observation.component [
      fhir:index 0;
      fhir:Observation.component.code [

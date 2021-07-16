@@ -49,6 +49,13 @@
     "name": "Categories"
   },
   {
+    "id": "phenotypicFeatureStatusCS",
+    "type": "CodeSystem",
+    "url": "https://github.com/phenopackets/core-ig/CodeSystem/phenotypicFeatureStatusCS",
+    "version": "0.1.0",
+    "name": "PhenotypicFeatureStatusCS"
+  },
+  {
     "id": "hl7.fhir.us.ga4gh.phenopacket",
     "type": "ImplementationGuide",
     "url": "https://github.com/phenopackets/core-ig/ImplementationGuide/hl7.fhir.us.ga4gh.phenopacket",
@@ -278,5 +285,12 @@
     "url": "https://github.com/phenopackets/core-ig/ValueSet/phenotypic-component",
     "version": "0.1.0",
     "name": "PhenotypicComponentValueSet"
+  },
+  {
+    "id": "phenotypicFeatureVS",
+    "type": "ValueSet",
+    "url": "https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS",
+    "version": "0.1.0",
+    "name": "PhenotypicFeatureStatusValueSet"
   }
 ]

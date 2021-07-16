@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "fc685f2c-df7a-4b19-b4c9-143449c3e2dd-15",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fc685f2c-df7a-4b19-b4c9-143449c3e2dd-15",
+  "id" : "74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-18",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-18",
   "name" : "IntersectionUSCoreBloodPressureProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Blood Pressure Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-15T23:23:22+00:00",
+  "date" : "2021-07-16T13:46:15+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
@@ -913,9 +913,9 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "strength" : "extensible",
+        "strength" : "required",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-9"
       },
       "mapping" : [{
         "identity" : "sct-concept",

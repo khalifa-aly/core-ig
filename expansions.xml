@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f775f421-f8cb-4347-ad20-8d42ab3f5e4f"/>
+  <id value="bfe186e9-4493-4a89-865d-d56f42769690"/>
   <meta>
-    <lastUpdated value="2021-07-15T23:23:10.873+00:00"/>
+    <lastUpdated value="2021-07-16T13:46:05.104+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -143,8 +143,8 @@
         <description value="The karyotypic (chromosomal) sex of an individual"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:0b97d970-133b-4468-b59f-93d4c0954bbb"/>
-          <timestamp value="2021-07-15T23:23:32+00:00"/>
+          <identifier value="urn:uuid:0a79336b-62f4-4692-a474-7e52df26941f"/>
+          <timestamp value="2021-07-16T13:46:30+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -258,7 +258,7 @@
         <name value="PhenotypicAbnormalityValueSet"/>
         <title value="Phenotypic abnormality ValueSet"/>
         <status value="active"/>
-        <date value="2021-07-15T23:23:10+00:00"/>
+        <date value="2021-07-16T13:46:05+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -270,8 +270,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:2ffd7bbb-a6f7-4ed0-80df-9de9bfb79638"/>
-          <timestamp value="2021-07-15T23:23:33+00:00"/>
+          <identifier value="urn:uuid:5152eaaa-724d-4c83-adc6-2f305b64e487"/>
+          <timestamp value="2021-07-16T13:46:31+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -351,7 +351,7 @@
         <name value="PhenotypicComponentValueSet"/>
         <title value="Phenotypic component ValueSet"/>
         <status value="active"/>
-        <date value="2021-07-15T23:23:10+00:00"/>
+        <date value="2021-07-16T13:46:05+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -363,8 +363,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:e7734919-876f-4915-b4de-5c693897db22"/>
-          <timestamp value="2021-07-15T23:23:34+00:00"/>
+          <identifier value="urn:uuid:e1a471c5-e145-4e54-a18d-30b59d8abe15"/>
+          <timestamp value="2021-07-16T13:46:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -462,7 +462,7 @@
         <name value="PhenotypicModifierValueSet"/>
         <title value="Phenotypic modifier ValueSet"/>
         <status value="active"/>
-        <date value="2021-07-15T23:23:10+00:00"/>
+        <date value="2021-07-16T13:46:05+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -474,8 +474,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:ac666400-501c-4e53-9f09-75d0650d0b51"/>
-          <timestamp value="2021-07-15T23:23:36+00:00"/>
+          <identifier value="urn:uuid:1bdf08e1-468c-4d93-ae9d-f2f18b66e743"/>
+          <timestamp value="2021-07-16T13:46:34+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -504,6 +504,98 @@
             <system value="http://github.com/phenopackets/core-ig/CodeSystem/hpo"/>
             <code value="HP:0012826"/>
             <display value="Moderate"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS"/>
+    <resource>
+      <ValueSet>
+        <id value="phenotypicFeatureVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.69</p>
+            <p>All codes from system 
+              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html">
+                <code>http://loinc.org</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA9633-4"> </a>
+                  <a href="http://details.loinc.org/LOINC/LA9633-4.html">LA9633-4</a>
+                </td>
+                <td>Present</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-LA9634-2"> </a>
+                  <a href="http://details.loinc.org/LOINC/LA9634-2.html">LA9634-2</a>
+                </td>
+                <td>Absent</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS"/>
+        <version value="0.1.0"/>
+        <name value="PhenotypicFeatureStatusValueSet"/>
+        <title value="Observation Codes for status of a PhenotypicFeature"/>
+        <status value="active"/>
+        <date value="2021-07-16T13:46:05+00:00"/>
+        <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+        <contact>
+          <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ga4gh.org/work_stream/clinical-phenotypic-data-capture-2/"/>
+          </telecom>
+        </contact>
+        <description value="The LOINC codes for present if a feature is observed and absent if a feature was excluded."/>
+        <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc"/>
+        <expansion>
+          <identifier value="urn:uuid:2537e0f0-a972-4192-b90a-5f4f3ac2731f"/>
+          <timestamp value="2021-07-16T13:46:35+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://loinc.org|2.69"/>
+          </parameter>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA9633-4"/>
+            <display value="Present"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="LA9634-2"/>
+            <display value="Absent"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -646,8 +738,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:801811e9-d070-49ff-b55a-f2ba85f3ddcc"/>
-          <timestamp value="2021-07-15T23:23:37+00:00"/>
+          <identifier value="urn:uuid:653119de-e7d6-428a-9669-556fbcf80d30"/>
+          <timestamp value="2021-07-16T13:46:35+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -963,8 +1055,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:6639eb20-3f10-4139-b128-10608b2415f3"/>
-          <timestamp value="2021-07-15T23:23:37+00:00"/>
+          <identifier value="urn:uuid:1613febf-6b81-40ea-b6ff-32d30690ebb4"/>
+          <timestamp value="2021-07-16T13:46:36+00:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1231,7 +1323,7 @@
         <name value="ObservationCategories"/>
         <title value="Observation categories"/>
         <status value="draft"/>
-        <date value="2021-07-15T23:23:10+00:00"/>
+        <date value="2021-07-16T13:46:05+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -1243,8 +1335,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:36956fda-67c4-44e3-ac1f-bd8f0ae6a7f6"/>
-          <timestamp value="2021-07-15T23:23:37+00:00"/>
+          <identifier value="urn:uuid:888abefc-8c7f-4c8b-afc0-7eff3c326a75"/>
+          <timestamp value="2021-07-16T13:46:36+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>

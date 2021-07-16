@@ -1,0 +1,141 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-8",
+  "name" : "UnionVitalSignsUnitsAndPhenotypicFeatureStatusValueSet",
+  "title" : "Union of Vital Signs Units And Observation Codes for status of a PhenotypicFeature",
+  "status" : "draft",
+  "date" : "2021-07-16T13:46:14+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "%",
+        "display" : "percent"
+      },
+      {
+        "code" : "cm",
+        "display" : "centimeter"
+      },
+      {
+        "code" : "[in_i]",
+        "display" : "inch (international)"
+      },
+      {
+        "code" : "kg",
+        "display" : "kilogram"
+      },
+      {
+        "code" : "g",
+        "display" : "gram"
+      },
+      {
+        "code" : "[lb_av]",
+        "display" : "pound (US and British)"
+      },
+      {
+        "code" : "Cel",
+        "display" : "degree Celsius"
+      },
+      {
+        "code" : "[degF]",
+        "display" : "degree Fahrenheit"
+      },
+      {
+        "code" : "mm[Hg]",
+        "display" : "millimeter of mercury"
+      },
+      {
+        "code" : "/min",
+        "display" : "per minute"
+      },
+      {
+        "code" : "kg/m2",
+        "display" : "kilogram / (meter ^ 2)"
+      },
+      {
+        "code" : "m2",
+        "display" : "square meter"
+      },
+      {
+        "code" : "LA9633-4",
+        "display" : "Present"
+      },
+      {
+        "code" : "LA9634-2",
+        "display" : "Absent"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "%",
+      "display" : "%"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "cm",
+      "display" : "cm"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "[in_i]",
+      "display" : "[in_i]"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg",
+      "display" : "kg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g",
+      "display" : "g"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "[lb_av]",
+      "display" : "[lb_av]"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "Cel",
+      "display" : "Cel"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "[degF]",
+      "display" : "[degF]"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mm[Hg]",
+      "display" : "mm[Hg]"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/min",
+      "display" : "/min"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg/m2",
+      "display" : "kg/m2"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "m2",
+      "display" : "m2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA9633-4",
+      "display" : "Present"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA9634-2",
+      "display" : "Absent"
+    }]
+  }
+}
