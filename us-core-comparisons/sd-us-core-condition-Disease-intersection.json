@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-111",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-111",
+  "id" : "490c28a2-da98-46e3-82b1-1847fb131df3-111",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/490c28a2-da98-46e3-82b1-1847fb131df3-111",
   "name" : "IntersectionUSCoreConditionAndDisease",
   "title" : "Intersection of US Core Condition Profile And Disease profile",
   "status" : "active",
-  "date" : "2021-07-16T13:46:15+00:00",
+  "date" : "2021-07-16T13:46:45+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Condition",
@@ -521,7 +521,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "A category assigned to the condition.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/74a91fec-dc6e-4b4e-9347-e434d9ec2b5f-114"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/490c28a2-da98-46e3-82b1-1847fb131df3-114"
       },
       "mapping" : [{
         "identity" : "w5",
