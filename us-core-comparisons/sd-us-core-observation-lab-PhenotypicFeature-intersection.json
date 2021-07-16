@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "490c28a2-da98-46e3-82b1-1847fb131df3-39",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/490c28a2-da98-46e3-82b1-1847fb131df3-39",
+  "id" : "6322c46d-d19d-40e5-99db-a3be4111fb24-39",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6322c46d-d19d-40e5-99db-a3be4111fb24-39",
   "name" : "IntersectionUSCoreLaboratoryResultObservationProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Laboratory Result Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-16T13:46:44+00:00",
+  "date" : "2021-07-16T13:47:21+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",

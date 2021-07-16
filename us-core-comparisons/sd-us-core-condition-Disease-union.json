@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "490c28a2-da98-46e3-82b1-1847fb131df3-110",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/490c28a2-da98-46e3-82b1-1847fb131df3-110",
+  "id" : "6322c46d-d19d-40e5-99db-a3be4111fb24-110",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6322c46d-d19d-40e5-99db-a3be4111fb24-110",
   "name" : "UnionUSCoreConditionAndDisease",
   "title" : "Union of US Core Condition Profile And Disease profile",
   "status" : "active",
-  "date" : "2021-07-16T13:46:45+00:00",
+  "date" : "2021-07-16T13:47:22+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -515,7 +515,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "A category assigned to the condition.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/490c28a2-da98-46e3-82b1-1847fb131df3-113"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6322c46d-d19d-40e5-99db-a3be4111fb24-113"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -610,7 +610,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: Valueset to describe the actual problem experienced by the patient; right: Identification of the condition or diagnosis.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/490c28a2-da98-46e3-82b1-1847fb131df3-116"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6322c46d-d19d-40e5-99db-a3be4111fb24-116"
       },
       "mapping" : [{
         "identity" : "workflow",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "490c28a2-da98-46e3-82b1-1847fb131df3-15",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/490c28a2-da98-46e3-82b1-1847fb131df3-15",
+  "id" : "6322c46d-d19d-40e5-99db-a3be4111fb24-15",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6322c46d-d19d-40e5-99db-a3be4111fb24-15",
   "name" : "IntersectionUSCorePediatricWeightForHeightObservationProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Pediatric Weight for Height Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-07-16T13:46:44+00:00",
+  "date" : "2021-07-16T13:47:21+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
@@ -881,7 +881,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/490c28a2-da98-46e3-82b1-1847fb131df3-9"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/6322c46d-d19d-40e5-99db-a3be4111fb24-9"
       },
       "mapping" : [{
         "identity" : "sct-concept",
