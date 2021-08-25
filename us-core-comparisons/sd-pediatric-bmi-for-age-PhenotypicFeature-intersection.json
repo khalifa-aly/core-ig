@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "970ed3f4-0052-4732-97f4-38a2f6e3cfca-18",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/970ed3f4-0052-4732-97f4-38a2f6e3cfca-18",
+  "id" : "7edff5a6-fca4-46aa-b73d-c42130745ce3-18",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7edff5a6-fca4-46aa-b73d-c42130745ce3-18",
   "name" : "IntersectionUSCorePediatricBMIforAgeObservationProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Pediatric BMI for Age Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-08-25T04:16:35+00:00",
+  "date" : "2021-08-25T04:16:53+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
@@ -881,7 +881,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/970ed3f4-0052-4732-97f4-38a2f6e3cfca-15"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7edff5a6-fca4-46aa-b73d-c42130745ce3-15"
       },
       "mapping" : [{
         "identity" : "sct-concept",
