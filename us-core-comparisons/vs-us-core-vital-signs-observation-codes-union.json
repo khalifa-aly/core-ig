@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "20efd488-ebbf-41ef-a413-2af5ac671a98-5",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/20efd488-ebbf-41ef-a413-2af5ac671a98-5",
+  "id" : "7aa37b30-81fa-4c60-9f04-8b91743e904d-11",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7aa37b30-81fa-4c60-9f04-8b91743e904d-11",
   "name" : "UnionUsCoreVitalSignsAndLOINCCodes",
   "title" : "Union of US Core Vital Signs ValueSet And LOINC Codes",
   "status" : "active",
-  "date" : "2021-07-16T13:47:29+00:00",
+  "date" : "2021-08-25T04:14:19+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -562,7 +562,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "1007-4",
-      "display" : "Direct antiglobulin test.poly specific reagent [Presence] on Red Blood Cells"
+      "display" : "Direct antiglobulin test.polyspecific reagent [Presence] on Red Blood Cells"
     },
     {
       "system" : "http://loinc.org",
@@ -617,7 +617,7 @@
     {
       "system" : "http://loinc.org",
       "code" : "1008-2",
-      "display" : "Indirect antiglobulin test.poly specific reagent [Presence] in Serum or Plasma"
+      "display" : "Indirect antiglobulin test.polyspecific reagent [Presence] in Serum or Plasma"
     },
     {
       "system" : "http://loinc.org",

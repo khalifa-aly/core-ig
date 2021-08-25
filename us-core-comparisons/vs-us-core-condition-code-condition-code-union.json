@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "20efd488-ebbf-41ef-a413-2af5ac671a98-116",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/20efd488-ebbf-41ef-a413-2af5ac671a98-116",
+  "id" : "7aa37b30-81fa-4c60-9f04-8b91743e904d-116",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7aa37b30-81fa-4c60-9f04-8b91743e904d-116",
   "name" : "UnionUSCoreConditionCodeAndCondition/Problem/DiagnosisCodes",
   "title" : "Union of US Core Condition Code And Condition/Problem/Diagnosis Codes",
   "status" : "active",
-  "date" : "2021-07-16T13:47:31+00:00",
+  "date" : "2021-08-25T04:14:22+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -196,11 +196,6 @@
       "system" : "http://snomed.info/sct",
       "code" : "199004",
       "display" : "Decreased lactation"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "208008",
-      "display" : "Neurocutaneous melanosis sequence"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -689,18 +684,8 @@
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "666000",
-      "display" : "Poisoning by antivaricose drug AND/OR sclerosing agent"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "675003",
       "display" : "Torsion of intestine"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "682004",
-      "display" : "Thrombosis complicating pregnancy AND/OR puerperium"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1510,7 +1495,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "1479009",
-      "display" : "20q partial trisomy syndrome"
+      "display" : "20q partial trisomy (disorder)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1894,11 +1879,6 @@
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "1829003",
-      "display" : "Microcephalus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "1833005",
       "display" : "Phacoanaphylactic endophthalmitis"
     },
@@ -1964,11 +1944,6 @@
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "1881003",
-      "display" : "Increased nutritional requirement"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "1892002",
       "display" : "Star figure at the macula"
     },
@@ -2021,11 +1996,6 @@
       "system" : "http://snomed.info/sct",
       "code" : "1953005",
       "display" : "Congenital deficiency of pigment of skin"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1954004",
-      "display" : "Dilated cardiomyopathy secondary to toxic reaction"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2091,11 +2061,6 @@
       "system" : "http://snomed.info/sct",
       "code" : "2012002",
       "display" : "Fracture of lunate bone of wrist"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "2024009",
-      "display" : "Dilated cardiomyopathy secondary to metazoal myocarditis"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -5064,6 +5029,41 @@
     },
     {
       "system" : "http://snomed.info/sct",
+      "code" : "4819006",
+      "display" : "Effusion of joint of ankle AND/OR foot"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4821001",
+      "display" : "Contusion of cheek"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4834000",
+      "display" : "Typhoid fever"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4835004",
+      "display" : "Infection by Nosema bombycis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4836003",
+      "display" : "Poisoning by anti-parkinsonism drug"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4839005",
+      "display" : "Chronic enlargement of lacrimal gland"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "4846001",
+      "display" : "Anicteric viral hepatitis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
       "code" : "243796009",
       "display" : "Context-dependent categories"
     },
@@ -5519,6 +5519,11 @@
     },
     {
       "system" : "http://snomed.info/sct",
+      "code" : "146799005",
+      "display" : "Possible pregnancy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
       "code" : "148176006",
       "display" : "Luteinizing hormone and follicle stimulating hormone checked"
     },
@@ -5666,11 +5671,6 @@
       "system" : "http://snomed.info/sct",
       "code" : "160290005",
       "display" : "Family history of neoplasm of male genital tract"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "160291009",
-      "display" : "Family history of urological neoplasm"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6035,7 +6035,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "160417009",
-      "display" : "FH: Congenital anomaly"
+      "display" : "Family history of congenital anomaly"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6070,7 +6070,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "160425006",
-      "display" : "FH: Chromosomal anomaly"
+      "display" : "Family history of chromosomal anomaly (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6091,11 +6091,6 @@
       "system" : "http://snomed.info/sct",
       "code" : "160430005",
       "display" : "FH: Mother dead"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "160431009",
-      "display" : "FH: Mother unwell"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6680,7 +6675,7 @@
     {
       "system" : "http://snomed.info/sct",
       "code" : "161508001",
-      "display" : "H/O: Deep vein thrombosis"
+      "display" : "History of deep vein thrombosis (situation)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -10059,6 +10054,11 @@
     },
     {
       "system" : "http://snomed.info/sct",
+      "code" : "182862001",
+      "display" : "Drug not taken - dislike taste"
+    },
+    {
+      "system" : "http://snomed.info/sct",
       "code" : "272379006",
       "display" : "Events"
     },
@@ -10581,6 +10581,11 @@
       "system" : "http://snomed.info/sct",
       "code" : "48071004",
       "display" : "Cyclone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "48981002",
+      "display" : "Parasuicide"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -15051,11 +15056,6 @@
       "system" : "http://snomed.info/sct",
       "code" : "216297000",
       "display" : "Accident to cable car not running on rails"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "216298005",
-      "display" : "Accident caused by breakage of cable in cable car not running on rails"
     },
     {
       "system" : "http://hl7.org/fhir/sid/icd-10-cm",
