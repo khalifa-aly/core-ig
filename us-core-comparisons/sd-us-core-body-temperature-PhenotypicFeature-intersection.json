@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c1293267-b741-497a-a939-06d6cea35a13-33",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c1293267-b741-497a-a939-06d6cea35a13-33",
+  "id" : "970ed3f4-0052-4732-97f4-38a2f6e3cfca-33",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/970ed3f4-0052-4732-97f4-38a2f6e3cfca-33",
   "name" : "IntersectionUSCoreBodyTemperatureProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core Body Temperature Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-08-25T04:14:38+00:00",
+  "date" : "2021-08-25T04:16:35+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
@@ -881,7 +881,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/c1293267-b741-497a-a939-06d6cea35a13-15"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/970ed3f4-0052-4732-97f4-38a2f6e3cfca-15"
       },
       "mapping" : [{
         "identity" : "sct-concept",
