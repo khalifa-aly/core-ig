@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ff3616b4-7270-44e3-bb34-ecee53111fb2",
+  "id" : "3ffce3b0-33ee-4f64-9633-ac4b0297a14f",
   "meta" : {
-    "lastUpdated" : "2021-08-25T04:16:36.472+00:00"
+    "lastUpdated" : "2021-08-30T17:21:39.373+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -31,8 +31,8 @@
       "description" : "The karyotypic (chromosomal) sex of an individual",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:30406bbe-d9ab-4f17-812a-27d5ccc1f536",
-        "timestamp" : "2021-08-25T04:17:10+00:00",
+        "identifier" : "urn:uuid:a117533f-9882-4bbd-ba34-2bb48b52cfd5",
+        "timestamp" : "2021-08-30T17:22:16+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -130,8 +130,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:ac18a745-7ce3-44a0-9b2a-044b20753047",
-        "timestamp" : "2021-08-25T04:17:13+00:00",
+        "identifier" : "urn:uuid:2eab9bcb-5f05-4b8c-9a7a-9b451730640a",
+        "timestamp" : "2021-08-30T17:22:19+00:00",
         "total" : 20,
         "parameter" : [{
           "name" : "excludeNested",
@@ -263,14 +263,14 @@
       "id" : "phenotypicFeatureVS",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.70</p><p>All codes from system <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html\"><code>http://loinc.org</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9633-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA9633-4.html\">LA9633-4</a></td><td>Present</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9634-2\"> </a><a href=\"http://details.loinc.org/LOINC/LA9634-2.html\">LA9634-2</a></td><td>Absent</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
       "url" : "https://github.com/phenopackets/core-ig/ValueSet/phenotypicFeatureVS",
       "version" : "0.1.0",
       "name" : "PhenotypicFeatureStatusValueSet",
       "title" : "Observation Codes for status of a PhenotypicFeature",
       "status" : "active",
-      "date" : "2021-08-25T04:16:36+00:00",
+      "date" : "2021-08-30T17:21:39+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -282,9 +282,8 @@
       "description" : "The LOINC codes for present if a feature is observed and absent if a feature was excluded.",
       "copyright" : "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc",
       "expansion" : {
-        "identifier" : "urn:uuid:cd037fec-a13a-4aab-bc15-cffcee82461f",
-        "timestamp" : "2021-08-25T04:17:14+00:00",
-        "total" : 2,
+        "identifier" : "urn:uuid:7e54156a-5971-42b1-a24b-e69726f91f11",
+        "timestamp" : "2021-08-30T17:22:20+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -292,20 +291,6 @@
         {
           "name" : "limitedExpansion",
           "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueString" : "http://loinc.org|2.70"
-        }],
-        "contains" : [{
-          "system" : "http://loinc.org",
-          "code" : "LA9633-4",
-          "display" : "Present"
-        },
-        {
-          "system" : "http://loinc.org",
-          "code" : "LA9634-2",
-          "display" : "Absent"
         }]
       }
     }
@@ -324,7 +309,7 @@
       "name" : "PhenotypicAbnormalityValueSet",
       "title" : "Phenotypic abnormality ValueSet",
       "status" : "active",
-      "date" : "2021-08-25T04:16:36+00:00",
+      "date" : "2021-08-30T17:21:39+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -336,8 +321,8 @@
       "description" : "ValueSet description here",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:f7b55ff2-30ab-4e3b-992e-8491f4c53138",
-        "timestamp" : "2021-08-25T04:17:15+00:00",
+        "identifier" : "urn:uuid:725bda19-5bc1-4485-9796-614e5ed9438e",
+        "timestamp" : "2021-08-30T17:22:23+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -369,7 +354,7 @@
       "name" : "PhenotypicModifierValueSet",
       "title" : "Phenotypic modifier ValueSet",
       "status" : "active",
-      "date" : "2021-08-25T04:16:36+00:00",
+      "date" : "2021-08-30T17:21:39+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -381,8 +366,8 @@
       "description" : "ValueSet description here",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:b4351555-aec4-4bdf-88e9-5a924919535a",
-        "timestamp" : "2021-08-25T04:17:21+00:00",
+        "identifier" : "urn:uuid:08dee7bf-a42c-4fe1-acee-341d90dbe56c",
+        "timestamp" : "2021-08-30T17:22:33+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -429,7 +414,7 @@
       "name" : "PhenotypicComponentValueSet",
       "title" : "Phenotypic component ValueSet",
       "status" : "active",
-      "date" : "2021-08-25T04:16:36+00:00",
+      "date" : "2021-08-30T17:21:39+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -441,8 +426,8 @@
       "description" : "ValueSet description here",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:dba929c7-9803-46d5-b8e3-7243821eff7a",
-        "timestamp" : "2021-08-25T04:17:21+00:00",
+        "identifier" : "urn:uuid:1a8ce8d5-ce6f-419f-9696-761a43ba9747",
+        "timestamp" : "2021-08-30T17:22:33+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -484,7 +469,7 @@
       "name" : "ObservationCategories",
       "title" : "Observation categories",
       "status" : "draft",
-      "date" : "2021-08-25T04:16:36+00:00",
+      "date" : "2021-08-30T17:21:39+00:00",
       "publisher" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
       "contact" : [{
         "name" : "Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream",
@@ -496,8 +481,8 @@
       "description" : "ValueSet description here",
       "copyright" : "[Global Alliance for Genomics and Health](https://www.ga4gh.org)",
       "expansion" : {
-        "identifier" : "urn:uuid:093e49a0-7af9-4c07-a740-a5f84199d94a",
-        "timestamp" : "2021-08-25T04:17:21+00:00",
+        "identifier" : "urn:uuid:034db76a-7774-47ba-9824-dd63029af7f7",
+        "timestamp" : "2021-08-30T17:22:33+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -616,8 +601,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:4056d60f-0edb-4bbf-9312-2e7ca43c7976",
-        "timestamp" : "2021-08-25T04:17:22+00:00",
+        "identifier" : "urn:uuid:f5d03b44-c9f3-4daf-9c03-f3ae00bfbeaf",
+        "timestamp" : "2021-08-30T17:22:34+00:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",

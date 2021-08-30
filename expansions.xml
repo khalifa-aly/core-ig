@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ff3616b4-7270-44e3-bb34-ecee53111fb2"/>
+  <id value="3ffce3b0-33ee-4f64-9633-ac4b0297a14f"/>
   <meta>
-    <lastUpdated value="2021-08-25T04:16:36.472+00:00"/>
+    <lastUpdated value="2021-08-30T17:21:39.373+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -143,8 +143,8 @@
         <description value="The karyotypic (chromosomal) sex of an individual"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:30406bbe-d9ab-4f17-812a-27d5ccc1f536"/>
-          <timestamp value="2021-08-25T04:17:10+00:00"/>
+          <identifier value="urn:uuid:a117533f-9882-4bbd-ba34-2bb48b52cfd5"/>
+          <timestamp value="2021-08-30T17:22:16+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -449,8 +449,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:ac18a745-7ce3-44a0-9b2a-044b20753047"/>
-          <timestamp value="2021-08-25T04:17:13+00:00"/>
+          <identifier value="urn:uuid:2eab9bcb-5f05-4b8c-9a7a-9b451730640a"/>
+          <timestamp value="2021-08-30T17:22:19+00:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -584,40 +584,18 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.70</p>
-            <p>All codes from system 
-              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-loinc.html">
-                <code>http://loinc.org</code>
-              </a>
-            </p>
+            <p>This value set contains 0 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>System</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>Display</b>
                 </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA9633-4"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA9633-4.html">LA9633-4</a>
-                </td>
-                <td>Present</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---loinc.org-LA9634-2"> </a>
-                  <a href="http://details.loinc.org/LOINC/LA9634-2.html">LA9634-2</a>
-                </td>
-                <td>Absent</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -627,7 +605,7 @@
         <name value="PhenotypicFeatureStatusValueSet"/>
         <title value="Observation Codes for status of a PhenotypicFeature"/>
         <status value="active"/>
-        <date value="2021-08-25T04:16:36+00:00"/>
+        <date value="2021-08-30T17:21:39+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -639,9 +617,8 @@
         <description value="The LOINC codes for present if a feature is observed and absent if a feature was excluded."/>
         <copyright value="This material contains content from LOINC (http://loinc.org). LOINC is copyright &#xA9; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC&#xAE; is a registered United States trademark of Regenstrief Institute, Inc"/>
         <expansion>
-          <identifier value="urn:uuid:cd037fec-a13a-4aab-bc15-cffcee82461f"/>
-          <timestamp value="2021-08-25T04:17:14+00:00"/>
-          <total value="2"/>
+          <identifier value="urn:uuid:7e54156a-5971-42b1-a24b-e69726f91f11"/>
+          <timestamp value="2021-08-30T17:22:20+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -650,20 +627,6 @@
             <name value="limitedExpansion"/>
             <valueBoolean value="true"/>
           </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueString value="http://loinc.org|2.70"/>
-          </parameter>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="LA9633-4"/>
-            <display value="Present"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="LA9634-2"/>
-            <display value="Absent"/>
-          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -713,7 +676,7 @@
         <name value="PhenotypicAbnormalityValueSet"/>
         <title value="Phenotypic abnormality ValueSet"/>
         <status value="active"/>
-        <date value="2021-08-25T04:16:36+00:00"/>
+        <date value="2021-08-30T17:21:39+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -725,8 +688,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:f7b55ff2-30ab-4e3b-992e-8491f4c53138"/>
-          <timestamp value="2021-08-25T04:17:15+00:00"/>
+          <identifier value="urn:uuid:725bda19-5bc1-4485-9796-614e5ed9438e"/>
+          <timestamp value="2021-08-30T17:22:23+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -814,7 +777,7 @@
         <name value="PhenotypicModifierValueSet"/>
         <title value="Phenotypic modifier ValueSet"/>
         <status value="active"/>
-        <date value="2021-08-25T04:16:36+00:00"/>
+        <date value="2021-08-30T17:21:39+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -826,8 +789,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:b4351555-aec4-4bdf-88e9-5a924919535a"/>
-          <timestamp value="2021-08-25T04:17:21+00:00"/>
+          <identifier value="urn:uuid:08dee7bf-a42c-4fe1-acee-341d90dbe56c"/>
+          <timestamp value="2021-08-30T17:22:33+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -922,7 +885,7 @@
         <name value="PhenotypicComponentValueSet"/>
         <title value="Phenotypic component ValueSet"/>
         <status value="active"/>
-        <date value="2021-08-25T04:16:36+00:00"/>
+        <date value="2021-08-30T17:21:39+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -934,8 +897,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:dba929c7-9803-46d5-b8e3-7243821eff7a"/>
-          <timestamp value="2021-08-25T04:17:21+00:00"/>
+          <identifier value="urn:uuid:1a8ce8d5-ce6f-419f-9696-761a43ba9747"/>
+          <timestamp value="2021-08-30T17:22:33+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1100,7 +1063,7 @@
         <name value="ObservationCategories"/>
         <title value="Observation categories"/>
         <status value="draft"/>
-        <date value="2021-08-25T04:16:36+00:00"/>
+        <date value="2021-08-30T17:21:39+00:00"/>
         <publisher value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
         <contact>
           <name value="Global Alliance for Genomics and Health - Clinical and Phenotypic Data Capture Work Stream"/>
@@ -1112,8 +1075,8 @@
         <description value="ValueSet description here"/>
         <copyright value="[Global Alliance for Genomics and Health](https://www.ga4gh.org)"/>
         <expansion>
-          <identifier value="urn:uuid:093e49a0-7af9-4c07-a740-a5f84199d94a"/>
-          <timestamp value="2021-08-25T04:17:21+00:00"/>
+          <identifier value="urn:uuid:034db76a-7774-47ba-9824-dd63029af7f7"/>
+          <timestamp value="2021-08-30T17:22:33+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1340,8 +1303,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:4056d60f-0edb-4bbf-9312-2e7ca43c7976"/>
-          <timestamp value="2021-08-25T04:17:22+00:00"/>
+          <identifier value="urn:uuid:f5d03b44-c9f3-4daf-9c03-f3ae00bfbeaf"/>
+          <timestamp value="2021-08-30T17:22:34+00:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>

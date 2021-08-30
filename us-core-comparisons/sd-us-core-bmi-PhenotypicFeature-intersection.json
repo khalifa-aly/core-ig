@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "7edff5a6-fca4-46aa-b73d-c42130745ce3-27",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7edff5a6-fca4-46aa-b73d-c42130745ce3-27",
+  "id" : "ce8a1723-3391-4784-8561-5dbe1d629e59-27",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ce8a1723-3391-4784-8561-5dbe1d629e59-27",
   "name" : "IntersectionUSCoreBMIProfileProfileAndPhenotypicFeature",
   "title" : "Intersection of US Core BMI Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-08-25T04:16:53+00:00",
+  "date" : "2021-08-30T17:21:56+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
@@ -881,7 +881,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Common UCUM units for recording Vital Signs.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/7edff5a6-fca4-46aa-b73d-c42130745ce3-15"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/ce8a1723-3391-4784-8561-5dbe1d629e59-15"
       },
       "mapping" : [{
         "identity" : "sct-concept",

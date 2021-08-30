@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "7edff5a6-fca4-46aa-b73d-c42130745ce3-44",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7edff5a6-fca4-46aa-b73d-c42130745ce3-44",
+  "id" : "ce8a1723-3391-4784-8561-5dbe1d629e59-44",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ce8a1723-3391-4784-8561-5dbe1d629e59-44",
   "name" : "UnionUSCoreLaboratoryResultObservationProfileAndPhenotypicFeature",
   "title" : "Union of US Core Laboratory Result Observation Profile And Phenotypic Feature",
   "status" : "active",
-  "date" : "2021-08-25T04:16:53+00:00",
+  "date" : "2021-08-30T17:21:56+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

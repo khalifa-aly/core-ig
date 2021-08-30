@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "7edff5a6-fca4-46aa-b73d-c42130745ce3-14",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/7edff5a6-fca4-46aa-b73d-c42130745ce3-14",
+  "id" : "ce8a1723-3391-4784-8561-5dbe1d629e59-14",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/ce8a1723-3391-4784-8561-5dbe1d629e59-14",
   "name" : "UnionVitalSignsUnitsAndPhenotypicFeatureStatusValueSet",
   "title" : "Union of Vital Signs Units And Observation Codes for status of a PhenotypicFeature",
   "status" : "draft",
-  "date" : "2021-08-25T04:16:53+00:00",
+  "date" : "2021-08-30T17:21:56+00:00",
   "compose" : {
     "include" : [{
       "concept" : [{
@@ -126,16 +126,6 @@
       "system" : "http://unitsofmeasure.org",
       "code" : "m2",
       "display" : "m2"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA9633-4",
-      "display" : "Present"
-    },
-    {
-      "system" : "http://loinc.org",
-      "code" : "LA9634-2",
-      "display" : "Absent"
     }]
   }
 }
