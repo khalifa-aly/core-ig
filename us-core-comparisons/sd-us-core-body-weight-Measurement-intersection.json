@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ce8a1723-3391-4784-8561-5dbe1d629e59-87",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ce8a1723-3391-4784-8561-5dbe1d629e59-87",
+  "id" : "b355b92a-3331-4c33-9c55-1c5cf3d8623a-87",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b355b92a-3331-4c33-9c55-1c5cf3d8623a-87",
   "name" : "IntersectionUSCoreBodyWeightProfileAndMeasurement",
   "title" : "Intersection of US Core Body Weight Profile And Measurement",
   "status" : "active",
-  "date" : "2021-08-30T17:21:57+00:00",
+  "date" : "2021-08-30T17:22:19+00:00",
   "snapshot" : {
     "element" : [{
       "path" : "Observation",
