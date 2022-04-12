@@ -33,6 +33,14 @@ Usage: #example
 //PhenopacketsVariantExample01
 * entry[+].fullUrl = "http://phenopackets.org/core-ig/Observation-PhenopacketsVariantExample01.html"
 * entry[=].resource = PhenopacketsVariantExample01
+// specimen
+* entry[+].fullUrl = "http://phenopackets.org/core-ig/Specimen-phenopacketSpecimenExample01.html"
+* entry[=].resource = phenopacketSpecimenExample01
+// patient
+* entry[+].fullUrl = "http://phenopackets.org/core-ig/Patient-phenopacketPatientExample01.html"
+* entry[=].resource = phenopacketPatientExample01
+
+
 
 
 Instance: PhenopacketCompositionExample01

@@ -228,8 +228,9 @@ Description: "A profile of Genomics Reporting Genomics Report profile that repre
             //It represents phenopackets GenomicInterpretation building block, i.e., the interpretation for an 
             //individual variant or gene."
 //Phenopackets GenomicInterpretation
-* subject obeys phenopackets-subject-or-specimen-id
-* specimen obeys phenopackets-subject-or-specimen-id
+* obeys phenopackets-subject-or-specimen-id
+//* subject obeys phenopackets-subject-or-specimen-id
+//* specimen obeys phenopackets-subject-or-specimen-id
 * subject 0..1 
 * specimen 0..1 
 * modifierExtension contains InterpretationStatus named interpretationStatus 1..1 // interpretation_status
